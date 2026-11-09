@@ -22,6 +22,7 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 
 ## Proceso diario (sesión programada, 11:00)
 1. Clonar/actualizar el repo, leer `estado.json` y el guion de la parte siguiente (N = ultima_parte_programada + 1).
+   **Guardia:** si la parte `ultima_parte_programada` se publica HOY o más tarde (aún no hay votos), NO produzcas nada: termina con un aviso de una línea («Hoy se publica la Parte X a las 17:47; mañana produzco la siguiente»).
 2. **Votos de la parte N-1:** localizar su vídeo de YouTube en el canal `UClqKHj0j-QY2ZPPOrJChHAw` (`vidiq_user_videos` o `vidiq_channel_videos`), leer comentarios (`vidiq_video_comments`) y contar A/B (cuenta una opinión por autor; acepta «A», «la A», «opción A», etc.). Si es posible, sumar los de Instagram. Si hay menos de 10 votos en total, gana la opción **correcta** (la más didáctica). Guardar votos y rama en estado.json.
 3. **Guion hablado de la parte N** = apertura de la rama ganadora + historia del guion (≤ 1.000 caracteres; si se pasa, recortar SOLO frases narrativas, nunca la lección).
 4. Generar la voz y anotar su duración real.
