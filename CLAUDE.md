@@ -36,5 +36,7 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 ## Lunes: informe semanal
 Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
 
-## Fin de temporada
-Tras publicar el epílogo (Parte 7), NO producir más. Avisar al responsable de que la temporada 2 necesita guiones nuevos con su OK médico.
+## Fin de temporada y siguiente temporada
+- El día que se programa la Parte 6, además: escribir el BORRADOR de la temporada siguiente en `temporadas/tN_guiones_BORRADOR.md` (mismo formato: 6 partes + epílogo, segunda persona, dilemas A/B reales, una lección sanitaria por parte, ≤1.000 caracteres por guion, contenido médico conservador y verificable), apoyándose en lo que mejor haya funcionado según las métricas. Enviar al responsable el enlace y la lista de puntos médicos a revisar.
+- Un borrador NO se produce nunca. Solo cuando el responsable dé su OK médico se renombra a `tN_guiones.md`, se actualiza `estado.json` (temporada, parte 0) y la producción diaria continúa.
+- Tras publicar el epílogo, si no hay temporada aprobada, NO producir: recordar al responsable que el borrador espera su OK.
