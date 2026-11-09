@@ -43,6 +43,7 @@ def main(season, part, voice_seconds):
     B.SC = root / season
     B.SHOTS = [(s[0] if "/" in s[0] else f"p{part}/{s[0]}",) + s[1:] for s in plan]
     B.CLOCK = m.CLOCK
+    B.LABEL = f"{season.upper()} · CAPÍTULO {part}"
     B.FINAL = pdir / f"{season}_p{part}_sin_audio.mp4"
     it = iter(durs)
     B.dur = lambda text, kind: next(it)

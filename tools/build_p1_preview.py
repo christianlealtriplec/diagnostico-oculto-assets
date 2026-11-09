@@ -11,6 +11,7 @@ CPS = 12.3   # caracteres por segundo de la voz
 XF = 0.35    # duración del fundido
 CLOCK = "HORA 00 / 72"
 FINAL = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
+LABEL = None  # p. ej. "T1 · CAPÍTULO 2": etiqueta bajo el gancho (portada)
 
 # (escena, zoom inicial, zoom final, foco x, foco y, texto, tipo)
 SHOTS = [
@@ -48,6 +49,11 @@ def ui_png(i, text, kind):
     if kind == "hook":
         body = ui(hook=t) + ('<text x="540" y="1830" font-family="DejaVu Sans" font-size="30" fill="#fff" '
                                          'stroke="#000" stroke-width="6" paint-order="stroke" text-anchor="middle">Ficción con fines educativos</text>')
+        if LABEL:
+            y = 215 + 70 + 72 * len(t.split("|")) + 30
+            body += (f'<rect x="290" y="{y}" width="500" height="84" rx="14" fill="#000" fill-opacity="0.85"/>'
+                     f'<text x="540" y="{y+58}" font-family="DejaVu Sans" font-weight="bold" font-size="46" fill="#ffd400" '
+                     f'text-anchor="middle">{html.escape(LABEL)}</text>')
     elif kind == "card":
         body = ui(card=t)
     elif kind == "decision":
@@ -82,7 +88,7 @@ def build():
         u = ui_png(i, text, kind)
         out = TMP / f"shot_{i:02d}.mp4"
         vf = (f"[0:v]scale=2160:3840,zoompan=z='{ease(z0, z1, n)}':x='(iw-iw/zoom)*{fx}':y='(ih-ih/zoom)*{fy}':d={n}:s={W}x{H}:fps=30[bg];"
-              f"[1:v]format=rgba,fade=in:st=0:d=0.12:alpha=1,fade=out:st={d - XF - 0.05:.2f}:d=0.05:alpha=1[ui];[bg][ui]overlay=0:0,format=yuv420p")
+              f"[1:v]format=rgba,{'' if i == 0 else 'fade=in:st=0:d=0.12:alpha=1,'}fade=out:st={d - XF - 0.05:.2f}:d=0.05:alpha=1[ui];[bg][ui]overlay=0:0,format=yuv420p")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(SC / f"{sc}.png"), "-loop", "1", "-i", str(u),
                         "-filter_complex", vf, "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)], check=True)
         clips.append(out); durs.append(n / 30)
