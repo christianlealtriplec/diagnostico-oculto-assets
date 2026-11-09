@@ -1,0 +1,25 @@
+{
+  "temporada": "t1",
+  "titulo": "72 horas sin luz",
+  "ultima_parte_programada": 1,
+  "partes": {
+    "1": {
+      "titulo": "Se va la luz",
+      "publicacion": "2026-11-10T17:47:00+01:00",
+      "metricool_uuid": "3234680795265584303",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
+      "youtube_video_id": null,
+      "decision": {"A": "Abrir la botella de reserva", "B": "Bajarla a la calle", "correcta": "A"},
+      "votos": null,
+      "rama_ganadora": null
+    }
+  },
+  "recursos": {
+    "voz_id": "nPczCjzI2devNBz1zQrb",
+    "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/52d58c9a-9517-4d91-af95-17b085f6415e.wav",
+    "metricool_blog_id": "7976298",
+    "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
+    "instagram": "diagnostico_oculto",
+    "tiktok": "diagnostico_oculto"
+  }
+}

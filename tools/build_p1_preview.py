@@ -5,11 +5,12 @@ from draw import W, H, ui, render
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SC = ROOT / "t1" / "p1"
-TMP = pathlib.Path("/tmp/claude-0/-home-claude/25afd332-29ca-5f42-b4e4-629cf7d8f299/scratchpad/p1build")
+TMP = pathlib.Path("/tmp/do_build")
 TMP.mkdir(parents=True, exist_ok=True)
 CPS = 12.3   # caracteres por segundo de la voz
 XF = 0.35    # duración del fundido
 CLOCK = "HORA 00 / 72"
+FINAL = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
 
 # (escena, zoom inicial, zoom final, foco x, foco y, texto, tipo)
 SHOTS = [
@@ -94,7 +95,7 @@ def build():
         lab = f"[v{k}]"
         fc.append(f"{prev}[{k}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}{lab}")
         prev = lab
-    final = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
+    final = FINAL
     clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}</svg>', TMP / "clock.png")
     inputs += ["-i", str(clock)]
     fc.append(f"{prev}[{len(clips)}:v]overlay=0:0[out]")

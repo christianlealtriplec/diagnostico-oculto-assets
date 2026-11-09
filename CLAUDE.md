@@ -1,0 +1,39 @@
+# Diagnóstico Oculto · Manual de producción diaria
+
+Canal de historias interactivas de supervivencia con educación sanitaria. El responsable (sanitario) supervisa de forma puntual; Claude produce y publica **una parte al día a las 17:47 (Europe/Madrid)** en YouTube Shorts, Instagram Reels y TikTok.
+
+## Reglas que no se rompen
+1. **Contenido médico:** usar SOLO los guiones aprobados de `temporadas/`. No inventar ni cambiar consejos médicos. Si una temporada no tiene guiones aprobados, NO producir: avisar al responsable.
+2. **Publicar** solo partes de guiones aprobados, con el aviso «Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.» y la etiqueta de IA activada en las 3 redes.
+3. **Créditos vidIQ:** comprobar `vidiq_balance` al empezar. Si quedan < 150, no producir y avisar.
+4. **Si algo falla** (voz, montaje, subida, programación): no publicar nada a medias. Avisar al responsable con qué falló.
+5. **Nunca** regenerar voz o montaje de pago sin motivo; cada parte cuesta ~45 créditos (voz 28 + montaje ~17).
+6. Mensajes al responsable: cortos, en tabla, sin relleno.
+
+## Recursos
+- Estado de la temporada: `temporadas/estado.json` (actualizar SIEMPRE al terminar y hacer commit + push).
+- Guiones: `temporadas/t1_guiones.md`.
+- Dibujo: `tools/draw.py` (personajes: `abuela()`, `tio()`, `phone_hand()`, `concentrator()`, `oxygen_bottle()`, escenarios en `tools/draw2.py`). Estilo: noche azul oscuro, haz de linterna cálido, acentos rojos, viñeta. Reutilizar personajes para que sean siempre iguales.
+- Escenas por parte: `tools/t1_p1.py` es el ejemplo. Crear `tools/t1_pN.py` con ~12–15 escenas NUEVAS (cada imagen como máximo 2 veces en la parte) y renderizar a `t1/pN/`.
+- Especificación del montaje: `tools/parts/t1_p1.py` es el ejemplo (SHOTS con el texto hablado EXACTO troceado en frases cortas; ~2–3 s por plano).
+- Constructor: `python3 tools/build_part.py t1 N <segundos_de_voz>` → `t1/pN/t1_pN_sin_audio.mp4`.
+- Voz: `vidiq_voiceover_generate` con voz `nPczCjzI2devNBz1zQrb` (Brian). Música: `recursos.musica_url` de estado.json.
+- Alojamiento: el repo es público; las URL `https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/...` sirven para vidIQ.
+
+## Proceso diario (sesión programada, 11:00)
+1. Clonar/actualizar el repo, leer `estado.json` y el guion de la parte siguiente (N = ultima_parte_programada + 1).
+2. **Votos de la parte N-1:** localizar su vídeo de YouTube en el canal `UClqKHj0j-QY2ZPPOrJChHAw` (`vidiq_user_videos` o `vidiq_channel_videos`), leer comentarios (`vidiq_video_comments`) y contar A/B (cuenta una opinión por autor; acepta «A», «la A», «opción A», etc.). Si es posible, sumar los de Instagram. Si hay menos de 10 votos en total, gana la opción **correcta** (la más didáctica). Guardar votos y rama en estado.json.
+3. **Guion hablado de la parte N** = apertura de la rama ganadora + historia del guion (≤ 1.000 caracteres; si se pasa, recortar SOLO frases narrativas, nunca la lección).
+4. Generar la voz y anotar su duración real.
+5. Dibujar las escenas nuevas de la parte, escribir `tools/parts/t1_pN.py` (gancho = HOOK_UI del guion; reloj = «HORA XX / 72»; plano final tipo `decision` con DECISION_UI; una tarjeta roja CARD_UI con la lección de la parte ANTERIOR justo después de la apertura) y construir el vídeo con la duración de la voz.
+6. Revisar 4–6 fotogramas extraídos con ffmpeg: textos legibles, sin solapes, escenas que encajan con la frase. Corregir si hace falta.
+7. Commit + push → `vidiq_video_upload` con la URL raw → `vidiq_compose` (1 escena = el vídeo; voiceover = la voz, volumen 1.1; music = musica_url, volume 0.6, duckTo 0.22, fadeMs 400) → esperar con `vidiq_job_poll`.
+8. Programar en Metricool (`createScheduledPost`, blogId 7976298) para HOY a las 17:47 Europe/Madrid en youtube (type short, category EDUCATION, madeForKids false, isAiGeneratedContent true), instagram (REEL, isAiGenerated true) y tiktok (isAigc true). Título: `72 horas sin luz | Parte N: <título> 🔦 #shorts`. Texto: gancho + pregunta A/B + «Comenta A o B» + aviso médico + hashtags `#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto`.
+9. Actualizar estado.json (parte, uuid de Metricool, URL del vídeo, votos) → commit + push.
+10. Avisar al responsable (mensaje corto): parte programada, enlace al vídeo, rama ganadora y votos, créditos restantes. Recordarle que puede cancelarla en Metricool antes de las 17:47.
+
+## Lunes: informe semanal
+Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
+
+## Fin de temporada
+Tras publicar el epílogo (Parte 7), NO producir más. Avisar al responsable de que la temporada 2 necesita guiones nuevos con su OK médico.
