@@ -81,7 +81,7 @@ def build():
         u = ui_png(i, text, kind)
         out = TMP / f"shot_{i:02d}.mp4"
         vf = (f"[0:v]scale=2160:3840,zoompan=z='{ease(z0, z1, n)}':x='(iw-iw/zoom)*{fx}':y='(ih-ih/zoom)*{fy}':d={n}:s={W}x{H}:fps=30[bg];"
-              f"[1:v]format=rgba,fade=in:st={XF}:d=0.15:alpha=1,fade=out:st={d - XF - 0.05:.2f}:d=0.05:alpha=1[ui];[bg][ui]overlay=0:0,format=yuv420p")
+              f"[1:v]format=rgba,fade=in:st=0:d=0.12:alpha=1,fade=out:st={d - XF - 0.05:.2f}:d=0.05:alpha=1[ui];[bg][ui]overlay=0:0,format=yuv420p")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(SC / f"{sc}.png"), "-loop", "1", "-i", str(u),
                         "-filter_complex", vf, "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)], check=True)
         clips.append(out); durs.append(n / 30)
