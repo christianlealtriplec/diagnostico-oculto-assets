@@ -45,18 +45,18 @@ SHOTS = [
 def ui_png(i, text, kind):
     t = html.escape(text, quote=False)
     if kind == "hook":
-        body = ui(clock=CLOCK, hook=t) + ('<text x="540" y="1830" font-family="DejaVu Sans" font-size="30" fill="#fff" '
+        body = ui(hook=t) + ('<text x="540" y="1830" font-family="DejaVu Sans" font-size="30" fill="#fff" '
                                          'stroke="#000" stroke-width="6" paint-order="stroke" text-anchor="middle">Ficción con fines educativos</text>')
     elif kind == "card":
-        body = ui(clock=CLOCK, card=t)
+        body = ui(card=t)
     elif kind == "decision":
         l = t.split("|")
-        body = ui(clock=CLOCK) + '<rect x="60" y="1220" width="960" height="430" rx="16" fill="#000" fill-opacity="0.85"/>'
+        body = ui() + '<rect x="60" y="1220" width="960" height="430" rx="16" fill="#000" fill-opacity="0.85"/>'
         cols = ["#ffd400", "#3fd27a", "#ff3b30", "#fff"]
         body += "".join(f'<text x="540" y="{1310+95*k}" font-family="DejaVu Sans" font-weight="bold" font-size="{60 if k == 0 else 52}" '
                         f'fill="{cols[k]}" text-anchor="middle">{x}</text>' for k, x in enumerate(l))
     else:
-        body = ui(clock=CLOCK, sub=t)
+        body = ui(sub=t)
     return render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{body}</svg>', TMP / f"ui_{i:02d}.png")
 
 
@@ -95,7 +95,10 @@ def build():
         fc.append(f"{prev}[{k}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}{lab}")
         prev = lab
     final = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc), "-map", prev,
+    clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}</svg>', TMP / "clock.png")
+    inputs += ["-i", str(clock)]
+    fc.append(f"{prev}[{len(clips)}:v]overlay=0:0[out]")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc), "-map", "[out]",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(final)], check=True)
     return final
 
