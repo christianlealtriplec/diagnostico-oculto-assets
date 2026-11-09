@@ -26,6 +26,17 @@ scenes = {
                         '<polygon points="0,1920 0,1700 420,700 900,820" fill="url(#beam)" opacity="0.6"/>'),
 }
 
+from draw2 import living_room, street, hallway_door, plug, wardrobe, stairwell_down, split_decision
+scenes.update({
+    "09_salon": svg(living_room()),
+    "10_calle": svg(street()),
+    "11_puerta_3b": svg(hallway_door()),
+    "12_enchufe": svg(plug()),
+    "13_armario": svg(wardrobe()),
+    "14_hueco_escalera": svg(stairwell_down()),
+    "15_decision": svg(split_decision()),
+})
+
 if __name__ == "__main__":
     for name, s in scenes.items():
         print(render(s, OUT / f"{name}.png"))
