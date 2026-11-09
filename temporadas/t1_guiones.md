@@ -5,7 +5,7 @@ Narrador: voz Brian (vidIQ `nPczCjzI2devNBz1zQrb`), segunda persona («tú»). C
 Estructura de cada parte: [apertura según el voto] + gancho + historia + «Decides tú. A: … B: … Comenta A o B.»
 Personajes fijos: abuela Carmen (80, oxígeno en casa, 3.º B), tío (50, calvo, barba, polo azul), vecino Luis (diabético, 2.º), sobrino Hugo (7 años), cuñado (generador).
 
-## Parte 1 · Se va la luz — PUBLICADA (10/11 17:47)
+## Parte 1 · Se va la luz — PUBLICADA (09/11 17:47)
 Decisión: A) abrir la botella de reserva (correcta) · B) bajarla a la calle.
 
 ## Parte 2 · La insulina — HORA 03 / 72
