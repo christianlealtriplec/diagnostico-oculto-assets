@@ -9,9 +9,14 @@
       "metricool_uuid": "3234680795265584303",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
       "youtube_video_id": null,
-      "decision": {"A": "Abrir la botella de reserva", "B": "Bajarla a la calle", "correcta": "A"},
+      "decision": {
+        "A": "Abrir la botella de reserva",
+        "B": "Bajarla a la calle",
+        "correcta": "A"
+      },
       "votos": null,
-      "rama_ganadora": null
+      "rama_ganadora": null,
+      "metricool_post_id": "421687191"
     }
   },
   "recursos": {
