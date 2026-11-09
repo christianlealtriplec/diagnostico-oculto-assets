@@ -238,6 +238,14 @@ def ui(clock=None, hook=None, sub=None, card=None):
         out += f'<rect x="60" y="1340" width="960" height="{hh}" rx="14" fill="{PAL["red"]}" fill-opacity="0.95"/>'
         out += "".join(f'<text x="540" y="{1410+66*i}" font-family="DejaVu Sans" font-weight="bold" font-size="48" fill="#fff" text-anchor="middle">{l}</text>' for i, l in enumerate(lines))
     if sub:
-        out += (f'<text x="540" y="1530" font-family="DejaVu Sans" font-weight="bold" font-size="56" fill="#fff" '
-                f'stroke="#000" stroke-width="10" paint-order="stroke" text-anchor="middle">{sub}</text>')
+        lines, cur = [], ""
+        for w in sub.split():
+            if cur and len(cur) + 1 + len(w) > 24:
+                lines.append(cur); cur = w
+            else:
+                cur = f"{cur} {w}".strip()
+        lines.append(cur)
+        y0 = 1530 - 34 * (len(lines) - 1)
+        out += "".join(f'<text x="540" y="{y0+68*i}" font-family="DejaVu Sans" font-weight="bold" font-size="56" fill="#fff" '
+                       f'stroke="#000" stroke-width="10" paint-order="stroke" text-anchor="middle">{l}</text>' for i, l in enumerate(lines))
     return out
