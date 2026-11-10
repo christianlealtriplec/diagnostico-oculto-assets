@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 1,
+  "ultima_parte_programada": 2,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -14,13 +14,50 @@
         "B": "Bajarla a la calle",
         "correcta": "A"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 6,
+        "B": 0,
+        "fuente": "YouTube (IG no contado)",
+        "total": 6
+      },
+      "rama_ganadora": "A",
       "metricool_post_id": "421800044",
       "urls": {
         "youtube": "https://www.youtube.com/shorts/KhJjEov06ZM",
         "instagram": "https://www.instagram.com/reel/Dfhy6gjgCL5/",
         "tiktok_id": "7706214478127336726"
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+    },
+    "2": {
+      "titulo": "La insulina",
+      "publicacion": "2026-11-10T18:00:00+01:00",
+      "metricool_uuid": "5329967633460773831",
+      "metricool_post_id": "422847428",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/o2fpvhwb1a0yaw029l9hof6c.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/2455ab92-3a56-4727-8484-4849c3d41ba0.mp3",
+      "voz_segundos": 58.44,
+      "apertura": "A",
+      "decision": {
+        "A": "Al congelador con hielo",
+        "B": "A un sitio fresco de la casa, lejos del calor",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-10T10:00:00+01:00",
+          "metricool_uuid": "-1847580402159366404"
+        },
+        "estreno": {
+          "hora": "2026-11-10T17:47:00+01:00",
+          "metricool_uuid": "6116392484849467686"
+        },
+        "voto": {
+          "hora": "2026-11-10T18:03:00+01:00",
+          "metricool_uuid": "-5736152946285787861"
+        }
       }
     }
   },
