@@ -3,8 +3,8 @@
 Uso:
   python3 tools/stories.py voto t1 N "<título>" "<opción A>" "<opción B>" <escena.png>
       -> t1/pN/story_voto.png       (se publica a las 17:50 el día del capítulo N)
-  python3 tools/stories.py resultado t1 N <ganadora A|B> <votos_A> <votos_B> "<lección>" "<título del capítulo N>" <escena.png>
-      -> t1/pN/story_resultado.png  (se publica a las 10:00; resultado del capítulo N-1 y avance del N)
+  python3 tools/stories.py resultado t1 N <ganadora A|B> "<título del capítulo N>" <escena.png>
+      -> t1/pN/story_resultado.png  (se publica a las 10:00; ganadora del capítulo N-1, título del N y «HOY A LAS 18H»; sin número de votos)
 La escena de fondo es cualquier PNG 1080x1920 ya dibujado (se oscurece).
 """
 import sys, pathlib, subprocess, html
@@ -65,21 +65,18 @@ def voto(season, n, title, a, b, scene):
     return compose(scene, body, out)
 
 
-def resultado(season, n, win, va, vb, lesson, title, scene):
-    s = season.upper(); va, vb = int(va), int(vb)
+def resultado(season, n, win, title, scene):
+    s = season.upper()
     body = box(150, 130, "#000", 0.85)
     body += f'<text x="540" y="238" {F} font-size="56" fill="#ffd400">RESULTADO · CAPÍTULO {n - 1}</text>'
-    t, y = txt([f"GANÓ LA {win}"], 420, 110, "#fff"); body += t
-    sub = f"A {va} · B {vb} votos" if va + vb >= 10 else f"A {va} · B {vb} · pocos votos: sigue la opción correcta"
-    t, y = txt(wrap(sub, 30), y, 44, "#ddd"); body += t
-    ll = wrap(lesson.upper(), 24)
-    h = 120 + 66 * len(ll)
-    y += 40
+    t, y = txt([f"GANÓ LA {win}"], 520, 130, "#fff"); body += t
+    ll = wrap(title.upper(), 18)
+    h = 200 + 80 * len(ll)
+    y = 1180
     body += box(y, h, PAL["red"], 0.95)
-    body += f'<text x="540" y="{y + 70}" {F} font-size="40" fill="#fff">LA LECCIÓN</text>'
-    t, _ = txt(ll, y + 140, 50, "#fff", 66, False); body += t
-    t, _ = txt([f"HOY 17:47 · {s} · CAPÍTULO {n}"] + wrap(title.upper(), 22), 1600, 54, "#ffd400", 70)
-    body += t
+    body += f'<text x="540" y="{y + 80}" {F} font-size="50" fill="#ffd400">{s} · CAPÍTULO {n}</text>'
+    t, _ = txt(ll, y + 170, 68, "#fff", 80, False); body += t
+    body += f'<text x="540" y="1760" {F} font-size="64" fill="#fff" stroke="#000" stroke-width="9" paint-order="stroke">HOY A LAS 18H</text>'
     out = ROOT / season / f"p{n}" / "story_resultado.png"
     return compose(scene, body, out)
 
@@ -89,4 +86,4 @@ if __name__ == "__main__":
     if k == "voto":
         print(voto(season, n, *sys.argv[4:7], pathlib.Path(sys.argv[7])))
     else:
-        print(resultado(season, n, *sys.argv[4:9], pathlib.Path(sys.argv[9])))
+        print(resultado(season, n, sys.argv[4], sys.argv[5], pathlib.Path(sys.argv[6])))
