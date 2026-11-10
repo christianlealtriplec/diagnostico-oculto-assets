@@ -68,5 +68,10 @@
     "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
     "instagram": "diagnostico_oculto",
     "tiktok": "diagnostico_oculto"
+  },
+  "salud": {
+    "CARMEN": 3,
+    "HUGO": 3,
+    "LUIS": 3
   }
 }

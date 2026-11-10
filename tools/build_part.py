@@ -7,6 +7,7 @@ Lee tools/parts/t{T}_p{N}.py, que define:
   DECISION_UI = "DECIDES TÚ|A) ...|B) ...|COMENTA A o B"   # o None si la parte no tiene decisión
   CLOCK = "HORA 03 / 72"
   CARD_UI = {índice_del_plano: "TEXTO|DE LA|TARJETA"}       # opcional, sustituye el subtítulo de ese plano
+  SALUD = {"CARMEN": 3, "HUGO": 3, "LUIS": 3}               # marcador de corazones, de estado.json["salud"]
 Las escenas son PNG en t{T}/p{N}/ (o rutas relativas a t{T}/, p. ej. "p1/05_abuela_cara").
 Genera t{T}/p{N}/t{T}_p{N}_sin_audio.mp4 sincronizado con la duración real de la voz.
 """
@@ -43,6 +44,7 @@ def main(season, part, voice_seconds):
     B.SC = root / season
     B.SHOTS = [(s[0] if "/" in s[0] else f"p{part}/{s[0]}",) + s[1:] for s in plan]
     B.CLOCK = m.CLOCK
+    B.SALUD = getattr(m, "SALUD", None)
     B.LABEL = f"{season.upper()} · CAPÍTULO {part}"
     B.FINAL = pdir / f"{season}_p{part}_sin_audio.mp4"
     it = iter(durs)

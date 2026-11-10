@@ -11,6 +11,7 @@ CPS = 12.3   # caracteres por segundo de la voz
 XF = 0.35    # duración del fundido
 CLOCK = "HORA 00 / 72"
 FINAL = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
+SALUD = None  # p. ej. {"CARMEN": 3, "HUGO": 3, "LUIS": 2}: marcador fijo de corazones (0–3)
 LABEL = None  # p. ej. "T1 · CAPÍTULO 2": etiqueta bajo el gancho (portada)
 
 # (escena, zoom inicial, zoom final, foco x, foco y, texto, tipo)
@@ -67,6 +68,25 @@ def ui_png(i, text, kind):
     return render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{body}</svg>', TMP / f"ui_{i:02d}.png")
 
 
+def heart(x, y, on, s=1.0):
+    d = (f"M{x},{y+6*s} C{x},{y-2*s} {x-13*s},{y-2*s} {x-13*s},{y+7*s} C{x-13*s},{y+14*s} {x-4*s},{y+19*s} {x},{y+24*s} "
+         f"C{x+4*s},{y+19*s} {x+13*s},{y+14*s} {x+13*s},{y+7*s} C{x+13*s},{y-2*s} {x},{y-2*s} {x},{y+6*s} Z")
+    return (f'<path d="{d}" fill="#ff2d2d" stroke="#000" stroke-width="2"/>' if on else
+            f'<path d="{d}" fill="#2a2a2a" fill-opacity="0.8" stroke="#888" stroke-width="2"/>')
+
+
+def hud(salud):
+    if not salud:
+        return ""
+    rows = list(salud.items())
+    out = f'<rect x="24" y="92" width="290" height="{12 + 34 * len(rows)}" rx="12" fill="#000" fill-opacity="0.6"/>'
+    for i, (name, v) in enumerate(rows):
+        y = 100 + 34 * i
+        out += f'<text x="40" y="{y + 24}" font-family="DejaVu Sans" font-weight="bold" font-size="23" fill="#fff">{html.escape(name)}</text>'
+        out += "".join(heart(204 + 36 * k, y + 4, k < v, 0.98) for k in range(3))
+    return out
+
+
 def dur(text, kind):
     if kind == "hook":
         return 3.2
@@ -106,7 +126,7 @@ def build():
         fc.append(f"{prev}[{k}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}{lab}")
         prev = lab
     final = FINAL
-    clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}</svg>', TMP / "clock.png")
+    clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}{hud(SALUD)}</svg>', TMP / "clock.png")
     inputs += ["-i", str(clock)]
     fc.append(f"{prev}[{len(clips)}:v]overlay=0:0[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc), "-map", "[out]",
