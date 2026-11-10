@@ -62,7 +62,7 @@ def ui_png(i, text, kind):
         cols = ["#ffd400", "#3fd27a", "#ff3b30", "#fff"]
         body += "".join(f'<text x="540" y="{1310+95*k}" font-family="DejaVu Sans" font-weight="bold" font-size="{60 if k == 0 else 52}" '
                         f'fill="{cols[k]}" text-anchor="middle">{x}</text>' for k, x in enumerate(l))
-    else:
+    else:  # sub y alarma
         body = ui(sub=t)
     return render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{body}</svg>', TMP / f"ui_{i:02d}.png")
 
@@ -87,7 +87,11 @@ def build():
         n = int(d * 30)
         u = ui_png(i, text, kind)
         out = TMP / f"shot_{i:02d}.mp4"
-        vf = (f"[0:v]scale=2160:3840,zoompan=z='{ease(z0, z1, n)}':x='(iw-iw/zoom)*{fx}':y='(ih-ih/zoom)*{fy}':d={n}:s={W}x{H}:fps=30[bg];"
+        # «alarma»: temblor de cámara los primeros 0,6 s + destello rojo (momentos de golpe/peligro)
+        jx = "+18*sin(on*2.7)*lt(on,18)" if kind == "alarma" else ""
+        jy = "+14*cos(on*3.1)*lt(on,18)" if kind == "alarma" else ""
+        flash = ",drawbox=x=0:y=0:w=iw:h=ih:color=red@0.32:t=fill:enable='lt(t,0.22)'" if kind == "alarma" else ""
+        vf = (f"[0:v]scale=2160:3840,zoompan=z='{ease(z0, z1, n)}':x='(iw-iw/zoom)*{fx}{jx}':y='(ih-ih/zoom)*{fy}{jy}':d={n}:s={W}x{H}:fps=30{flash}[bg];"
               f"[1:v]format=rgba,{'' if i == 0 else 'fade=in:st=0:d=0.12:alpha=1,'}fade=out:st={d - XF - 0.05:.2f}:d=0.05:alpha=1[ui];[bg][ui]overlay=0:0,format=yuv420p")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(SC / f"{sc}.png"), "-loop", "1", "-i", str(u),
                         "-filter_complex", vf, "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)], check=True)

@@ -2,7 +2,7 @@
 
 Uso: python3 tools/build_part.py t1 2 <segundos_de_voz>
 Lee tools/parts/t{T}_p{N}.py, que define:
-  SHOTS = [(escena, z0, z1, fx, fy, texto_hablado, tipo), ...]   # tipo: hook | sub | card | decision
+  SHOTS = [(escena, z0, z1, fx, fy, texto_hablado, tipo), ...]   # tipo: hook | sub | alarma (temblor + destello rojo) | card | decision
   HOOK_UI = "LÍNEA 1|LÍNEA 2"            # texto del gancho en pantalla
   DECISION_UI = "DECIDES TÚ|A) ...|B) ...|COMENTA A o B"   # o None si la parte no tiene decisión
   CLOCK = "HORA 03 / 72"
