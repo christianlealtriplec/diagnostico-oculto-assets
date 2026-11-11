@@ -92,7 +92,7 @@ def hud(salud):
 
 VOZ_COL = {"CARMEN": "#ff8fa3", "ABUELA": "#ff8fa3", "HUGO": "#6ec6ff", "LUIS": "#7ee081", "CUÑADO": "#ffb347",
            "MADRE": "#d7a6ff", "TU MADRE": "#d7a6ff", "TÍA": "#ffd400", "TU TÍA": "#ffd400", "RAMÓN": "#cfcfcf",
-           "DON RAMÓN": "#cfcfcf", "TÚ": "#ffffff", "MUJER DE LUIS": "#f5b971"}
+           "DON RAMÓN": "#cfcfcf", "TÚ": "#ffffff", "RADIO": "#ff3b30", "MEGÁFONO": "#ff3b30", "PROTECCIÓN CIVIL": "#ff9500", "MUJER DE LUIS": "#f5b971"}
 
 
 def bubble(name, text):
