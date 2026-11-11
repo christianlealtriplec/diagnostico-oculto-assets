@@ -11,6 +11,7 @@ CPS = 12.3   # caracteres por segundo de la voz
 XF = 0.35    # duración del fundido
 CLOCK = "HORA 00 / 72"
 FINAL = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
+MOCHILA = None  # p. ej. ["+ VELAS", "+ PILAS", "- SIN AGUA"]: recuadro fijo arriba a la derecha
 SALUD = None  # p. ej. {"CARMEN": 3, "HUGO": 3, "LUIS": 2}: marcador fijo de corazones (0–3)
 LABEL = None  # p. ej. "T1 · CAPÍTULO 2": etiqueta bajo el gancho (portada)
 
@@ -63,6 +64,8 @@ def ui_png(i, text, kind):
         cols = ["#ffd400", "#3fd27a", "#ff3b30", "#fff"]
         body += "".join(f'<text x="540" y="{1310+95*k}" font-family="DejaVu Sans" font-weight="bold" font-size="{60 if k == 0 else 52}" '
                         f'fill="{cols[k]}" text-anchor="middle">{x}</text>' for k, x in enumerate(l))
+    elif kind.startswith("dialogo:"):
+        body = bubble(kind.split(":", 1)[1], t)
     else:  # sub y alarma
         body = ui(sub=t)
     return render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{body}</svg>', TMP / f"ui_{i:02d}.png")
@@ -84,6 +87,44 @@ def hud(salud):
         y = 100 + 34 * i
         out += f'<text x="40" y="{y + 24}" font-family="DejaVu Sans" font-weight="bold" font-size="23" fill="#fff">{html.escape(name)}</text>'
         out += "".join(heart(204 + 36 * k, y + 4, k < v, 0.98) for k in range(3))
+    return out
+
+
+VOZ_COL = {"CARMEN": "#ff8fa3", "ABUELA": "#ff8fa3", "HUGO": "#6ec6ff", "LUIS": "#7ee081", "CUÑADO": "#ffb347",
+           "MADRE": "#d7a6ff", "TU MADRE": "#d7a6ff", "TÍA": "#ffd400", "TU TÍA": "#ffd400", "RAMÓN": "#cfcfcf",
+           "DON RAMÓN": "#cfcfcf", "TÚ": "#ffffff", "MUJER DE LUIS": "#f5b971"}
+
+
+def bubble(name, text):
+    """Bocadillo de diálogo: caja blanca con texto negro y etiqueta con el nombre de quien habla."""
+    lines, cur = [], ""
+    for w in text.split():
+        if cur and len(cur) + 1 + len(w) > 26:
+            lines.append(cur); cur = w
+        else:
+            cur = f"{cur} {w}".strip()
+    lines.append(cur)
+    h = 50 + 64 * len(lines)
+    y = 1420 - 32 * (len(lines) - 1)
+    col = VOZ_COL.get(name.upper(), "#ffd400")
+    out = (f'<path d="M180,{y} L220,{y - 46} L260,{y} Z" fill="#fff"/>'
+           f'<rect x="70" y="{y}" width="940" height="{h}" rx="28" fill="#fff" stroke="#000" stroke-width="4"/>'
+           f'<rect x="100" y="{y - 30}" width="{40 + 26 * len(name)}" height="56" rx="12" fill="{col}" stroke="#000" stroke-width="3"/>'
+           f'<text x="{120}" y="{y + 10}" font-family="DejaVu Sans" font-weight="bold" font-size="34" fill="#000">{html.escape(name.upper())}</text>')
+    out += "".join(f'<text x="540" y="{y + 78 + 64 * i}" font-family="DejaVu Sans" font-weight="bold" font-size="50" fill="#111" '
+                   f'text-anchor="middle">{l}</text>' for i, l in enumerate(lines))
+    return out
+
+
+def mochila(items):
+    if not items:
+        return ""
+    out = f'<rect x="766" y="92" width="290" height="{52 + 34 * len(items)}" rx="12" fill="#000" fill-opacity="0.6"/>'
+    out += '<text x="911" y="126" font-family="DejaVu Sans" font-weight="bold" font-size="22" fill="#ffd400" text-anchor="middle">MOCHILA</text>'
+    for i, it in enumerate(items):
+        good = not it.strip().startswith(("-", "−"))
+        out += (f'<text x="784" y="{162 + 34 * i}" font-family="DejaVu Sans" font-weight="bold" font-size="23" '
+                f'fill="{"#7ee081" if good else "#ff6b61"}">{html.escape(it.strip())}</text>')
     return out
 
 
@@ -126,7 +167,7 @@ def build():
         fc.append(f"{prev}[{k}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}{lab}")
         prev = lab
     final = FINAL
-    clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}{hud(SALUD)}</svg>', TMP / "clock.png")
+    clock = render(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">{ui(clock=CLOCK)}{hud(SALUD)}{mochila(MOCHILA)}</svg>', TMP / "clock.png")
     inputs += ["-i", str(clock)]
     fc.append(f"{prev}[{len(clips)}:v]overlay=0:0[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc), "-map", "[out]",
