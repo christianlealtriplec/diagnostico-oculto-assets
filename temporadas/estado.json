@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 2,
+  "ultima_parte_programada": 3,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -43,8 +43,13 @@
         "B": "A un sitio fresco de la casa, lejos del calor",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 1,
+        "B": 3,
+        "total": 4,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "B",
       "historias": {
         "resultado": {
           "hora": "2026-11-10T10:00:00+01:00",
@@ -57,6 +62,38 @@
         "voto": {
           "hora": "2026-11-10T18:03:00+01:00",
           "metricool_uuid": "-5736152946285787861"
+        }
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+    },
+    "3": {
+      "titulo": "El generador",
+      "publicacion": "2026-11-11T18:00:00+01:00",
+      "metricool_uuid": "8310736577849213738",
+      "metricool_post_id": "424127513",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rmpc3gsqod1rn4m1kwrfmghv.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/d488bdfa-742e-4d83-8109-c61d238ecd17.mp3",
+      "voz_segundos": 62.35,
+      "apertura": "B",
+      "decision": {
+        "A": "Lo apagas y lo sacas fuera, lejos de las ventanas",
+        "B": "Lo dejas y abres más las ventanas",
+        "correcta": "A"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-11T10:00:00+01:00",
+          "metricool_uuid": "1435223083568221172"
+        },
+        "estreno": {
+          "hora": "2026-11-11T17:47:00+01:00",
+          "metricool_uuid": "7311013636064102658"
+        },
+        "voto": {
+          "hora": "2026-11-11T18:03:00+01:00",
+          "metricool_uuid": "8438787026062755379"
         }
       }
     }
