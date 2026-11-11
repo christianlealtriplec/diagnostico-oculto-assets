@@ -1,6 +1,6 @@
 # 72 horas sin luz · Temporada 1 · Guiones aprobados
 
-Revisados por el responsable sanitario del canal el 09/11/2026 (caps. 1–2) y el 10/11/2026 (v2, caps. 3–7). **No cambiar el contenido médico.**
+Revisados por el responsable sanitario del canal el 09/11/2026 (caps. 1–2) el 10/11/2026 (v2, cap. 3) y el 11/11/2026 (v3, caps. 4–7: diálogo, mochila, radio/Protección Civil y misterio de Don Ramón). **No cambiar el contenido médico.**
 Narrador: voz Brian (vidIQ `nPczCjzI2devNBz1zQrb`), segunda persona («tú»). Cada guion hablado debe tener **≤ 1.000 caracteres** (coste 28 créditos).
 Estructura de cada parte: [apertura según el voto: narra la ACCIÓN elegida en presente, NUNCA «Ganó la A/B»] + historia con movimiento (acción → problema → acción → complicación) + [ESCALADA si la decisión anterior fue la incorrecta] + «Decides tú. A: … B: … Comenta A o B.» + SUSPENSO (última frase).
 Personajes fijos: abuela Carmen (80, oxígeno en casa, 3.º B), tío (50, calvo, barba, polo azul), vecino Luis (diabético, 2.º), sobrino Hugo (7 años), cuñado (generador).
@@ -29,37 +29,37 @@ Correcta: A. Lección: generador SIEMPRE fuera y lejos de ventanas; abrir la ven
 SUSPENSO (cap. 3): «Y mientras todos miran el generador, Hugo enciende una vela.»
 
 ## Capítulo 4 · La vela — HORA 41 / 72
-Apertura A (correcta): «Apagas el generador y, entre dos, lo sacáis al patio, lejos de puertas y ventanas. Abrís todo para ventilar. En una hora, a Hugo se le pasa el dolor de cabeza. Era monóxido de carbono.»
-Apertura B (incorrecta): «Abres más las ventanas y dejas el generador rugiendo. Diez minutos después, tu abuela se desploma. La sacáis al rellano, al aire limpio, y apagáis el generador. Vuelve en sí, pero muy débil. Abrir ventanas no basta: el generador va siempre fuera.»
+Apertura A (correcta): «Apagas el generador. "¡Ayúdame!", le gritas a tu cuñado. Lo sacáis al patio, lejos de las ventanas, y abrís todo. Una hora después, Hugo levanta la cabeza: "Ya no me duele". Era monóxido de carbono.»
+Apertura B (incorrecta): «Abres más las ventanas. El generador sigue rugiendo. Diez minutos después, tu abuela se desploma. "¡Carmen!". La sacáis al rellano, al aire limpio, y apagáis el generador. Vuelve en sí, pero muy débil. Abrir ventanas no basta: el generador va fuera.»
 Gancho: HUGO GRITA. SE HA|QUEMADO CON UNA VELA.
-Historia: «Hora cuarenta y uno. Sin generador, solo quedan velas. Hugo juega con la linterna… y tira una vela. La cera hirviendo le cae en la mano y el antebrazo. Grita. La piel, roja; sale una ampolla. Y la cortina empieza a humear. La apagas de un golpe con una toalla mojada. Tu madre corre al congelador: "¡hielo, rápido!". Tu tía, desde el baño: "¡pasta de dientes, que alivia!". El grifo aún tiene agua, pero puede cortarse en cualquier momento. Decides tú. A: hielo directamente. B: agua del grifo y no parar. Comenta A o B.»
-ESCALADA (si en el cap. 3 ganó B): «Y tu abuela, en la cama, sigue sin fuerzas para levantarse.»
+Historia: «Hora cuarenta y uno. La radio crepita: "Protección Civil: el apagón sigue. Generadores, nunca dentro de casa". Luis sube con una bolsa: "Por lo de la insulina. Velas y pilas". Por fin, luz. Esa noche, un golpe en el techo. Otro. Hugo: "¿Quién vive arriba?". Tu madre: "Don Ramón. Hace días que no le veo". Llamáis. Nadie abre. Y entonces, el grito: Hugo ha tirado una vela. Cera hirviendo en la mano. Piel roja, una ampolla. La cortina humea: la apagas con una toalla mojada. Tu madre: "¡Hielo, rápido!". Tu tía: "¡Pasta de dientes, que alivia!". El grifo aún gotea. Decides tú. A: hielo directamente. B: agua del grifo y no parar. Comenta A o B.»
+ESCALADA (si en el cap. 3 ganó B): «Y tu abuela sigue sin fuerzas para levantarse.»
+SUSPENSO: «Y arriba, alguien arrastra algo pesado.»
+Mochila: + VELAS · + PILAS (ayudan). Perjudica: el agua del grifo se acaba.
 Correcta: B. Lección: agua del grifo, no helada, 20 minutos; nada de hielo, pasta de dientes ni mantequilla.
 
-SUSPENSO (cap. 4): «Y en la cocina, la despensa ya está vacía.»
-
 ## Capítulo 5 · La nevera — HORA 60 / 72
-Apertura A (incorrecta): «Le pones hielo directamente sobre la quemadura. Hugo deja de llorar… un rato. Al día siguiente, la ampolla es más grande y le duele más: el hielo daña todavía más la piel quemada. Lo correcto era agua del grifo, veinte minutos.»
-Apertura B (correcta): «Pones la mano de Hugo bajo el grifo. Veinte minutos sin parar, aunque proteste. Luego la cubres con un paño limpio, sin pinchar la ampolla. No crece. Es lo que salva la piel.»
+Apertura A (incorrecta): «Le pones hielo. Hugo deja de llorar… un rato. Por la mañana: "Me duele más". La ampolla ha crecido: el hielo daña todavía más la piel quemada. Era agua del grifo, veinte minutos.»
+Apertura B (correcta): «Pones su mano bajo el grifo. "¡Está fría!". "Aguanta, campeón". Veinte minutos sin parar. Luego, un paño limpio, sin pinchar la ampolla. No crece.»
 Gancho: NO QUEDA COMIDA. SOLO|LO QUE HABÍA EN LA NEVERA.
-Historia: «Hora sesenta. Dos días y medio a oscuras. El grifo escupe sus últimas gotas: llenáis la bañera con lo que sale. Y tenéis hambre. Tu cuñado abre la nevera: pollo, embutido, una tortilla, leche. "Huele bien. Si huele bien, está bien". Ya lo está calentando en el camping gas. Tu abuela, ochenta años. Hugo, siete. Una nevera cerrada mantiene el frío unas horas, no dos días. Pero las tiendas siguen cerradas y solo quedan dos latas. Decides tú. A: si huele bien, se come. B: tiráis lo perecedero y os apañáis con las latas. Comenta A o B.»
-ESCALADA (si en el cap. 4 ganó A): «Y la mano de Hugo cada vez está más roja e hinchada.»
+Historia: «Hora sesenta. Un coche con megáfono: "Agua cortada en todo el barrio. Racionad la que tengáis". Tu madre: "¡La bañera!". La llenáis: agua para fregar y la cisterna. Bajo la puerta, una nota: "Tengo radio. 4.º A". Don Ramón. Pero no abre. Y tenéis hambre. Tu cuñado abre la nevera: pollo, embutido, tortilla, leche. "Huele bien. Si huele bien, está bien". Ya lo calienta en el camping gas, y el cartucho está casi vacío. Una nevera cerrada guarda el frío unas horas, no dos días. Pero solo quedan dos latas. Decides tú. A: si huele bien, se come. B: tiráis lo perecedero y os apañáis con las latas. Comenta A o B.»
+ESCALADA (si en el cap. 4 ganó A): «Y la mano de Hugo está cada vez más roja e hinchada.»
+SUSPENSO: «Esa noche, la radio de arriba suena. Una voz dice el nombre de tu calle.»
+Mochila: + BAÑERA LLENA · + NOTA 4.º A (ayudan). Perjudica: CAMPING GAS casi vacío.
 Correcta: B. Lección: el olor NO dice si un alimento está en mal estado; carne, lácteos y huevo sin frío horas = basura.
 
-SUSPENSO (cap. 5): «Y esa noche, tu abuela se acuesta pronto. Demasiado callada.»
-
 ## Capítulo 6 · La abuela no responde — HORA 70 / 72
-Apertura A (incorrecta): «Coméis. A las pocas horas empiezan los vómitos y la diarrea. Hugo y tu abuela, los peores: niños y mayores se deshidratan antes. Les das agua a sorbos pequeños, sin parar, toda la noche. Nadie duerme.»
-Apertura B (correcta): «Tiras el pollo, la tortilla y la leche. Tu cuñado protesta. Cenáis dos latas de garbanzos y pan duro. Nadie se pone malo. A veces lo valiente es tirar comida.»
+Apertura A (incorrecta): «Coméis. A las pocas horas, vómitos y diarrea. Hugo y tu abuela, los peores: niños y mayores se deshidratan antes. Agua a sorbos pequeños, sin parar, toda la noche. Nadie duerme.»
+Apertura B (correcta): «Tiras el pollo, la tortilla y la leche. Tu cuñado: "¡Estás loco!". Cenáis garbanzos de lata y pan duro. Nadie se pone malo. A veces lo valiente es tirar comida.»
 Gancho: TU ABUELA NO RESPONDE.
-Historia: «Hora setenta. Casi lo habéis logrado. Un golpe en la habitación. Tu abuela Carmen está en el suelo. La llamas. La sacudes de los hombros. Nada. Miras su pecho: no respira con normalidad, solo boquea de vez en cuando. Eso no es respirar. El móvil, sin cobertura. Tu cuñado coge las llaves para bajar a buscar una ambulancia. Hugo llora en la puerta. Cada minuto sin sangre en el cerebro cuenta. Pero si nadie avisa, nadie vendrá. Decides tú, y esta decisión cierra la temporada. A: todos a buscar ayuda. B: uno sale a pedir ayuda y tú empiezas a comprimir ya. Comenta A o B.»
+Historia: «Hora setenta. La radio: "No se descarta que el apagón se alargue varios días". Tu cuñado baja del cuarto: "Don Ramón no abre, pero la radio sigue sonando". Un golpe en la habitación. Tu abuela, en el suelo. "¡Abuela!". La sacudes de los hombros. Nada. Miras su pecho: no respira con normalidad, solo boquea de vez en cuando. Eso no es respirar. El móvil, sin cobertura. Tu cuñado coge las llaves: "¡Bajo a por una ambulancia!". Hugo llora en la puerta. Cada minuto sin sangre en el cerebro cuenta. Decides tú, y esta decisión cierra la temporada. A: todos a buscar ayuda. B: uno sale a pedir ayuda y tú empiezas a comprimir ya. Comenta A o B.»
 ESCALADA (si en el cap. 5 ganó A): «Y lleva horas débil por los vómitos.»
+SUSPENSO: «Y arriba, la radio se calla.»
+Mochila: perjudica: SIN COBERTURA.
 Correcta: B. Lección: no responde + no respira normal → pedir ayuda a gritos y COMPRIMIR (centro del pecho, fuerte y rápido, 100–120/min).
 
-SUSPENSO (cap. 6): «Tienes segundos.»
-
-## Capítulo 7 · Epílogo (~40 s, sin decisión)
-Apertura A (incorrecta): «Bajáis todos corriendo. Cuando volvéis con ayuda, han pasado ocho minutos sin que nadie comprimiera. Carmen sobrevive, por muy poco. Si alguien cae y no respira: uno pide ayuda, el otro comprime ya.»
-Apertura B (correcta): «Tu cuñado baja corriendo. Tú te arrodillas y comprimes en el centro del pecho, fuerte y rápido, sin parar. Doce minutos después llegan los sanitarios. Carmen sobrevive gracias a esas compresiones.»
-Cierre: igual que la v1.
-Pantalla final: TEMPORADA 2 · SÍGUENOS
+## Capítulo 7 · Epílogo (~45 s, sin decisión)
+Apertura A (incorrecta): «Bajáis todos a la calle. Nadie. Cuando volvéis, han pasado ocho minutos sin que nadie comprimiera. Entonces se abre la puerta del cuarto: Don Ramón, con su radio. "Ya vienen". Carmen sobrevive, por muy poco. Si alguien cae y no respira: uno pide ayuda, el otro comprime ya.»
+Apertura B (correcta): «Tu cuñado sube al cuarto y aporrea la puerta. Don Ramón abre, con su radio: "¡Emergencias, ¿me oyen?!". Tú, de rodillas, comprimes en el centro del pecho, fuerte y rápido, sin parar. Doce minutos después llegan los sanitarios. Carmen sobrevive gracias a esas compresiones.»
+Cierre: «Hora setenta y dos. Vuelve la luz. Repasa lo que aprendiste: oxígeno de reserva; insulina fresca, nunca congelada; generador siempre fuera; quemaduras con agua del grifo veinte minutos; si dudas de la comida, a la basura; y si alguien no respira, comprime. Diez minutos después, la luz parpadea. La radio: "Atención: la red sigue inestable. No se descartan nuevos cortes". Guárdalo y envíaselo a quien quieras.»
+Pantalla final: ¿SE VA OTRA VEZ? · SÍGUENOS
