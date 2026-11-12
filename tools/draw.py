@@ -249,3 +249,73 @@ def ui(clock=None, hook=None, sub=None, card=None):
         out += "".join(f'<text x="540" y="{y0+68*i}" font-family="DejaVu Sans" font-weight="bold" font-size="56" fill="#fff" '
                        f'stroke="#000" stroke-width="10" paint-order="stroke" text-anchor="middle">{l}</text>' for i, l in enumerate(lines))
     return out
+
+
+# ---------- familia (Capítulo 4 en adelante) ----------
+
+def _woman(cx, cy, s, body, hair_back, hair_front, mood, extra="", glasses=False, earrings=None):
+    t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
+    if mood == "shout":
+        brows = ('<path d="M 470 805 L 520 822" stroke="#3a2c25" stroke-width="10" stroke-linecap="round"/>'
+                 '<path d="M 610 805 L 560 822" stroke="#3a2c25" stroke-width="10" stroke-linecap="round"/>')
+        mouth = '<ellipse cx="540" cy="958" rx="34" ry="28" fill="#2a1410"/><rect x="516" y="934" width="48" height="9" fill="#f2f2f2"/>'
+    elif mood == "worry":
+        brows = ('<path d="M 470 818 L 520 802" stroke="#3a2c25" stroke-width="9" stroke-linecap="round"/>'
+                 '<path d="M 610 818 L 560 802" stroke="#3a2c25" stroke-width="9" stroke-linecap="round"/>')
+        mouth = '<path d="M 508 962 Q 540 945 572 962" stroke="#8a3a32" stroke-width="8" fill="none" stroke-linecap="round"/>'
+    else:
+        brows = ('<path d="M 470 808 Q 495 798 520 808" stroke="#3a2c25" stroke-width="9" fill="none"/>'
+                 '<path d="M 560 808 Q 585 798 610 808" stroke="#3a2c25" stroke-width="9" fill="none"/>')
+        mouth = '<path d="M 510 955 Q 540 975 570 955" stroke="#8a3a32" stroke-width="8" fill="none" stroke-linecap="round"/>'
+    gl = ('<rect x="465" y="832" width="66" height="52" rx="14" fill="#cfe3ff" fill-opacity="0.2" stroke="#4a2a5a" stroke-width="6"/>'
+          '<rect x="549" y="832" width="66" height="52" rx="14" fill="#cfe3ff" fill-opacity="0.2" stroke="#4a2a5a" stroke-width="6"/>'
+          '<line x1="531" y1="856" x2="549" y2="856" stroke="#4a2a5a" stroke-width="6"/>') if glasses else ""
+    ear = (f'<circle cx="422" cy="935" r="12" fill="{earrings}"/><circle cx="658" cy="935" r="12" fill="{earrings}"/>') if earrings else ""
+    return (f'<g {t}>{hair_back}'
+            f'<path d="M 360 1560 C 360 1190, 440 1080, 540 1070 C 640 1080, 720 1190, 720 1560 Z" fill="{body}"/>'
+            f'<rect x="510" y="965" width="60" height="110" fill="{PAL["skin_d"]}"/>'
+            '<ellipse cx="540" cy="880" rx="108" ry="130" fill="url(#skin)"/>'
+            '<ellipse cx="434" cy="895" rx="15" ry="26" fill="#b98a66"/><ellipse cx="646" cy="895" rx="15" ry="26" fill="#b98a66"/>'
+            f'{ear}{hair_front}{brows}'
+            '<ellipse cx="498" cy="858" rx="11" ry="13" fill="#2b211c"/><ellipse cx="582" cy="858" rx="11" ry="13" fill="#2b211c"/>'
+            '<circle cx="501" cy="854" r="3.5" fill="#fff"/><circle cx="585" cy="854" r="3.5" fill="#fff"/>'
+            f'{gl}<path d="M 540 868 Q 530 902 548 908" stroke="#b98a66" stroke-width="5" fill="none"/>'
+            '<ellipse cx="478" cy="920" rx="20" ry="11" fill="#e08f80" opacity="0.35"/><ellipse cx="602" cy="920" rx="20" ry="11" fill="#e08f80" opacity="0.35"/>'
+            f'{mouth}{extra}</g>')
+
+
+def madre(cx=540, cy=900, s=1.0, mood="worry", hold=None):
+    """Tu madre: 55 años, melena castaña con moño, gafas moradas, rebeca verde botella.
+    hold: None | "hielo" (cuenco con hielo)."""
+    back = '<ellipse cx="540" cy="700" rx="70" ry="60" fill="#5a3a22"/>'
+    front = ('<path d="M 430 870 C 410 760, 470 735, 540 735 C 615 735, 672 760, 650 870 C 640 810, 600 790, 540 792 C 480 790, 440 810, 430 870 Z" fill="#6b4428"/>'
+             '<path d="M 470 770 C 510 750, 570 750, 610 770" stroke="#8a5a36" stroke-width="6" fill="none"/>')
+    body = "#1f5a46"
+    extra = ('<path d="M 490 1072 L 540 1130 L 590 1072" fill="none" stroke="#e8e2d6" stroke-width="12"/>'
+             + "".join(f'<circle cx="540" cy="{y}" r="8" fill="#e8e2d6"/>' for y in (1180, 1250, 1320, 1390)))
+    if hold == "hielo":
+        extra += ('<path d="M 390 1150 C 380 1250, 420 1300, 470 1300" stroke="#1f5a46" stroke-width="66" fill="none" stroke-linecap="round"/>'
+                  '<path d="M 690 1150 C 700 1250, 660 1300, 610 1300" stroke="#1f5a46" stroke-width="66" fill="none" stroke-linecap="round"/>'
+                  '<path d="M 400 1250 L 680 1250 C 670 1360, 620 1390, 540 1390 C 460 1390, 410 1360, 400 1250 Z" fill="#4a6fa5"/>'
+                  + "".join(f'<rect x="{x}" y="{y}" width="56" height="56" rx="10" fill="#d8f2ff" opacity="0.92" transform="rotate({r} {x+28} {y+28})"/>'
+                            for x, y, r in [(430, 1205, -12), (490, 1190, 8), (550, 1200, -5), (608, 1210, 15)]) +
+                  '<ellipse cx="460" cy="1300" rx="34" ry="24" fill="url(#skin)"/><ellipse cx="620" cy="1300" rx="34" ry="24" fill="url(#skin)"/>')
+    return _woman(cx, cy, s, body, back, front, mood, extra, glasses=True)
+
+
+def tia(cx=540, cy=900, s=1.0, mood="shout", hold=None):
+    """Tu tía: 50 años, pelo rizado pelirrojo, jersey morado, pendientes de aro dorados.
+    hold: None | "pasta" (tubo de pasta de dientes)."""
+    curls = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#b5471f"/>' for x, y, r in
+                    [(420, 800, 46), (440, 730, 50), (500, 690, 52), (580, 690, 52), (640, 730, 50), (660, 800, 46),
+                     (415, 880, 40), (665, 880, 40), (420, 950, 34), (660, 950, 34)])
+    front = ('<path d="M 440 830 C 450 760, 500 740, 540 745 C 590 740, 635 760, 645 830 C 620 790, 580 780, 540 790 C 500 780, 460 790, 440 830 Z" fill="#c95427"/>')
+    body = "#5b2d7a"
+    extra = '<path d="M 470 1080 C 500 1110, 580 1110, 610 1080" stroke="#7a45a0" stroke-width="16" fill="none"/>'
+    if hold == "pasta":
+        extra += ('<path d="M 690 1150 C 790 1090, 830 1000, 840 930" stroke="#5b2d7a" stroke-width="70" fill="none" stroke-linecap="round"/>'
+                  '<g transform="rotate(-25 860 860)">'
+                  '<path d="M 820 700 L 900 700 L 920 960 L 800 960 Z" fill="#f4f6f8" stroke="#c7ccd3" stroke-width="5"/>'
+                  '<rect x="820" y="760" width="80" height="60" fill="#2d7fd1"/><rect x="842" y="660" width="36" height="44" rx="6" fill="#e10600"/>'
+                  '</g><ellipse cx="850" cy="910" rx="44" ry="34" fill="url(#skin)"/>')
+    return _woman(cx, cy, s, body, curls, front, mood, extra, earrings="#e0b52a")
