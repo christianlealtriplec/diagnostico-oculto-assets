@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 3,
+  "ultima_parte_programada": 4,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -80,8 +80,13 @@
         "B": "Lo dejas y abres más las ventanas",
         "correcta": "A"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 3,
+        "B": 0,
+        "total": 3,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "A",
       "historias": {
         "resultado": {
           "hora": "2026-11-11T10:00:00+01:00",
@@ -94,6 +99,42 @@
         "voto": {
           "hora": "2026-11-11T18:03:00+01:00",
           "metricool_uuid": "8438787026062755379"
+        }
+      },
+      "urls": {
+        "youtube": "https://www.youtube.com/shorts/gQDu0WcpPK0"
+      },
+      "youtube_video_id": "gQDu0WcpPK0",
+      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+    },
+    "4": {
+      "titulo": "La vela",
+      "publicacion": "2026-11-12T18:00:00+01:00",
+      "metricool_uuid": "-227330996907589405",
+      "metricool_post_id": "425388648",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/djnxf0z1umt5sjvipi2t9bub.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1136fa99-68d3-48c7-9a87-04876dc795d8.mp3",
+      "voz_segundos": 75.23,
+      "apertura": "A",
+      "decision": {
+        "A": "Hielo directamente",
+        "B": "Agua del grifo y no parar",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-12T10:00:00+01:00",
+          "metricool_uuid": "1770200701950379132"
+        },
+        "estreno": {
+          "hora": "2026-11-12T17:47:00+01:00",
+          "metricool_uuid": "-8382034931552989517"
+        },
+        "voto": {
+          "hora": "2026-11-12T18:03:00+01:00",
+          "metricool_uuid": "7227226013486564278"
         }
       }
     }
@@ -111,5 +152,9 @@
     "HUGO": 3,
     "LUIS": 3
   },
-  "mochila": []
+  "mochila": [
+    "+ VELAS",
+    "+ PILAS",
+    "- POCA AGUA"
+  ]
 }
