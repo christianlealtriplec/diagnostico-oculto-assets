@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 4,
+  "ultima_parte_programada": 5,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -121,8 +121,13 @@
         "B": "Agua del grifo y no parar",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 0,
+        "B": 2,
+        "total": 2,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "B",
       "historias": {
         "resultado": {
           "hora": "2026-11-12T10:00:00+01:00",
@@ -135,6 +140,42 @@
         "voto": {
           "hora": "2026-11-12T18:03:00+01:00",
           "metricool_uuid": "7227226013486564278"
+        }
+      },
+      "youtube_video_id": "QLIhw-JHPBE",
+      "urls": {
+        "youtube": "https://www.youtube.com/shorts/QLIhw-JHPBE"
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+    },
+    "5": {
+      "titulo": "La nevera",
+      "publicacion": "2026-11-13T18:00:00+01:00",
+      "metricool_uuid": "-7207520151950834843",
+      "metricool_post_id": "426666444",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jucwza9s1m4xf9b3xls8u2mn.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/b2b6de5e-c2b4-417b-baf1-c9dddcea3ef1.mp3",
+      "voz_segundos": 67.08,
+      "apertura": "B",
+      "decision": {
+        "A": "Si huele bien, se come",
+        "B": "Tiráis lo perecedero y os apañáis con las latas",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-13T10:00:00+01:00",
+          "metricool_uuid": "1729936716364204897"
+        },
+        "estreno": {
+          "hora": "2026-11-13T17:47:00+01:00",
+          "metricool_uuid": "-4035644847233612392"
+        },
+        "voto": {
+          "hora": "2026-11-13T18:03:00+01:00",
+          "metricool_uuid": "-1193248499759495862"
         }
       }
     }
@@ -153,8 +194,8 @@
     "LUIS": 3
   },
   "mochila": [
-    "+ VELAS",
-    "+ PILAS",
-    "- POCA AGUA"
+    "+ BAÑERA LLENA",
+    "+ NOTA 4.º A",
+    "- POCO GAS"
   ]
 }
