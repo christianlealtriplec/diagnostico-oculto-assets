@@ -63,3 +63,37 @@ Apertura A (incorrecta): «Bajáis todos a la calle. Nadie. Cuando volvéis, han
 Apertura B (correcta): «Tu cuñado sube al cuarto y aporrea la puerta. Don Ramón abre, con su radio: "¡Emergencias, ¿me oyen?!". Tú, de rodillas, comprimes en el centro del pecho, fuerte y rápido, sin parar. Doce minutos después llegan los sanitarios. Carmen sobrevive gracias a esas compresiones.»
 Cierre: «Hora setenta y dos. Vuelve la luz. Repasa lo que aprendiste: oxígeno de reserva; insulina fresca, nunca congelada; generador siempre fuera; quemaduras con agua del grifo veinte minutos; si dudas de la comida, a la basura; y si alguien no respira, comprime. Diez minutos después, la luz parpadea. La radio: "Atención: la red sigue inestable. No se descartan nuevos cortes". Guárdalo y envíaselo a quien quieras.»
 Pantalla final: ¿SE VA OTRA VEZ? · SÍGUENOS
+
+## Arco «Sin fecha de fin» · Partes 08–21 (lecciones aprobadas el 13/11/2026)
+Continúa sin reiniciar la numeración. Cada parte empieza en el segundo exacto en que acabó la anterior; cada problema nace del anterior. Plan completo (problema, decisión y lección de cada parte) en el documento «Diagnóstico Oculto · Plan de la nueva fase». Historias independientes: sin cruce con el crucero.
+Personaje que vuelve: el TÍO (calvo, barba, polo azul), desaparecido desde la Parte 01.
+
+## Parte 08 · Vuelve a irse — HORA 73 / 72+ (reloj: «HORA 73 · SIN FECHA DE FIN»)
+Apertura (sin votación previa): «La luz parpadea. Una vez. Dos. Y se va.»
+Gancho: SE VA OTRA VEZ.|Y HUGO NO SE DESPIERTA BIEN.
+Historia: «Hugo grita en la escalera. Bajas con la linterna: está sentado en el rellano, con la mano en la frente. "Me he caído". Un chichón enorme. Arriba, Don Ramón gira el dial de su radio: "Fallo en cascada. Sin fecha de reparación". Tu madre se ha ido en la ambulancia con la abuela. Ahora mandas tú. Y entre la estática, una voz que conoces: "Soy yo… estoy en el polideportivo… no vengáis". Es tu tío. El que se fue la primera noche y no volvió. Hugo bosteza: "Tengo mucho sueño". Tu cuñado: "Déjale dormir, que descanse". Pero se ha dado un golpe en la cabeza. Decides tú. A: le dejas dormir tranquilo. B: le vigilas toda la noche y le despiertas cada pocas horas para ver cómo responde. Comenta A o B.»
+SUSPENSO: «Y la radio repite: "no vengáis". Tres veces.»
+Mochila: + RADIO DE RAMÓN · - SIN LUZ OTRA VEZ.
+Correcta: B. Lección: tras un golpe en la cabeza, vigilar 24 h; urgencias si vomita, está muy adormilado o confuso, o convulsiona.
+
+## Parte 09 · El agua — HORA 76
+Apertura A (incorrecta): «Le dejas dormir. A las tres, Hugo vomita. Y otra vez. Le cuesta abrir los ojos. Bajáis corriendo al punto sanitario del colegio. No es grave, pero vomitar tras un golpe es un signo de alarma.»
+Apertura B (correcta): «Le vigilas toda la noche. Cada tres horas le despiertas: "¿Cómo te llamas?". "Hugo…". Responde bien, no vomita. Por la mañana, el chichón y nada más.»
+Gancho: YA NO SALE AGUA.|SOLO QUEDA LA BAÑERA.
+Historia: «Hora setenta y seis. Del grifo no sale nada. Protección Civil reparte agua en el colegio, pero la cola da la vuelta a la manzana. Tu cuñado mete un vaso en la bañera: "Agua es agua". Don Ramón baja con un hornillo: "Queda gas para una vez". Tu tía encuentra en el armario una botella de lejía. Hugo tiene sed. Tú también. Decides tú. A: bebéis el agua de la bañera tal cual. B: la hervís o la desinfectáis antes. Comenta A o B.»
+ESCALADA (si en la 08 ganó A): «Y Hugo sigue pálido.»
+SUSPENSO: «Esa noche, alguien llama a la puerta. Nadie espera a nadie.»
+Mochila: + HORNILLO · + LEJÍA · - GAS PARA UNA VEZ.
+Marcador: si en la 08 ganó A → HUGO −1.
+Correcta: B. Lección: agua dudosa → hervir al menos 1 minuto, o lejía apta para agua de bebida (2 gotas por litro, esperar 30 min).
+
+## Parte 10 · La cola — HORA 80
+Apertura A (incorrecta): «Bebéis. Por la noche, a Hugo le duele la tripa. El agua estancada de una bañera no es potable: había que hervirla al menos un minuto o desinfectarla con lejía apta.»
+Apertura B (correcta): «Hervís el agua en el hornillo de Don Ramón, un minuto a borbotones, y la dejáis enfriar tapada. Nadie se pone malo.»
+Gancho: SE CAE EN LA COLA.|Y YA NO TIEMBLA.
+Historia: «Hora ochenta. Vas a la cola del colegio con dos garrafas. Hace un frío que muerde. Delante, un señor mayor en zapatillas, empapado. Tiembla. Se le traban las palabras: "Estoy bien, estoy bien". Y se cae al suelo. Un voluntario grita: "¡Una manta!". Tu cuñado saca una petaca: "Un trago de coñac, que esto calienta". El señor ya no tiembla. Y con este frío, eso no es buena señal. Decides tú. A: un trago de coñac para que entre en calor. B: a cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar. Comenta A o B.»
+ESCALADA (si en la 09 ganó A): «Y a Hugo le sigue doliendo la tripa.»
+SUSPENSO: «Y alguien en la cola susurra: "En el polideportivo se llevan a la gente de noche".»
+Mochila: + DOS GARRAFAS.
+Marcador: si en la 09 ganó A → HUGO −1.
+Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.

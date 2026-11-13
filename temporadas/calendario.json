@@ -1,0 +1,200 @@
+{
+ "hora_publicacion": "18:00",
+ "nota": "Una publicación al día alternando series (plan aprobado 13/11/2026). Historias independientes.",
+ "dias": [
+  {
+   "fecha": "2026-11-14",
+   "serie": "apagon",
+   "parte": 6,
+   "titulo": "La abuela no responde"
+  },
+  {
+   "fecha": "2026-11-15",
+   "serie": "apagon",
+   "parte": 7,
+   "titulo": "Epílogo"
+  },
+  {
+   "fecha": "2026-11-16",
+   "serie": "crucero",
+   "parte": 1,
+   "titulo": "¿Dónde están todos?",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-11-17",
+   "serie": "apagon",
+   "parte": 8,
+   "titulo": "Vuelve a irse"
+  },
+  {
+   "fecha": "2026-11-18",
+   "serie": "crucero",
+   "parte": 2,
+   "titulo": "Once días de historias",
+   "fotos_ia": 2
+  },
+  {
+   "fecha": "2026-11-19",
+   "serie": "apagon",
+   "parte": 9,
+   "titulo": "El agua"
+  },
+  {
+   "fecha": "2026-11-20",
+   "serie": "crucero",
+   "parte": 3,
+   "titulo": "La foto imposible",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-11-21",
+   "serie": "apagon",
+   "parte": 10,
+   "titulo": "La cola"
+  },
+  {
+   "fecha": "2026-11-22",
+   "serie": "crucero",
+   "parte": 4,
+   "titulo": "Las pastillas de Rosa",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-11-23",
+   "serie": "apagon",
+   "parte": 11,
+   "titulo": "Luis"
+  },
+  {
+   "fecha": "2026-11-24",
+   "serie": "crucero",
+   "parte": 5,
+   "titulo": "Hombre al agua",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-11-25",
+   "serie": "apagon",
+   "parte": 12,
+   "titulo": "El polideportivo"
+  },
+  {
+   "fecha": "2026-11-26",
+   "serie": "crucero",
+   "parte": 6,
+   "titulo": "Memoria",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-11-27",
+   "serie": "apagon",
+   "parte": 13,
+   "titulo": "El tío"
+  },
+  {
+   "fecha": "2026-11-28",
+   "serie": "crucero",
+   "parte": 7,
+   "titulo": "Lucía",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-11-29",
+   "serie": "apagon",
+   "parte": 14,
+   "titulo": "La radio"
+  },
+  {
+   "fecha": "2026-11-30",
+   "serie": "crucero",
+   "parte": 8,
+   "titulo": "La capitana",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-12-01",
+   "serie": "apagon",
+   "parte": 15,
+   "titulo": "Carmen vuelve"
+  },
+  {
+   "fecha": "2026-12-02",
+   "serie": "crucero",
+   "parte": 9,
+   "titulo": "El spa Lethe",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-12-03",
+   "serie": "apagon",
+   "parte": 16,
+   "titulo": "La noche larga"
+  },
+  {
+   "fecha": "2026-12-04",
+   "serie": "crucero",
+   "parte": 10,
+   "titulo": "Diagnóstico",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-12-05",
+   "serie": "apagon",
+   "parte": 17,
+   "titulo": "La farmacia"
+  },
+  {
+   "fecha": "2026-12-06",
+   "serie": "crucero",
+   "parte": 11,
+   "titulo": "El faro",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-12-07",
+   "serie": "apagon",
+   "parte": 18,
+   "titulo": "La escalera"
+  },
+  {
+   "fecha": "2026-12-08",
+   "serie": "crucero",
+   "parte": 12,
+   "titulo": "Isla Garza",
+   "fotos_ia": 0
+  },
+  {
+   "fecha": "2026-12-09",
+   "serie": "apagon",
+   "parte": 19,
+   "titulo": "La noche del polideportivo"
+  },
+  {
+   "fecha": "2026-12-10",
+   "serie": "crucero",
+   "parte": 13,
+   "titulo": "Los que no bebieron",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-12-11",
+   "serie": "apagon",
+   "parte": 20,
+   "titulo": "El cable"
+  },
+  {
+   "fecha": "2026-12-12",
+   "serie": "crucero",
+   "parte": 14,
+   "titulo": "Todavía estoy aquí",
+   "fotos_ia": 1
+  },
+  {
+   "fecha": "2026-12-13",
+   "serie": "apagon",
+   "parte": 21,
+   "titulo": "Hora 140"
+  }
+ ]
+}

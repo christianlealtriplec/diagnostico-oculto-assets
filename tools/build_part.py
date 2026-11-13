@@ -47,7 +47,7 @@ def main(season, part, voice_seconds):
     B.CLOCK = m.CLOCK
     B.SALUD = getattr(m, "SALUD", None)
     B.MOCHILA = getattr(m, "MOCHILA", None)
-    B.LABEL = f"{season.upper()} · CAPÍTULO {part}"
+    B.LABEL = f"PARTE {part:02d}"
     B.FINAL = pdir / f"{season}_p{part}_sin_audio.mp4"
     it = iter(durs)
     B.dur = lambda text, kind: next(it)

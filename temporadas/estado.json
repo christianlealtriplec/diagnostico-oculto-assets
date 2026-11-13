@@ -197,5 +197,23 @@
     "+ BAÑERA LLENA",
     "+ NOTA 4.º A",
     "- POCO GAS"
-  ]
+  ],
+  "series": {
+    "apagon": {
+      "guiones": "temporadas/t1_guiones.md",
+      "carpeta": "t1",
+      "ultima_parte": "ver ultima_parte_programada",
+      "listo": true
+    },
+    "crucero": {
+      "guiones": "temporadas/crucero_guiones.md",
+      "carpeta": "crucero",
+      "ultima_parte_programada": 0,
+      "listo": false,
+      "nota": "listo=false hasta que la sesión principal valide el piloto (Parte 01); mientras tanto la tarea NO produce el crucero",
+      "voz_id": null,
+      "musica_url": null,
+      "partes": {}
+    }
+  }
 }

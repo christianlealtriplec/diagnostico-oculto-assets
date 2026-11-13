@@ -13,7 +13,7 @@ CLOCK = "HORA 00 / 72"
 FINAL = ROOT / "t1" / "p1" / "p1_preview_sin_voz.mp4"
 MOCHILA = None  # p. ej. ["+ VELAS", "+ PILAS", "- SIN AGUA"]: recuadro fijo arriba a la derecha
 SALUD = None  # p. ej. {"CARMEN": 3, "HUGO": 3, "LUIS": 2}: marcador fijo de corazones (0–3)
-LABEL = None  # p. ej. "T1 · CAPÍTULO 2": etiqueta bajo el gancho (portada)
+LABEL = None  # p. ej. "PARTE 08": etiqueta bajo el gancho (portada)
 
 # (escena, zoom inicial, zoom final, foco x, foco y, texto, tipo)
 SHOTS = [

@@ -67,7 +67,7 @@ def estreno(season, n, title, hook, scene):
     s = season.upper()
     body = box(150, 140, PAL["red"], 0.95)
     body += f'<text x="540" y="245" {F} font-size="66" fill="#fff">⚠ ESTRENO A LAS 18H</text>'
-    t, y = txt([f"{s} · CAPÍTULO {n}"], 420, 64, "#ffd400"); body += t
+    t, y = txt([f"PARTE {n:02d}"], 420, 64, "#ffd400"); body += t
     t, y = txt(wrap(title.upper(), 18), y + 20, 84, "#fff"); body += t
     hl = [l for part in hook.split("|") for l in wrap(part, 24)]
     y = max(y + 80, 1050)
@@ -80,8 +80,8 @@ def estreno(season, n, title, hook, scene):
 def voto(season, n, title, a, b, scene):
     s = season.upper()
     body = box(150, 130, PAL["red"], 0.95)
-    body += f'<text x="540" y="238" {F} font-size="60" fill="#fff">🔦 NUEVO CAPÍTULO</text>'
-    t, y = txt([f"{s} · CAPÍTULO {n}"], 380, 64, "#ffd400")
+    body += f'<text x="540" y="238" {F} font-size="60" fill="#fff">🔦 NUEVA PARTE</text>'
+    t, y = txt([f"PARTE {n:02d}"], 380, 64, "#ffd400")
     body += t
     t, y = txt(wrap(title.upper(), 20), y + 20, 70, "#fff")
     body += t
@@ -100,7 +100,7 @@ def voto(season, n, title, a, b, scene):
 def resultado(season, n, win, title, scene):
     s = season.upper()
     body = box(150, 130, "#000", 0.85)
-    body += f'<text x="540" y="238" {F} font-size="56" fill="#ffd400">RESULTADO · CAPÍTULO {n - 1}</text>'
+    body += f'<text x="540" y="238" {F} font-size="56" fill="#ffd400">RESULTADO · PARTE {n - 1:02d}</text>'
     t, y = txt([f"GANÓ LA {win}"], 520, 130, "#fff"); body += t
     ll = wrap(title.upper(), 18)
     h = 200 + 80 * len(ll)
