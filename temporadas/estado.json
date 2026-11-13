@@ -208,7 +208,7 @@
     "crucero": {
       "guiones": "temporadas/crucero_guiones.md",
       "carpeta": "crucero",
-      "ultima_parte_programada": 0,
+      "ultima_parte_programada": 1,
       "listo": false,
       "nota": "listo=false hasta que la sesión principal valide el piloto (Parte 01); mientras tanto la tarea NO produce el crucero",
       "voz_id": "EXAVITQu4vr4xnSDxMaL",
@@ -220,8 +220,11 @@
           "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
           "voz_segundos": 53.55,
           "duracion": 56.06,
-          "estado": "pendiente de aprobación del responsable (no programada)",
-          "creditos": 187
+          "estado": "programada 16-nov 18:00 (YT/IG/TikTok)",
+          "creditos": 187,
+          "publicacion": "2026-11-16T18:00:00+01:00",
+          "metricool_uuid": "-2537489549492335008",
+          "metricool_post_id": "427154385"
         }
       },
       "barco_maestro": {
