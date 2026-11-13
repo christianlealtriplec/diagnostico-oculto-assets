@@ -211,15 +211,33 @@
       "ultima_parte_programada": 0,
       "listo": false,
       "nota": "listo=false hasta que la sesión principal valide el piloto (Parte 01); mientras tanto la tarea NO produce el crucero",
-      "voz_id": null,
-      "musica_url": null,
-      "partes": {},
+      "voz_id": "EXAVITQu4vr4xnSDxMaL",
+      "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
+      "partes": {
+        "1": {
+          "titulo": "¿Dónde están todos?",
+          "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/umi3oh2yhet7b2za0mo5o6s6.mp4",
+          "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
+          "voz_segundos": 53.55,
+          "duracion": 56.06,
+          "estado": "pendiente de aprobación del responsable (no programada)",
+          "creditos": 187
+        }
+      },
       "barco_maestro": {
         "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
         "repo": "crucero/maestro/barco_maestro.jpg",
         "fecha": "2026-11-13",
         "prompt": "ver crucero/propuesta_visual_p01.md",
-        "estado": "pendiente de aprobación"
+        "estado": "aprobada"
+      },
+      "voz_nombre": "Sarah",
+      "imagenes": {
+        "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
+        "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
+        "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
+        "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
+        "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg"
       }
     }
   }
