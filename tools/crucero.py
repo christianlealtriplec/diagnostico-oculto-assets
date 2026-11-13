@@ -108,6 +108,40 @@ def notificacion(usuario, texto, hace="ahora"):
     return _svg(body)
 
 
+def historia(usuario, dia, fecha, total=11, actual=None):
+    """Marco de «historia» de red social genérica (sin logotipos): barras de progreso, avatar,
+    usuario y etiqueta DÍA N · fecha. Se superpone a la imagen a pantalla completa."""
+    actual = actual or dia
+    gap, x0, x1 = 8, 40, W - 40
+    seg = (x1 - x0 - gap * (total - 1)) / total
+    body = f'<rect x="0" y="0" width="{W}" height="230" fill="#000" fill-opacity="0.35"/>'
+    for i in range(total):
+        x = x0 + i * (seg + gap)
+        op = 0.95 if i < actual else 0.35
+        body += f'<rect x="{x:.1f}" y="40" width="{seg:.1f}" height="8" rx="4" fill="#fff" fill-opacity="{op}"/>'
+    body += (f'<circle cx="95" cy="120" r="40" fill="{TEAL}" stroke="#fff" stroke-width="4"/>'
+             f'<text x="95" y="134" {SANS} font-size="40" fill="{ICE}" text-anchor="middle">{esc(usuario[0].upper())}</text>'
+             f'<text x="155" y="114" {SANS} font-size="36" fill="#fff">{esc(usuario)}</text>'
+             f'<text x="155" y="156" {SANS} font-size="28" fill="#ddd">DÍA {dia} · {esc(fecha)}</text>')
+    return _svg(body)
+
+
+def chat(nombre, fecha, mensaje):
+    """Pantalla de móvil con un mensaje recibido (app genérica)."""
+    body = (f'<rect x="230" y="420" width="620" height="1180" rx="70" fill="#050708" stroke="#3a4648" stroke-width="10"/>'
+            f'<rect x="262" y="470" width="556" height="1080" rx="40" fill="#e9e4dc"/>'
+            f'<rect x="262" y="470" width="556" height="130" rx="40" fill="{TEAL}"/>'
+            f'<text x="540" y="555" {SANS} font-size="38" fill="{ICE}" text-anchor="middle">{esc(nombre)}</text>'
+            f'<text x="540" y="680" {SANS} font-size="24" fill="#666" text-anchor="middle">{esc(fecha)}</text>')
+    lines = _wrap(mensaje, 18)
+    h = 50 + 52 * len(lines)
+    body += f'<rect x="300" y="720" width="420" height="{h}" rx="26" fill="#fff"/>'
+    body += "".join(f'<text x="330" y="{775 + 52 * i}" {SANS} font-size="38" fill="#111">{esc(l)}</text>'
+                    for i, l in enumerate(lines))
+    body += f'<text x="790" y="1500" {SANS} font-size="24" fill="#888" text-anchor="end">Visto · sin respuesta</text>'
+    return _svg(body)
+
+
 def nota_forense(lineas):
     """Nota manuscrita del cuaderno de la forense."""
     body = f'<g transform="rotate(-3 540 960)"><rect x="170" y="700" width="740" height="{120 + 70 * len(lineas)}" fill="#f4ecd2"/>'

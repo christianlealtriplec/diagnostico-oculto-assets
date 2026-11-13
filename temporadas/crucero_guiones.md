@@ -32,7 +32,36 @@ Desglose (frase → imagen · movimiento):
 Recursos: 6 imágenes IA (maestra, aérea a la deriva, comedor, platos, Elena, popa en la niebla) · 8 búsquedas de archivo · voz femenina · música propia.
 Coste aprobado: 208 créditos (132 imágenes + 8 archivo + 28 voz + 25 música + 15 montaje).
 
-## Partes 02–14
+## Parte 02 · Once días de historias (BORRADOR · pendiente de OK del responsable)
+Continuidad: empieza en el segundo en que acaba la 01: 17-oct, 11:42, Elena en el camarote 7114 con el móvil de Noa en la mano. Sin contenido médico nuevo.
+Portada: PARTE 02 · «PUBLICÓ *TODOS* LOS DÍAS» (imagen maestra del barco)
+Guion (793 caracteres): «Mi hermana publicó todos los días. Desde un barco que no existía. Once días sin señal. Once historias. Me senté en su cama, en el siete uno uno cuatro, y las vi una a una. Día uno: un atardecer en cubierta. Día dos: la piscina. Día tres: un brindis en el comedor. Noa tiene veintinueve años y vive de contar sus viajes. Antes de zarpar me escribió: "Ven conmigo". No fui. En sus historias todo era normal. Demasiado normal. Un barco desaparecido, y nadie parecía preocupado. Nadie buscaba cobertura. Nadie miraba el horizonte. ¿Cómo publicaba sin señal? Día siete. Noa sonríe en la popa. El viento le mueve un pañuelo verde. Me levanté. Abrí su maleta. Ahí estaba. El mismo pañuelo verde. Doblado. Con la etiqueta puesta. Nunca se lo había puesto. Entonces, ¿quién es la mujer de esa historia?»
+Cierre en pantalla: «¿QUIÉN ES LA *MUJER* DE ESA HISTORIA?» · «PARTE 03 EL VIERNES»
+Reglas de continuidad: las «historias» de Noa van siempre dentro del marco `historia()` de tools/crucero.py (barras de progreso, noa.viaja, DÍA N · fecha). Fechas: día 1 = 6-oct … día 7 = 12-oct. Noa: melena rubia; el pañuelo verde SOLO aparece en la historia del día 7 y en la maleta (en las historias 1–3 no lo lleva). Nunca se ve la cara de Noa fuera de sus historias.
+Desglose (frase → imagen · capa):
+1. «Mi hermana publicó todos los días.» → IA maestra (barco) · portada en el fotograma 0
+2. «Desde un barco que no existía.» → IA popa en la niebla (reutilizada) · chip 6-OCT · 00:12 · LOCALIZADOR APAGADO
+3. «Once días sin señal. Once historias.» → pantalla del móvil con 11 historias (gráfico propio sobre camarote desenfocado) · sello 11 HISTORIAS
+4. «Me senté en su cama, en el siete uno uno cuatro…» → archivo: cama de camarote / habitación de hotel ordenada · chip 17-OCT · 11:42 · CAMAROTE 7114
+5. «…y las vi una a una.» → archivo: dedo pasando historias en un móvil
+6. «Día uno: un atardecer en cubierta.» → archivo: atardecer desde la cubierta de un barco · marco historia DÍA 1 · 6-OCT
+7. «Día dos: la piscina.» → archivo: piscina de crucero · marco historia DÍA 2 · 7-OCT
+8. «Día tres: un brindis en el comedor.» → archivo: brindis con copas · marco historia DÍA 3 · 8-OCT
+9. «Noa tiene veintinueve años y vive de contar sus viajes.» → ficha de expediente de Noa con su foto IA (nueva, fija para toda la serie)
+10. «Antes de zarpar me escribió: "Ven conmigo". No fui.» → gráfico propio: chat de móvil (Noa, 30-SEP: «Ven conmigo») sobre comedor desenfocado
+11. «En sus historias todo era normal. Demasiado normal.» → archivo: gente en cubierta de crucero, de lejos
+12. «Un barco desaparecido, y nadie parecía preocupado.» → IA aérea (reutilizada, encuadre distinto)
+13. «Nadie buscaba cobertura. Nadie miraba el horizonte.» → archivo: horizonte del océano
+14. «¿Cómo publicaba sin señal?» → pantalla del móvil: icono SIN SERVICIO + «Publicada» · alarma visual (sello rojo)
+15. «Día siete. Noa sonríe en la popa. El viento le mueve un pañuelo verde.» → IA Noa (la misma foto, recortada) dentro del marco historia DÍA 7 · 12-OCT
+16. «Me levanté. Abrí su maleta.» → archivo: abrir una maleta
+17. «Ahí estaba. El mismo pañuelo verde. Doblado. Con la etiqueta puesta.» → archivo: pañuelo o tela doblada en maleta · nota forense «pañuelo verde · etiqueta intacta · sin uso»
+18. «Nunca se lo había puesto.» → IA Noa en el marco DÍA 7 con zoom al pañuelo (segundo uso)
+19. «Entonces, ¿quién es la mujer de esa historia?» → IA platos/comedor (reutilizada) + cierre
+Recursos: 1 imagen IA nueva (Noa: selfi en la popa del Perséfone al atardecer, melena rubia, pañuelo verde, 9:16, estilo foto de móvil; misma Noa toda la serie) · ~9 búsquedas de archivo · voz Sarah · música de la serie (reutilizada).
+Coste estimado: ~73 créditos (22 Noa + 9 archivo + 28 voz + ~14 montaje).
+
+## Partes 03–14
 Según el «Plan de las 14 partes» del documento del plan (título, primera frase, qué se descubre, final). Guion completo de cada parte: se escribe con 4 días de antelación y se añade aquí.
 
 ## Correcciones de la biblia (aprobadas el 13/11)

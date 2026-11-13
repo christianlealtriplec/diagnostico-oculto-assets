@@ -21,7 +21,7 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 - Alojamiento: el repo es público; las URL `https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/...` sirven para vidIQ.
 
 ## Qué toca hoy
-Lee `temporadas/calendario.json` y busca la fecha de hoy. Si no hay entrada, no produzcas y avisa. Si toca **crucero** y `estado.json → series.crucero.listo` no es `true`, NO produzcas: avisa al responsable («hoy tocaba el crucero, piloto pendiente de validar»). Si toca **apagón**, sigue el proceso de abajo con N = la parte del calendario (debe ser ultima_parte_programada + 1; si no coincide, no produzcas y avisa). Numeración: PARTE 01, 02… nunca se reinicia; títulos `72 horas sin luz | Parte NN: <título> 🔦 #shorts` y `El crucero que regresó vacío | Parte NN: <título> 🚢 #shorts`.
+Lee `temporadas/calendario.json` y busca la fecha de hoy. Si no hay entrada, no produzcas y avisa. Si la parte del calendario de hoy ya está programada (≤ `ultima_parte_programada` de su serie), no produzcas nada (solo el informe del lunes, si toca) y termina sin aviso. Si toca **crucero** y `estado.json → series.crucero.listo` no es `true`, NO produzcas: avisa al responsable («hoy tocaba el crucero, piloto pendiente de validar»); si es `true`, sigue la sección «Crucero» de abajo. Si toca **apagón**, sigue el proceso de abajo con N = la parte del calendario (debe ser ultima_parte_programada + 1; si no coincide, no produzcas y avisa). Numeración: PARTE 01, 02… nunca se reinicia; títulos `72 horas sin luz | Parte NN: <título> 🔦 #shorts` y `El crucero que regresó vacío | Parte NN: <título> 🚢 #shorts`.
 
 ## Proceso diario del apagón (sesión programada, 09:13)
 1. Clonar/actualizar el repo, leer `estado.json` y el guion de la parte N del calendario.
@@ -41,7 +41,31 @@ Lee `temporadas/calendario.json` y busca la fecha de hoy. Si no hay entrada, no 
 Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
 
 ## Crucero («El crucero que regresó vacío»)
-Guiones en `temporadas/crucero_guiones.md`, gráficos con `tools/crucero.py`. El procedimiento de producción se escribe aquí cuando la sesión principal valide el piloto (Parte 01) y ponga `series.crucero.listo = true`. Hasta entonces, la tarea programada no lo produce.
+Expediente realista, narra la Dra. Elena Varela. SIN votación, SIN marcador de salud ni mochila. Historias de IG: ninguna (solo el apagón las lleva).
+Guiones: `temporadas/crucero_guiones.md`. Ejemplo completo y probado: `tools/crucero_p01.py` (Parte 01, publicada el 16-nov).
+
+### Guardias (antes de gastar nada)
+- N = parte del calendario = `series.crucero.ultima_parte_programada + 1`; si no, no produzcas y avisa.
+- El encabezado de la Parte N en el guion debe estar aprobado: si dice «BORRADOR» o «pendiente de OK», o no existe, NO produzcas y avisa («el guion de la Parte N del crucero está pendiente de tu OK»).
+- `vidiq_balance` ≥ 150.
+- No revelar nada que el guion no diga; no cruzar nunca con el apagón.
+
+### Proceso
+1. Voz: `vidiq_voiceover_generate` con el guion EXACTO (sin las comillas «» exteriores) y la voz `series.crucero.voz_id` (Sarah). Anota URL y duración real.
+2. Imágenes IA nuevas (solo las que marca «Recursos» del desglose): `vidiq_generate_thumbnail` purpose "image", 9:16, fotorrealista cinematográfico, sin texto ni logotipos; si sale el barco, pasa `barco_maestro.url` como referenceImages; si sale un personaje ya creado, su URL de `series.crucero.imagenes`. Guarda la URL en `series.crucero.imagenes.<nombre>` (se reutiliza toda la serie). Si una imagen IA sale con texto, deformaciones o no encaja con la frase, se repite UNA vez como máximo; si vuelve a fallar, usa vídeo de archivo y menciónalo en el aviso.
+3. Archivo: `vidiq_find_broll` (vertical) por cada plano «archivo»; elige un clip 1080×1920 (o 2160×3840) que encaje con la frase y apunta el autor de Pexels.
+4. Copia `tools/crucero_p01.py` → `tools/crucero_pNN.py` y ajusta: OUT/RAW (`crucero/pNN/`), VOZ (duración real), IMG/VID, SHOTS (texto hablado EXACTO troceado en frases de 1,5–2,5 s; subtítulo con `*palabra*` en rojo; capas `chip:`, `sello:`, `nota`, `cierre`), las escenas propias de `capas()` (fichas con `C.ficha`, móvil con `C.notificacion`/`C.chat`, historias de Noa con `C.historia` como capa sobre la imagen) y el texto de `V.portada(N, gancho)` y `V.cierre(pregunta, "PARTE N+1 EL <DÍA>")`. Cada imagen IA, como mucho 2 veces por parte. Ejecuta: `python3 tools/crucero_pNN.py` → capas PNG + `crucero/pNN/compose.json`.
+5. Revisión local: superpone 4–6 capas sobre la imagen o un fondo oscuro (`V.componer`) y míralas: textos legibles, sin solapes, portada con «PARTE NN», cierre correcto, sin destripes. Corrige si hace falta.
+6. Commit + push (las capas deben estar en GitHub antes del montaje) → `vidiq_compose` con el contenido de compose.json (voz 1.1; música `series.crucero.musica_url` 0.7, duckTo 0.25, fadeMs 400) → `vidiq_job_poll` hasta el final. Si falla, NO programes y avisa.
+7. Metricool `createScheduledPost` (blogId 7976298) para la fecha del calendario a las 18:00 Europe/Madrid, youtube (short, category ENTERTAINMENT, madeForKids false, isAiGeneratedContent true, tags de la serie), instagram (REEL, showReelOnFeed, isAiGenerated true) y tiktok (PUBLIC_TO_EVERYONE, isAigc true), media = URL del vídeo final. Copia el formato del post de la Parte 01 (uuid -2537489549492335008):
+   - Título: `El crucero que regresó vacío | Parte NN: <título> 🚢 #shorts` (TikTok sin `#shorts`).
+   - Texto: `🚢 El crucero que regresó vacío · Parte NN: <título>` + 2 frases de gancho (sin destripar el final) + «¿Qué crees que pasó? Te leo en comentarios.» + «Ficción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.» + «Imágenes de archivo: Pexels (<autores>).» + `#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto`.
+   - `firstCommentText`: «🕵️ <pregunta del cierre>\nDeja tu teoría aquí 👇\nParte NN+1, el <día> a las 18:00.» (en la Parte 14: «Gracias por seguir el expediente.» sin anunciar otra parte).
+8. estado.json → `series.crucero.partes.N` (título, video_final, duración, voz_url, metricool_uuid, post_id, créditos, estado) y `ultima_parte_programada = N`; línea en registro.log; commit + push.
+9. Aviso al responsable (tabla): parte, fecha y hora, enlace al vídeo, imágenes nuevas, créditos gastados y restantes, y que puede cancelarlo en Metricool.
+
+### Guiones del crucero
+Se escriben en la sesión principal con 4 días de antelación y el responsable los aprueba (encabezado sin «BORRADOR»). La tarea programada no escribe ni cambia guiones.
 
 ## Continuidad y guiones nuevos
 - Cada parte empieza en el segundo exacto en que acabó la anterior de su serie; cada problema nace del anterior; las pistas se recuperan.
