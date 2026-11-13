@@ -213,7 +213,14 @@
       "nota": "listo=false hasta que la sesión principal valide el piloto (Parte 01); mientras tanto la tarea NO produce el crucero",
       "voz_id": null,
       "musica_url": null,
-      "partes": {}
+      "partes": {},
+      "barco_maestro": {
+        "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
+        "repo": "crucero/maestro/barco_maestro.jpg",
+        "fecha": "2026-11-13",
+        "prompt": "ver crucero/propuesta_visual_p01.md",
+        "estado": "pendiente de aprobación"
+      }
     }
   }
 }
