@@ -197,7 +197,19 @@
       },
       "votos": null,
       "rama_ganadora": null,
-      "estado": "montaje"
+      "estado": "pendiente_verificacion_youtube",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/kcpb0s431k5es6mr10m887ub.mp4",
+      "duracion": 67.76,
+      "upload_id": "a0afa6b8-bff1-45a2-ae86-c5b095437bbc",
+      "caption_ig_pendiente": "📺 72 horas sin luz · Parte 06: La abuela no responde\nHora setenta. Tu abuela, en el suelo. No respira con normalidad y el móvil no tiene cobertura.\nEsta decisión cierra la temporada. ¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Todos a buscar ayuda / B) Uno sale a pedir ayuda y tú empiezas a comprimir ya · Responde con A o B. Mañana, el epílogo según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+      "vidiq_borrador": {
+        "postId": "17b41868-3581-4bcc-a78c-8b71ca92071a",
+        "revision": "7bc89c70-e43dbadb",
+        "youtube_publicationId": "23e60d0b-328a-43d5-9d1f-ba502918814a",
+        "tiktok_publicationId": "7d92a384-4f03-467f-b655-2dc76fd47e8f"
+      },
+      "creditos": 45,
+      "nota": "vidIQ pide verificación de YouTube (MFA) al publicar. Nada programado. Cuando el responsable verifique: vidiq_social_post_publish con este postId/revision; luego renombrar caption_ig_pendiente→caption_ig, guardar vidiq_post_id y ultima_parte_programada=6. caption_ig se deja sin poner a propósito para que IG no salga sola."
     }
   },
   "recursos": {
