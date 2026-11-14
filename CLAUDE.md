@@ -28,9 +28,9 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 1. Subida: `vidiq_video_upload` con la URL del vídeo final de vidIQ → `uploadId`. Guarda en estado.json (`partes.N` o `series.crucero.partes.N`): `video_final`, `upload_id`, `caption_ig`.
 2. YouTube + TikTok: `vidiq_social_account_list` (ids) → `vidiq_social_post_draft_create` con media `[{type:video,id:uploadId}]` y `publishAt` = la fecha del calendario a las 18:00 Europe/Madrid (ISO con +01:00):
    - YOUTUBE `UClqKHj0j-QY2ZPPOrJChHAw`: title = el título de la serie (con #shorts), privacyStatus public, categoryId 27 (apagón) o 24 (crucero), tags de la serie, text = descripción.
-   - TIKTOK: privacyLevel PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true, isAiGenerated true, text = título sin #shorts + descripción (≤ 2.200).
+   - TIKTOK `_000obR4jAMb4YMYYrYtKpaPWrOSKgDMwuyl` (conectado el 14-nov): privacyLevel PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true, isAiGenerated true, text = título sin #shorts + descripción (≤ 2.200).
    - Si `ready` es true → `vidiq_social_post_publish` (postId, revision). Comprueba con `vidiq_social_post_status`. Guarda `vidiq_post_id`. Si una red es rechazada, corrige con `vidiq_social_post_draft_update`; si no se puede, avisa.
-3. Instagram: NO se programa (perdería la etiqueta de IA). Lo publica la tarea «Instagram 17:58» con `vidiq_instagram_publish_reel` (isAiGenerated true) usando `video_final` y `caption_ig` de estado.json. Deja `caption_ig` listo (≤ 2.200).
+3. Instagram: NO se programa (perdería la etiqueta de IA). Lo publica la tarea «Instagram 17:58» (cuenta `30058289377105473`) con `vidiq_instagram_publish_reel` (isAiGenerated true) usando `video_final` y `caption_ig` de estado.json. Deja `caption_ig` listo (≤ 2.200).
 4. Texto (descripción y caption): igual que antes, pero sin primer comentario: en el apagón, la votación va en el texto: «🗳️ VOTA EN COMENTARIOS: A) … / B) … · Responde con A o B.» Añade siempre «Contenido generado con IA.» y el aviso médico.
 5. Hecho esto, la parte cuenta como programada: actualiza `ultima_parte_programada`. Si la subida o YouTube+TikTok fallan: no publiques a medias y avisa.
 
