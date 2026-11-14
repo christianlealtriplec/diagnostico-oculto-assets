@@ -10,7 +10,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "crucero" / "stories"; OUT.mkdir(parents=True, exist_ok=True)
 TMP = pathlib.Path("/tmp/do_build/story_crucero"); TMP.mkdir(parents=True, exist_ok=True)
 ICE, RED = "#eef6f7", "#d0142c"
-MUSIC = ROOT / "recursos" / "story_tension.m4a"
+MUSIC = ROOT / "recursos" / "story_misterio.m4a"
 FPS = 30
 
 
