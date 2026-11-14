@@ -21,6 +21,8 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 - Alojamiento: el repo es público; las URL `https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/...` sirven para vidIQ.
 
 ## Qué toca hoy
+**⚠ METRICOOL SIN CUPO (14-nov-2026):** el plan gratis de Metricool solo publica 20 por mes (cuenta 1 por red) y quedan 5, reservados. Hasta nueva orden en este manual: NO uses `createScheduledPost` ni `updateScheduledPost` y NO hagas historias de IG. Produce la parte con normalidad hasta tener el vídeo final de vidIQ (pasos de voz, montaje y revisión), guarda su URL en estado.json (estado «montada, pendiente de publicar»), commit + push, y avisa al responsable con el enlace: la sesión principal la publicará por otra vía. No avances `ultima_parte_programada` hasta que esté programada.
+
 Lee `temporadas/calendario.json` y busca la fecha de hoy. Si no hay entrada, no produzcas y avisa. Si la parte del calendario de hoy ya está programada (≤ `ultima_parte_programada` de su serie), no produzcas nada (solo el informe del lunes, si toca) y termina sin aviso. Si toca **crucero** y `estado.json → series.crucero.listo` no es `true`, NO produzcas: avisa al responsable («hoy tocaba el crucero, piloto pendiente de validar»); si es `true`, sigue la sección «Crucero» de abajo. Si toca **apagón**, sigue el proceso de abajo con N = la parte del calendario (debe ser ultima_parte_programada + 1; si no coincide, no produzcas y avisa). Numeración: PARTE 01, 02… nunca se reinicia; títulos `72 horas sin luz | Parte NN: <título> 🔦 #shorts` y `El crucero que regresó vacío | Parte NN: <título> 🚢 #shorts`.
 
 ## Proceso diario del apagón (sesión programada, 09:13)
