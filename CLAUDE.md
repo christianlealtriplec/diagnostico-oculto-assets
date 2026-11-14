@@ -21,9 +21,18 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 - Alojamiento: el repo es público; las URL `https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/...` sirven para vidIQ.
 
 ## Qué toca hoy
-**⚠ METRICOOL SIN CUPO (14-nov-2026):** el plan gratis de Metricool solo publica 20 por mes (cuenta 1 por red) y quedan 5, reservados. Hasta nueva orden en este manual: NO uses `createScheduledPost` ni `updateScheduledPost` y NO hagas historias de IG. Produce la parte con normalidad hasta tener el vídeo final de vidIQ (pasos de voz, montaje y revisión), guarda su URL en estado.json (estado «montada, pendiente de publicar»), commit + push, y avisa al responsable con el enlace: la sesión principal la publicará por otra vía. No avances `ultima_parte_programada` hasta que esté programada.
-
 Lee `temporadas/calendario.json` y busca la fecha de hoy. Si no hay entrada, no produzcas y avisa. Si la parte del calendario de hoy ya está programada (≤ `ultima_parte_programada` de su serie), no produzcas nada (solo el informe del lunes, si toca) y termina sin aviso. Si toca **crucero** y `estado.json → series.crucero.listo` no es `true`, NO produzcas: avisa al responsable («hoy tocaba el crucero, piloto pendiente de validar»); si es `true`, sigue la sección «Crucero» de abajo. Si toca **apagón**, sigue el proceso de abajo con N = la parte del calendario (debe ser ultima_parte_programada + 1; si no coincide, no produzcas y avisa). Numeración: PARTE 01, 02… nunca se reinicia; títulos `72 horas sin luz | Parte NN: <título> 🔦 #shorts` y `El crucero que regresó vacío | Parte NN: <título> 🚢 #shorts`.
+
+## Publicación (desde el 14-nov-2026: vidIQ, NO Metricool)
+Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `createScheduledPost` ni `updateScheduledPost`** (salvo el crucero Parte 01, ya programado allí). **Sin historias de IG** hasta nueva orden (se saltan los pasos 2b y 8b). Esto sustituye al paso 8 del apagón y al 7 del crucero. Publicar con vidIQ es gratis. El responsable dio el 14-nov **autorización fija** para publicar cada día por vidIQ la parte del calendario (solo guiones aprobados), sin pedir OK por publicación; ajustes de TikTok elegidos por él: público, comentarios sí, acepta la confirmación de uso de música.
+1. Subida: `vidiq_video_upload` con la URL del vídeo final de vidIQ → `uploadId`. Guarda en estado.json (`partes.N` o `series.crucero.partes.N`): `video_final`, `upload_id`, `caption_ig`.
+2. YouTube + TikTok: `vidiq_social_account_list` (ids) → `vidiq_social_post_draft_create` con media `[{type:video,id:uploadId}]` y `publishAt` = la fecha del calendario a las 18:00 Europe/Madrid (ISO con +01:00):
+   - YOUTUBE `UClqKHj0j-QY2ZPPOrJChHAw`: title = el título de la serie (con #shorts), privacyStatus public, categoryId 27 (apagón) o 24 (crucero), tags de la serie, text = descripción.
+   - TIKTOK: privacyLevel PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true, isAiGenerated true, text = título sin #shorts + descripción (≤ 2.200).
+   - Si `ready` es true → `vidiq_social_post_publish` (postId, revision). Comprueba con `vidiq_social_post_status`. Guarda `vidiq_post_id`. Si una red es rechazada, corrige con `vidiq_social_post_draft_update`; si no se puede, avisa.
+3. Instagram: NO se programa (perdería la etiqueta de IA). Lo publica la tarea «Instagram 17:58» con `vidiq_instagram_publish_reel` (isAiGenerated true) usando `video_final` y `caption_ig` de estado.json. Deja `caption_ig` listo (≤ 2.200).
+4. Texto (descripción y caption): igual que antes, pero sin primer comentario: en el apagón, la votación va en el texto: «🗳️ VOTA EN COMENTARIOS: A) … / B) … · Responde con A o B.» Añade siempre «Contenido generado con IA.» y el aviso médico.
+5. Hecho esto, la parte cuenta como programada: actualiza `ultima_parte_programada`. Si la subida o YouTube+TikTok fallan: no publiques a medias y avisa.
 
 ## Proceso diario del apagón (sesión programada, 09:13)
 1. Clonar/actualizar el repo, leer `estado.json` y el guion de la parte N del calendario.
