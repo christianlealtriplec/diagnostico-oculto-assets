@@ -208,7 +208,7 @@
         "youtube_publicationId": "23e60d0b-328a-43d5-9d1f-ba502918814a",
         "tiktok_publicationId": "7d92a384-4f03-467f-b655-2dc76fd47e8f"
       },
-      "creditos": 45,
+      "creditos": 55,
       "nota": "vidIQ pide verificación de YouTube (MFA) al publicar. Nada programado. Cuando el responsable verifique: vidiq_social_post_publish con este postId/revision; luego renombrar caption_ig_pendiente→caption_ig, guardar vidiq_post_id y ultima_parte_programada=6. caption_ig se deja sin poner a propósito para que IG no salga sola."
     }
   },
