@@ -49,13 +49,19 @@ SHOTS = [
 def ui_png(i, text, kind):
     t = html.escape(text, quote=False)
     if kind == "hook":
-        body = ui(hook=t) + ('<text x="540" y="1830" font-family="DejaVu Sans" font-size="30" fill="#fff" '
-                                         'stroke="#000" stroke-width="6" paint-order="stroke" text-anchor="middle">Ficción con fines educativos</text>')
+        foot = ('<text x="540" y="1830" font-family="DejaVu Sans" font-size="30" fill="#fff" '
+                'stroke="#000" stroke-width="6" paint-order="stroke" text-anchor="middle">Ficción con fines educativos</text>')
+        body = ui(hook=t)
         if LABEL:
             y = 215 + 70 + 72 * len(t.split("|")) + 30
             body += (f'<rect x="290" y="{y}" width="500" height="84" rx="14" fill="#000" fill-opacity="0.85"/>'
                      f'<text x="540" y="{y+58}" font-family="DejaVu Sans" font-weight="bold" font-size="46" fill="#ffd400" '
                      f'text-anchor="middle">{html.escape(LABEL)}</text>')
+        # con 4 objetos la mochila llega más abajo que el gancho: bajarlo para que no se solapen
+        off = max(0, 92 + 52 + 34 * len(MOCHILA or []) + 15 - 215)
+        if off:
+            body = f'<g transform="translate(0 {off})">{body}</g>'
+        body += foot
     elif kind == "card":
         body = ui(card=t)
     elif kind == "decision":

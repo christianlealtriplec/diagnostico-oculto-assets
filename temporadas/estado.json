@@ -1,247 +1,268 @@
 {
- "temporada": "t1",
- "titulo": "72 horas sin luz",
- "ultima_parte_programada": 5,
- "partes": {
-  "1": {
-   "titulo": "Se va la luz",
-   "publicacion": "2026-11-09T17:47:00+01:00",
-   "metricool_uuid": "3234680795265584303",
-   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
-   "youtube_video_id": "KhJjEov06ZM",
-   "decision": {
-    "A": "Abrir la botella de reserva",
-    "B": "Bajarla a la calle",
-    "correcta": "A"
-   },
-   "votos": {
-    "A": 6,
-    "B": 0,
-    "fuente": "YouTube (IG no contado)",
-    "total": 6
-   },
-   "rama_ganadora": "A",
-   "metricool_post_id": "421800044",
-   "urls": {
-    "youtube": "https://www.youtube.com/shorts/KhJjEov06ZM",
-    "instagram": "https://www.instagram.com/reel/Dfhy6gjgCL5/",
-    "tiktok_id": "7706214478127336726"
-   },
-   "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
-  },
-  "2": {
-   "titulo": "La insulina",
-   "publicacion": "2026-11-10T18:00:00+01:00",
-   "metricool_uuid": "5329967633460773831",
-   "metricool_post_id": "422847428",
-   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/o2fpvhwb1a0yaw029l9hof6c.mp4",
-   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/2455ab92-3a56-4727-8484-4849c3d41ba0.mp3",
-   "voz_segundos": 58.44,
-   "apertura": "A",
-   "decision": {
-    "A": "Al congelador con hielo",
-    "B": "A un sitio fresco de la casa, lejos del calor",
-    "correcta": "B"
-   },
-   "votos": {
-    "A": 1,
-    "B": 3,
-    "total": 4,
-    "fuente": "YouTube (IG no contado)"
-   },
-   "rama_ganadora": "B",
-   "historias": {
-    "resultado": {
-     "hora": "2026-11-10T10:00:00+01:00",
-     "metricool_uuid": "-1847580402159366404"
-    },
-    "estreno": {
-     "hora": "2026-11-10T17:47:00+01:00",
-     "metricool_uuid": "6116392484849467686"
-    },
-    "voto": {
-     "hora": "2026-11-10T18:03:00+01:00",
-     "metricool_uuid": "-5736152946285787861"
-    }
-   },
-   "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
-  },
-  "3": {
-   "titulo": "El generador",
-   "publicacion": "2026-11-11T18:00:00+01:00",
-   "metricool_uuid": "8310736577849213738",
-   "metricool_post_id": "424127513",
-   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rmpc3gsqod1rn4m1kwrfmghv.mp4",
-   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/d488bdfa-742e-4d83-8109-c61d238ecd17.mp3",
-   "voz_segundos": 62.35,
-   "apertura": "B",
-   "decision": {
-    "A": "Lo apagas y lo sacas fuera, lejos de las ventanas",
-    "B": "Lo dejas y abres más las ventanas",
-    "correcta": "A"
-   },
-   "votos": {
-    "A": 3,
-    "B": 0,
-    "total": 3,
-    "fuente": "YouTube (IG no contado)"
-   },
-   "rama_ganadora": "A",
-   "historias": {
-    "resultado": {
-     "hora": "2026-11-11T10:00:00+01:00",
-     "metricool_uuid": "1435223083568221172"
-    },
-    "estreno": {
-     "hora": "2026-11-11T17:47:00+01:00",
-     "metricool_uuid": "7311013636064102658"
-    },
-    "voto": {
-     "hora": "2026-11-11T18:03:00+01:00",
-     "metricool_uuid": "8438787026062755379"
-    }
-   },
-   "urls": {
-    "youtube": "https://www.youtube.com/shorts/gQDu0WcpPK0"
-   },
-   "youtube_video_id": "gQDu0WcpPK0",
-   "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
-  },
-  "4": {
-   "titulo": "La vela",
-   "publicacion": "2026-11-12T18:00:00+01:00",
-   "metricool_uuid": "-227330996907589405",
-   "metricool_post_id": "425388648",
-   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/djnxf0z1umt5sjvipi2t9bub.mp4",
-   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1136fa99-68d3-48c7-9a87-04876dc795d8.mp3",
-   "voz_segundos": 75.23,
-   "apertura": "A",
-   "decision": {
-    "A": "Hielo directamente",
-    "B": "Agua del grifo y no parar",
-    "correcta": "B"
-   },
-   "votos": {
-    "A": 0,
-    "B": 2,
-    "total": 2,
-    "fuente": "YouTube (IG no contado)"
-   },
-   "rama_ganadora": "B",
-   "historias": {
-    "resultado": {
-     "hora": "2026-11-12T10:00:00+01:00",
-     "metricool_uuid": "1770200701950379132"
-    },
-    "estreno": {
-     "hora": "2026-11-12T17:47:00+01:00",
-     "metricool_uuid": "-8382034931552989517"
-    },
-    "voto": {
-     "hora": "2026-11-12T18:03:00+01:00",
-     "metricool_uuid": "7227226013486564278"
-    }
-   },
-   "youtube_video_id": "QLIhw-JHPBE",
-   "urls": {
-    "youtube": "https://www.youtube.com/shorts/QLIhw-JHPBE"
-   },
-   "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
-  },
-  "5": {
-   "titulo": "La nevera",
-   "publicacion": "2026-11-13T18:00:00+01:00",
-   "metricool_uuid": "-7207520151950834843",
-   "metricool_post_id": "426666444",
-   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jucwza9s1m4xf9b3xls8u2mn.mp4",
-   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/b2b6de5e-c2b4-417b-baf1-c9dddcea3ef1.mp3",
-   "voz_segundos": 67.08,
-   "apertura": "B",
-   "decision": {
-    "A": "Si huele bien, se come",
-    "B": "Tiráis lo perecedero y os apañáis con las latas",
-    "correcta": "B"
-   },
-   "votos": null,
-   "rama_ganadora": null,
-   "historias": {
-    "resultado": {
-     "hora": "2026-11-13T10:00:00+01:00",
-     "metricool_uuid": "1729936716364204897"
-    },
-    "estreno": {
-     "hora": "2026-11-13T17:47:00+01:00",
-     "metricool_uuid": "-4035644847233612392"
-    },
-    "voto": {
-     "hora": "2026-11-13T18:03:00+01:00",
-     "metricool_uuid": "-1193248499759495862"
-    }
-   }
-  }
- },
- "recursos": {
-  "voz_id": "nPczCjzI2devNBz1zQrb",
-  "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/52d58c9a-9517-4d91-af95-17b085f6415e.wav",
-  "metricool_blog_id": "7976298",
-  "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
-  "instagram": "diagnostico_oculto",
-  "tiktok": "diagnostico_oculto"
- },
- "salud": {
-  "CARMEN": 3,
-  "HUGO": 3,
-  "LUIS": 3
- },
- "mochila": [
-  "+ BAÑERA LLENA",
-  "+ NOTA 4.º A",
-  "- POCO GAS"
- ],
- "series": {
-  "apagon": {
-   "guiones": "temporadas/t1_guiones.md",
-   "carpeta": "t1",
-   "ultima_parte": "ver ultima_parte_programada",
-   "listo": true
-  },
-  "crucero": {
-   "guiones": "temporadas/crucero_guiones.md",
-   "carpeta": "crucero",
-   "ultima_parte_programada": 1,
-   "listo": true,
-   "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
-   "voz_id": "EXAVITQu4vr4xnSDxMaL",
-   "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
-   "partes": {
+  "temporada": "t1",
+  "titulo": "72 horas sin luz",
+  "ultima_parte_programada": 5,
+  "partes": {
     "1": {
-     "titulo": "¿Dónde están todos?",
-     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/umi3oh2yhet7b2za0mo5o6s6.mp4",
-     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
-     "voz_segundos": 53.55,
-     "duracion": 56.06,
-     "estado": "programada 16-nov 18:00 (YT/IG/TikTok)",
-     "creditos": 187,
-     "publicacion": "2026-11-16T18:00:00+01:00",
-     "metricool_uuid": "-2537489549492335008",
-     "metricool_post_id": "427154385"
+      "titulo": "Se va la luz",
+      "publicacion": "2026-11-09T17:47:00+01:00",
+      "metricool_uuid": "3234680795265584303",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
+      "youtube_video_id": "KhJjEov06ZM",
+      "decision": {
+        "A": "Abrir la botella de reserva",
+        "B": "Bajarla a la calle",
+        "correcta": "A"
+      },
+      "votos": {
+        "A": 6,
+        "B": 0,
+        "fuente": "YouTube (IG no contado)",
+        "total": 6
+      },
+      "rama_ganadora": "A",
+      "metricool_post_id": "421800044",
+      "urls": {
+        "youtube": "https://www.youtube.com/shorts/KhJjEov06ZM",
+        "instagram": "https://www.instagram.com/reel/Dfhy6gjgCL5/",
+        "tiktok_id": "7706214478127336726"
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+    },
+    "2": {
+      "titulo": "La insulina",
+      "publicacion": "2026-11-10T18:00:00+01:00",
+      "metricool_uuid": "5329967633460773831",
+      "metricool_post_id": "422847428",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/o2fpvhwb1a0yaw029l9hof6c.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/2455ab92-3a56-4727-8484-4849c3d41ba0.mp3",
+      "voz_segundos": 58.44,
+      "apertura": "A",
+      "decision": {
+        "A": "Al congelador con hielo",
+        "B": "A un sitio fresco de la casa, lejos del calor",
+        "correcta": "B"
+      },
+      "votos": {
+        "A": 1,
+        "B": 3,
+        "total": 4,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "B",
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-10T10:00:00+01:00",
+          "metricool_uuid": "-1847580402159366404"
+        },
+        "estreno": {
+          "hora": "2026-11-10T17:47:00+01:00",
+          "metricool_uuid": "6116392484849467686"
+        },
+        "voto": {
+          "hora": "2026-11-10T18:03:00+01:00",
+          "metricool_uuid": "-5736152946285787861"
+        }
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+    },
+    "3": {
+      "titulo": "El generador",
+      "publicacion": "2026-11-11T18:00:00+01:00",
+      "metricool_uuid": "8310736577849213738",
+      "metricool_post_id": "424127513",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rmpc3gsqod1rn4m1kwrfmghv.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/d488bdfa-742e-4d83-8109-c61d238ecd17.mp3",
+      "voz_segundos": 62.35,
+      "apertura": "B",
+      "decision": {
+        "A": "Lo apagas y lo sacas fuera, lejos de las ventanas",
+        "B": "Lo dejas y abres más las ventanas",
+        "correcta": "A"
+      },
+      "votos": {
+        "A": 3,
+        "B": 0,
+        "total": 3,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "A",
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-11T10:00:00+01:00",
+          "metricool_uuid": "1435223083568221172"
+        },
+        "estreno": {
+          "hora": "2026-11-11T17:47:00+01:00",
+          "metricool_uuid": "7311013636064102658"
+        },
+        "voto": {
+          "hora": "2026-11-11T18:03:00+01:00",
+          "metricool_uuid": "8438787026062755379"
+        }
+      },
+      "urls": {
+        "youtube": "https://www.youtube.com/shorts/gQDu0WcpPK0"
+      },
+      "youtube_video_id": "gQDu0WcpPK0",
+      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+    },
+    "4": {
+      "titulo": "La vela",
+      "publicacion": "2026-11-12T18:00:00+01:00",
+      "metricool_uuid": "-227330996907589405",
+      "metricool_post_id": "425388648",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/djnxf0z1umt5sjvipi2t9bub.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1136fa99-68d3-48c7-9a87-04876dc795d8.mp3",
+      "voz_segundos": 75.23,
+      "apertura": "A",
+      "decision": {
+        "A": "Hielo directamente",
+        "B": "Agua del grifo y no parar",
+        "correcta": "B"
+      },
+      "votos": {
+        "A": 0,
+        "B": 2,
+        "total": 2,
+        "fuente": "YouTube (IG no contado)"
+      },
+      "rama_ganadora": "B",
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-12T10:00:00+01:00",
+          "metricool_uuid": "1770200701950379132"
+        },
+        "estreno": {
+          "hora": "2026-11-12T17:47:00+01:00",
+          "metricool_uuid": "-8382034931552989517"
+        },
+        "voto": {
+          "hora": "2026-11-12T18:03:00+01:00",
+          "metricool_uuid": "7227226013486564278"
+        }
+      },
+      "youtube_video_id": "QLIhw-JHPBE",
+      "urls": {
+        "youtube": "https://www.youtube.com/shorts/QLIhw-JHPBE"
+      },
+      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+    },
+    "5": {
+      "titulo": "La nevera",
+      "publicacion": "2026-11-13T18:00:00+01:00",
+      "metricool_uuid": "-7207520151950834843",
+      "metricool_post_id": "426666444",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jucwza9s1m4xf9b3xls8u2mn.mp4",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/b2b6de5e-c2b4-417b-baf1-c9dddcea3ef1.mp3",
+      "voz_segundos": 67.08,
+      "apertura": "B",
+      "decision": {
+        "A": "Si huele bien, se come",
+        "B": "Tiráis lo perecedero y os apañáis con las latas",
+        "correcta": "B"
+      },
+      "votos": {
+        "A": 0,
+        "B": 0,
+        "total": 0,
+        "nota": "0 votos en YouTube (<10): gana la correcta"
+      },
+      "rama_ganadora": "B",
+      "historias": {
+        "resultado": {
+          "hora": "2026-11-13T10:00:00+01:00",
+          "metricool_uuid": "1729936716364204897"
+        },
+        "estreno": {
+          "hora": "2026-11-13T17:47:00+01:00",
+          "metricool_uuid": "-4035644847233612392"
+        },
+        "voto": {
+          "hora": "2026-11-13T18:03:00+01:00",
+          "metricool_uuid": "-1193248499759495862"
+        }
+      }
+    },
+    "6": {
+      "titulo": "La abuela no responde",
+      "publicacion": "2026-11-14T18:00:00+01:00",
+      "apertura": "B",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/78243434-7a20-4bd5-98f2-b1f15d3827e3.mp3",
+      "voz_segundos": 65.31,
+      "decision": {
+        "A": "Todos a buscar ayuda",
+        "B": "Uno sale a pedir ayuda y tú empiezas a comprimir ya",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "estado": "montaje"
     }
-   },
-   "barco_maestro": {
-    "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
-    "repo": "crucero/maestro/barco_maestro.jpg",
-    "fecha": "2026-11-13",
-    "prompt": "ver crucero/propuesta_visual_p01.md",
-    "estado": "aprobada"
-   },
-   "voz_nombre": "Sarah",
-   "imagenes": {
-    "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
-    "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
-    "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
-    "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
-    "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg"
-   }
+  },
+  "recursos": {
+    "voz_id": "nPczCjzI2devNBz1zQrb",
+    "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/52d58c9a-9517-4d91-af95-17b085f6415e.wav",
+    "metricool_blog_id": "7976298",
+    "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
+    "instagram": "diagnostico_oculto",
+    "tiktok": "diagnostico_oculto"
+  },
+  "salud": {
+    "CARMEN": 3,
+    "HUGO": 3,
+    "LUIS": 3
+  },
+  "mochila": [
+    "+ BAÑERA LLENA",
+    "+ NOTA 4.º A",
+    "- POCO GAS",
+    "- SIN COBERTURA"
+  ],
+  "series": {
+    "apagon": {
+      "guiones": "temporadas/t1_guiones.md",
+      "carpeta": "t1",
+      "ultima_parte": "ver ultima_parte_programada",
+      "listo": true
+    },
+    "crucero": {
+      "guiones": "temporadas/crucero_guiones.md",
+      "carpeta": "crucero",
+      "ultima_parte_programada": 1,
+      "listo": true,
+      "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
+      "voz_id": "EXAVITQu4vr4xnSDxMaL",
+      "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
+      "partes": {
+        "1": {
+          "titulo": "¿Dónde están todos?",
+          "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/umi3oh2yhet7b2za0mo5o6s6.mp4",
+          "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
+          "voz_segundos": 53.55,
+          "duracion": 56.06,
+          "estado": "programada 16-nov 18:00 (YT/IG/TikTok)",
+          "creditos": 187,
+          "publicacion": "2026-11-16T18:00:00+01:00",
+          "metricool_uuid": "-2537489549492335008",
+          "metricool_post_id": "427154385"
+        }
+      },
+      "barco_maestro": {
+        "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
+        "repo": "crucero/maestro/barco_maestro.jpg",
+        "fecha": "2026-11-13",
+        "prompt": "ver crucero/propuesta_visual_p01.md",
+        "estado": "aprobada"
+      },
+      "voz_nombre": "Sarah",
+      "imagenes": {
+        "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
+        "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
+        "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
+        "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
+        "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg"
+      }
+    }
   }
- }
 }
