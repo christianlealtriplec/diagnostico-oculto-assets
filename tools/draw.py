@@ -319,3 +319,41 @@ def tia(cx=540, cy=900, s=1.0, mood="shout", hold=None):
                   '<rect x="820" y="760" width="80" height="60" fill="#2d7fd1"/><rect x="842" y="660" width="36" height="44" rx="6" fill="#e10600"/>'
                   '</g><ellipse cx="850" cy="910" rx="44" ry="34" fill="url(#skin)"/>')
     return _woman(cx, cy, s, body, curls, front, mood, extra, earrings="#e0b52a")
+
+
+def don_ramon(cx=540, cy=900, s=1.0, mood="serious", radio_hand=True):
+    """Don Ramón (4.º A): 75 años, calvo en la coronilla con pelo blanco a los lados, bigote blanco,
+    gafas gruesas, chaqueta de punto marrón sobre camisa de cuadros. Lleva su radio de pilas.
+    mood: "serious" (boca cerrada) | "shout" (habla por la radio)."""
+    t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
+    mouth = ('<ellipse cx="540" cy="975" rx="30" ry="24" fill="#260f0c"/>' if mood == "shout"
+             else '<path d="M 512 978 Q 540 970 568 978" stroke="#5a2e26" stroke-width="7" fill="none" stroke-linecap="round"/>')
+    radio_ = ('<g transform="translate(700 1040) rotate(-12)">'
+              '<rect x="-90" y="-60" width="180" height="120" rx="18" fill="#3a3a3f" stroke="#1d1d20" stroke-width="6"/>'
+              '<circle cx="-35" cy="5" r="34" fill="#1f1f22"/>'
+              + "".join(f'<circle cx="{-35+dx}" cy="{5+dy}" r="5" fill="#555"/>' for dx in (-14, 0, 14) for dy in (-14, 0, 14)) +
+              '<rect x="15" y="-30" width="55" height="22" rx="4" fill="#ffb84d" opacity="0.85"/>'
+              '<line x1="60" y1="-60" x2="110" y2="-200" stroke="#9a9aa0" stroke-width="7"/>'
+              '<circle cx="-160" cy="10" r="40" fill="url(#skin)"/></g>') if radio_hand else ""
+    return (f'<g {t}>'
+            f'<path d="M 350 1520 C 350 1190, 425 1080, 540 1070 C 655 1080, 730 1190, 730 1520 Z" fill="#6a4a30"/>'
+            f'<path d="M 490 1080 L 540 1260 L 590 1080 Z" fill="#7d3a32"/>'
+            f'<path d="M 500 1100 L 580 1100 M 495 1150 L 585 1150 M 505 1200 L 575 1200" stroke="#3a1d1a" stroke-width="6"/>'
+            f'<path d="M 540 1260 L 540 1500" stroke="#4a3220" stroke-width="6"/>'
+            + "".join(f'<circle cx="555" cy="{1300+k*60}" r="9" fill="#3a2614"/>' for k in range(4)) +
+            f'<path d="M 680 1150 C 720 1100, 640 1080, 560 1060" stroke="#6a4a30" stroke-width="70" fill="none" stroke-linecap="round"/>'
+            f'<rect x="505" y="970" width="70" height="110" fill="{PAL["skin_d"]}"/>'
+            f'<ellipse cx="540" cy="880" rx="118" ry="138" fill="url(#skin)"/>'
+            f'<path d="M 425 860 C 420 800, 440 770, 465 760 L 470 900 C 450 905, 430 890, 425 860 Z" fill="#e8e8ea"/>'
+            f'<path d="M 655 860 C 660 800, 640 770, 615 760 L 610 900 C 630 905, 650 890, 655 860 Z" fill="#e8e8ea"/>'
+            f'<path d="M 475 765 C 510 740, 570 740, 605 765" stroke="#f0d9c4" stroke-width="6" fill="none" opacity="0.6"/>'
+            f'<path d="M 478 822 L 522 828 M 602 822 L 558 828" stroke="#dcdcdc" stroke-width="12" stroke-linecap="round"/>'
+            f'<circle cx="497" cy="858" r="36" fill="#c9e3ff" fill-opacity="0.18" stroke="#222" stroke-width="9"/>'
+            f'<circle cx="583" cy="858" r="36" fill="#c9e3ff" fill-opacity="0.18" stroke="#222" stroke-width="9"/>'
+            f'<line x1="533" y1="858" x2="547" y2="858" stroke="#222" stroke-width="8"/>'
+            f'<circle cx="497" cy="860" r="8" fill="#222"/><circle cx="583" cy="860" r="8" fill="#222"/>'
+            f'<path d="M 540 870 L 528 925 L 552 925" stroke="{PAL["skin_d"]}" stroke-width="6" fill="none"/>'
+            f'<path d="M 490 950 C 510 935, 570 935, 590 950 C 575 962, 505 962, 490 950 Z" fill="#efefef"/>'
+            f'{mouth}'
+            f'<ellipse cx="420" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/><ellipse cx="660" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/>'
+            f'{radio_}</g>')
