@@ -225,8 +225,14 @@ def silhouette_window_person():
 def ui(clock=None, hook=None, sub=None, card=None):
     out = ""
     if clock:
-        out += (f'<rect x="350" y="105" width="380" height="72" rx="12" fill="#000" fill-opacity="0.78"/>'
-                f'<text x="540" y="155" font-family="DejaVu Sans Mono" font-weight="bold" font-size="38" fill="#ff3b30" text-anchor="middle">{clock}</text>')
+        if " · " in clock:
+            c1, c2 = clock.split(" · ", 1)
+            out += (f'<rect x="350" y="100" width="380" height="108" rx="12" fill="#000" fill-opacity="0.78"/>'
+                    f'<text x="540" y="148" font-family="DejaVu Sans Mono" font-weight="bold" font-size="38" fill="#ff3b30" text-anchor="middle">{c1}</text>'
+                    f'<text x="540" y="192" font-family="DejaVu Sans Mono" font-weight="bold" font-size="26" fill="#ff3b30" text-anchor="middle">{c2}</text>')
+        else:
+            out += (f'<rect x="350" y="105" width="380" height="72" rx="12" fill="#000" fill-opacity="0.78"/>'
+                    f'<text x="540" y="155" font-family="DejaVu Sans Mono" font-weight="bold" font-size="38" fill="#ff3b30" text-anchor="middle">{clock}</text>')
     if hook:
         lines = hook.split("|")
         hh = 70 + 72 * len(lines)
