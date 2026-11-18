@@ -32,7 +32,7 @@ Desglose (frase → imagen · movimiento):
 Recursos: 6 imágenes IA (maestra, aérea a la deriva, comedor, platos, Elena, popa en la niebla) · 8 búsquedas de archivo · voz femenina · música propia.
 Coste aprobado: 208 créditos (132 imágenes + 8 archivo + 28 voz + 25 música + 15 montaje).
 
-## Parte 02 · Once días de historias (BORRADOR · pendiente de OK del responsable)
+## Parte 02 · Once días de historias (aprobada por el responsable el 18/11)
 Continuidad: empieza en el segundo en que acaba la 01: 17-oct, 11:42, Elena en el camarote 7114 con el móvil de Noa en la mano. Sin contenido médico nuevo.
 Portada: PARTE 02 · «PUBLICÓ *TODOS* LOS DÍAS» (imagen maestra del barco)
 Guion (793 caracteres): «Mi hermana publicó todos los días. Desde un barco que no existía. Once días sin señal. Once historias. Me senté en su cama, en el siete uno uno cuatro, y las vi una a una. Día uno: un atardecer en cubierta. Día dos: la piscina. Día tres: un brindis en el comedor. Noa tiene veintinueve años y vive de contar sus viajes. Antes de zarpar me escribió: "Ven conmigo". No fui. En sus historias todo era normal. Demasiado normal. Un barco desaparecido, y nadie parecía preocupado. Nadie buscaba cobertura. Nadie miraba el horizonte. ¿Cómo publicaba sin señal? Día siete. Noa sonríe en la popa. El viento le mueve un pañuelo verde. Me levanté. Abrí su maleta. Ahí estaba. El mismo pañuelo verde. Doblado. Con la etiqueta puesta. Nunca se lo había puesto. Entonces, ¿quién es la mujer de esa historia?»
