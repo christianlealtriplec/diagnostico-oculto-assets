@@ -308,7 +308,7 @@
   "crucero": {
    "guiones": "temporadas/crucero_guiones.md",
    "carpeta": "crucero",
-   "ultima_parte_programada": 1,
+   "ultima_parte_programada": 2,
    "listo": true,
    "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
    "voz_id": "EXAVITQu4vr4xnSDxMaL",
@@ -325,6 +325,25 @@
      "publicacion": "2026-11-16T18:00:00+01:00",
      "metricool_uuid": "-2537489549492335008",
      "metricool_post_id": "427154385"
+    },
+    "2": {
+     "titulo": "Once días de historias",
+     "publicacion": "2026-11-18T18:00:00+01:00",
+     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/e5l0hgvc4z015eerkuocd5oo.mp4",
+     "duracion": 66.2,
+     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/969ab1bf-7d79-48e0-9d14-02eaa1261d19.mp3",
+     "voz_segundos": 63.71,
+     "upload_id": "2f0ad648-7d9e-4e17-8d47-5c39d687738c",
+     "vidiq_post_id": "f838bfbb-17c0-4b23-a015-b03f153b75d4",
+     "vidiq_borrador": {
+      "youtube_publicationId": "6bbef35e-c818-44a2-9f7f-3228a571e164",
+      "tiktok_publicationId": "c02a4bc5-3820-44c7-936d-d983d5b6cb8a"
+     },
+     "youtube_url": "https://www.youtube.com/watch?v=_YKp7AM6oZ0",
+     "caption_ig": "🚢 El crucero que regresó vacío · Parte 02: Once días de historias\nOnce días sin señal, y mi hermana publicó una historia cada día. En la del día 7 aparece un detalle que no encaja.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Quién es la mujer de esa historia? Deja tu teoría en comentarios 👇 Parte 03, el viernes a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (hello aesthe, RDNE Stock project, Aleks Magnusson, Angkel Lee, Doğu Tuncer, Sururi Ballıdağ, Ahmed, Pavel Danilyuk, Timur Weber).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
+     "creditos": 79,
+     "estado": "programada 18-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+     "nota": "Guion aprobado por el responsable el 18-nov a las ~11:00 (tras el aviso de la tarea). Producida en la misma sesión. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local."
     }
    },
    "barco_maestro": {
@@ -340,7 +359,8 @@
     "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
     "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
     "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
-    "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg"
+    "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg",
+    "noa": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg"
    }
   }
  }
