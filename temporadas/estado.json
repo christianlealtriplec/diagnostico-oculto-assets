@@ -1,7 +1,7 @@
 {
  "temporada": "t1",
  "titulo": "72 horas sin luz",
- "ultima_parte_programada": 8,
+ "ultima_parte_programada": 9,
  "partes": {
   "1": {
    "titulo": "Se va la luz",
@@ -258,8 +258,12 @@
     "B": "Le vigilas toda la noche y le despiertas cada pocas horas",
     "correcta": "B"
    },
-   "votos": null,
-   "rama_ganadora": null,
+   "votos": {
+    "A": 0,
+    "B": 3,
+    "detalle": "YouTube 1 B, Instagram 2 B; TikTok no contado"
+   },
+   "rama_ganadora": "B",
    "estado": "programada 17-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
    "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jk72ozs581ajcg63hpq300jl.mp4",
    "duracion": 66.73,
@@ -277,6 +281,35 @@
    "nota": "Primera parte del arco «Sin fecha de fin». Reloj en dos líneas (draw.ui). Tarjeta: lección de RCP (epílogo sin lección propia). Sin historias IG.",
    "ig_permalink": "https://www.instagram.com/reel/Df2bjveiYk0/",
    "ig_media_id": "18025561076945593"
+  },
+  "9": {
+   "titulo": "El agua",
+   "publicacion": "2026-11-19T18:00:00+01:00",
+   "apertura": "B",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/3848aa43-a1a9-4e4d-a979-9ed10b37b39c.mp3",
+   "voz_segundos": 46.68,
+   "decision": {
+    "A": "Bebéis el agua de la bañera tal cual",
+    "B": "La hervís o la desinfectáis antes",
+    "correcta": "B"
+   },
+   "votos": null,
+   "rama_ganadora": null,
+   "estado": "programada 19-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/uc3iivj5h9c0ht96udez07qw.mp4",
+   "duracion": 49.1,
+   "upload_id": "b72b8f8f-50f7-4a5a-abca-cdef7399676c",
+   "vidiq_borrador": {
+    "postId": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
+    "revision": "a6232f09-cac5bcc4",
+    "youtube_publicationId": "5815d9b0-f32e-4ea5-a84a-0486513d4693",
+    "tiktok_publicationId": "1c7de058-1853-466e-8ebf-739b64ed98b4"
+   },
+   "vidiq_post_id": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
+   "youtube_url": "https://www.youtube.com/watch?v=RRStkFxcMXs",
+   "creditos": 51,
+   "caption_ig": "📺 72 horas sin luz · Parte 09: El agua\nYa no sale agua del grifo. Solo queda la bañera… y Hugo tiene sed.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Bebéis el agua de la bañera tal cual / B) La hervís o la desinfectáis antes · Responde con A o B. La Parte 10, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+   "nota": "Rama B (3 votos B, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 08 (golpe en la cabeza). Sin historias IG."
   }
  },
  "recursos": {
@@ -294,9 +327,9 @@
  },
  "mochila": [
   "+ BAÑERA LLENA",
-  "+ RADIO DE RAMÓN",
-  "- POCO GAS",
-  "- SIN LUZ OTRA VEZ"
+  "+ HORNILLO",
+  "+ LEJÍA",
+  "- GAS PARA UNA VEZ"
  ],
  "series": {
   "apagon": {
