@@ -1,404 +1,404 @@
 {
-  "temporada": "t1",
-  "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 9,
-  "partes": {
+ "temporada": "t1",
+ "titulo": "72 horas sin luz",
+ "ultima_parte_programada": 9,
+ "partes": {
+  "1": {
+   "titulo": "Se va la luz",
+   "publicacion": "2026-11-09T17:47:00+01:00",
+   "metricool_uuid": "3234680795265584303",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
+   "youtube_video_id": "KhJjEov06ZM",
+   "decision": {
+    "A": "Abrir la botella de reserva",
+    "B": "Bajarla a la calle",
+    "correcta": "A"
+   },
+   "votos": {
+    "A": 6,
+    "B": 0,
+    "fuente": "YouTube (IG no contado)",
+    "total": 6
+   },
+   "rama_ganadora": "A",
+   "metricool_post_id": "421800044",
+   "urls": {
+    "youtube": "https://www.youtube.com/shorts/KhJjEov06ZM",
+    "instagram": "https://www.instagram.com/reel/Dfhy6gjgCL5/",
+    "tiktok_id": "7706214478127336726"
+   },
+   "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+  },
+  "2": {
+   "titulo": "La insulina",
+   "publicacion": "2026-11-10T18:00:00+01:00",
+   "metricool_uuid": "5329967633460773831",
+   "metricool_post_id": "422847428",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/o2fpvhwb1a0yaw029l9hof6c.mp4",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/2455ab92-3a56-4727-8484-4849c3d41ba0.mp3",
+   "voz_segundos": 58.44,
+   "apertura": "A",
+   "decision": {
+    "A": "Al congelador con hielo",
+    "B": "A un sitio fresco de la casa, lejos del calor",
+    "correcta": "B"
+   },
+   "votos": {
+    "A": 1,
+    "B": 3,
+    "total": 4,
+    "fuente": "YouTube (IG no contado)"
+   },
+   "rama_ganadora": "B",
+   "historias": {
+    "resultado": {
+     "hora": "2026-11-10T10:00:00+01:00",
+     "metricool_uuid": "-1847580402159366404"
+    },
+    "estreno": {
+     "hora": "2026-11-10T17:47:00+01:00",
+     "metricool_uuid": "6116392484849467686"
+    },
+    "voto": {
+     "hora": "2026-11-10T18:03:00+01:00",
+     "metricool_uuid": "-5736152946285787861"
+    }
+   },
+   "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+  },
+  "3": {
+   "titulo": "El generador",
+   "publicacion": "2026-11-11T18:00:00+01:00",
+   "metricool_uuid": "8310736577849213738",
+   "metricool_post_id": "424127513",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rmpc3gsqod1rn4m1kwrfmghv.mp4",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/d488bdfa-742e-4d83-8109-c61d238ecd17.mp3",
+   "voz_segundos": 62.35,
+   "apertura": "B",
+   "decision": {
+    "A": "Lo apagas y lo sacas fuera, lejos de las ventanas",
+    "B": "Lo dejas y abres más las ventanas",
+    "correcta": "A"
+   },
+   "votos": {
+    "A": 3,
+    "B": 0,
+    "total": 3,
+    "fuente": "YouTube (IG no contado)"
+   },
+   "rama_ganadora": "A",
+   "historias": {
+    "resultado": {
+     "hora": "2026-11-11T10:00:00+01:00",
+     "metricool_uuid": "1435223083568221172"
+    },
+    "estreno": {
+     "hora": "2026-11-11T17:47:00+01:00",
+     "metricool_uuid": "7311013636064102658"
+    },
+    "voto": {
+     "hora": "2026-11-11T18:03:00+01:00",
+     "metricool_uuid": "8438787026062755379"
+    }
+   },
+   "urls": {
+    "youtube": "https://www.youtube.com/shorts/gQDu0WcpPK0"
+   },
+   "youtube_video_id": "gQDu0WcpPK0",
+   "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+  },
+  "4": {
+   "titulo": "La vela",
+   "publicacion": "2026-11-12T18:00:00+01:00",
+   "metricool_uuid": "-227330996907589405",
+   "metricool_post_id": "425388648",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/djnxf0z1umt5sjvipi2t9bub.mp4",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1136fa99-68d3-48c7-9a87-04876dc795d8.mp3",
+   "voz_segundos": 75.23,
+   "apertura": "A",
+   "decision": {
+    "A": "Hielo directamente",
+    "B": "Agua del grifo y no parar",
+    "correcta": "B"
+   },
+   "votos": {
+    "A": 0,
+    "B": 2,
+    "total": 2,
+    "fuente": "YouTube (IG no contado)"
+   },
+   "rama_ganadora": "B",
+   "historias": {
+    "resultado": {
+     "hora": "2026-11-12T10:00:00+01:00",
+     "metricool_uuid": "1770200701950379132"
+    },
+    "estreno": {
+     "hora": "2026-11-12T17:47:00+01:00",
+     "metricool_uuid": "-8382034931552989517"
+    },
+    "voto": {
+     "hora": "2026-11-12T18:03:00+01:00",
+     "metricool_uuid": "7227226013486564278"
+    }
+   },
+   "youtube_video_id": "QLIhw-JHPBE",
+   "urls": {
+    "youtube": "https://www.youtube.com/shorts/QLIhw-JHPBE"
+   },
+   "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
+  },
+  "5": {
+   "titulo": "La nevera",
+   "publicacion": "2026-11-13T18:00:00+01:00",
+   "metricool_uuid": "-7207520151950834843",
+   "metricool_post_id": "426666444",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jucwza9s1m4xf9b3xls8u2mn.mp4",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/b2b6de5e-c2b4-417b-baf1-c9dddcea3ef1.mp3",
+   "voz_segundos": 67.08,
+   "apertura": "B",
+   "decision": {
+    "A": "Si huele bien, se come",
+    "B": "Tiráis lo perecedero y os apañáis con las latas",
+    "correcta": "B"
+   },
+   "votos": {
+    "A": 0,
+    "B": 0,
+    "total": 0,
+    "nota": "0 votos en YouTube (<10): gana la correcta"
+   },
+   "rama_ganadora": "B",
+   "historias": {
+    "resultado": {
+     "hora": "2026-11-13T10:00:00+01:00",
+     "metricool_uuid": "1729936716364204897"
+    },
+    "estreno": {
+     "hora": "2026-11-13T17:47:00+01:00",
+     "metricool_uuid": "-4035644847233612392"
+    },
+    "voto": {
+     "hora": "2026-11-13T18:03:00+01:00",
+     "metricool_uuid": "-1193248499759495862"
+    }
+   }
+  },
+  "6": {
+   "titulo": "La abuela no responde",
+   "publicacion": "2026-11-14T18:00:00+01:00",
+   "apertura": "B",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/78243434-7a20-4bd5-98f2-b1f15d3827e3.mp3",
+   "voz_segundos": 65.31,
+   "decision": {
+    "A": "Todos a buscar ayuda",
+    "B": "Uno sale a pedir ayuda y tú empiezas a comprimir ya",
+    "correcta": "B"
+   },
+   "votos": {
+    "A": 0,
+    "B": 0,
+    "total": 0,
+    "fuente": "YouTube kUA3BgUDo30 (15-nov 09:15)"
+   },
+   "rama_ganadora": "B",
+   "estado": "publicada 14-nov 18:00 (YT+TikTok vidIQ); IG 18:24 desde enlace de YouTube",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/kcpb0s431k5es6mr10m887ub.mp4",
+   "duracion": 67.76,
+   "upload_id": "a0afa6b8-bff1-45a2-ae86-c5b095437bbc",
+   "vidiq_borrador": {
+    "postId": "17b41868-3581-4bcc-a78c-8b71ca92071a",
+    "revision": "7bc89c70-e43dbadb",
+    "youtube_publicationId": "23e60d0b-328a-43d5-9d1f-ba502918814a",
+    "tiktok_publicationId": "7d92a384-4f03-467f-b655-2dc76fd47e8f"
+   },
+   "creditos": 55,
+   "nota": "YouTube verificado (MFA) por el responsable el 14-nov; programado por vidIQ.",
+   "caption_ig": "📺 72 horas sin luz · Parte 06: La abuela no responde\nHora setenta. Tu abuela, en el suelo. No respira con normalidad y el móvil no tiene cobertura.\nEsta decisión cierra la temporada. ¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Todos a buscar ayuda / B) Uno sale a pedir ayuda y tú empiezas a comprimir ya · Responde con A o B. Mañana, el epílogo según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+   "vidiq_post_id": "17b41868-3581-4bcc-a78c-8b71ca92071a",
+   "youtube_url": "https://www.youtube.com/watch?v=kUA3BgUDo30",
+   "ig_permalink": "https://www.instagram.com/reel/Dfuu83wlKwJ/",
+   "ig_media_id": "18007971626991542"
+  },
+  "7": {
+   "titulo": "Epílogo",
+   "publicacion": "2026-11-15T18:00:00+01:00",
+   "apertura": "B",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/7a8096c6-fd43-4a60-a3ac-fb7d38b52589.mp3",
+   "voz_segundos": 53.55,
+   "decision": null,
+   "votos": null,
+   "rama_ganadora": null,
+   "estado": "programada 15-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/q1yvg1pdtu5b2dnugaqhzkjn.mp4",
+   "duracion": 56,
+   "upload_id": "416ef907-a9b0-4723-bbed-37721709564d",
+   "vidiq_borrador": {
+    "postId": "18075aa2-5d2d-4d29-bbb4-add346dc74a2",
+    "revision": "4b033528-d4eec30b",
+    "youtube_publicationId": "9d344caf-03e5-45b3-a56b-23fda7e50736",
+    "tiktok_publicationId": "d95c7021-0858-4e4f-be29-b832189067ca"
+   },
+   "vidiq_post_id": "18075aa2-5d2d-4d29-bbb4-add346dc74a2",
+   "youtube_url": "https://www.youtube.com/watch?v=TuN4rcb5iJg",
+   "creditos": 47,
+   "caption_ig": "📺 72 horas sin luz · Parte 07: Epílogo\nHora setenta y dos. ¿Sobrevive Carmen? Y cuando por fin vuelve la luz… ¿se va otra vez?\nRepasa todo lo que aprendiste en estas 72 horas. Guárdalo y envíaselo a quien quieras.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+   "nota": "Nuevo personaje Don Ramón (draw.py don_ramon). Sin votación ni historias IG.",
+   "ig_permalink": "https://www.instagram.com/reel/DfxSCPSjuW-/",
+   "ig_media_id": "18119328308079464"
+  },
+  "8": {
+   "titulo": "Vuelve a irse",
+   "publicacion": "2026-11-17T18:00:00+01:00",
+   "apertura": "única (sin votación previa)",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/75695802-ff20-4edb-9020-9dc21530ced0.mp3",
+   "voz_segundos": 64.29,
+   "decision": {
+    "A": "Le dejas dormir tranquilo",
+    "B": "Le vigilas toda la noche y le despiertas cada pocas horas",
+    "correcta": "B"
+   },
+   "votos": {
+    "A": 0,
+    "B": 3,
+    "detalle": "YouTube 1 B, Instagram 2 B; TikTok no contado"
+   },
+   "rama_ganadora": "B",
+   "estado": "programada 17-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jk72ozs581ajcg63hpq300jl.mp4",
+   "duracion": 66.73,
+   "upload_id": "bad58a30-4b33-4eee-971b-a0ed2cb94640",
+   "vidiq_borrador": {
+    "postId": "b04f208c-1bdc-4148-ae5b-dd256310cd83",
+    "revision": "6886d4c8-aee8ede0",
+    "youtube_publicationId": "35bf08ac-fa0a-4448-b1a0-ea98c9567f74",
+    "tiktok_publicationId": "362c8849-8708-4908-a0be-5cfb32715520"
+   },
+   "vidiq_post_id": "b04f208c-1bdc-4148-ae5b-dd256310cd83",
+   "youtube_url": "https://www.youtube.com/watch?v=-3wFwnq4MAc",
+   "creditos": 45,
+   "caption_ig": "📺 72 horas sin luz · Parte 08: Vuelve a irse\nLa luz vuelve… y se va otra vez. Hugo se ha dado un golpe en la cabeza y tiene mucho sueño. Y en la radio, una voz que conoces.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Le dejas dormir tranquilo / B) Le vigilas toda la noche y le despiertas cada pocas horas para ver cómo responde · Responde con A o B. La Parte 09, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+   "nota": "Primera parte del arco «Sin fecha de fin». Reloj en dos líneas (draw.ui). Tarjeta: lección de RCP (epílogo sin lección propia). Sin historias IG.",
+   "ig_permalink": "https://www.instagram.com/reel/Df2bjveiYk0/",
+   "ig_media_id": "18025561076945593"
+  },
+  "9": {
+   "titulo": "El agua",
+   "publicacion": "2026-11-19T18:00:00+01:00",
+   "apertura": "B",
+   "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/3848aa43-a1a9-4e4d-a979-9ed10b37b39c.mp3",
+   "voz_segundos": 46.68,
+   "decision": {
+    "A": "Bebéis el agua de la bañera tal cual",
+    "B": "La hervís o la desinfectáis antes",
+    "correcta": "B"
+   },
+   "votos": null,
+   "rama_ganadora": null,
+   "estado": "programada 19-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+   "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/uc3iivj5h9c0ht96udez07qw.mp4",
+   "duracion": 49.1,
+   "upload_id": "b72b8f8f-50f7-4a5a-abca-cdef7399676c",
+   "vidiq_borrador": {
+    "postId": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
+    "revision": "a6232f09-cac5bcc4",
+    "youtube_publicationId": "5815d9b0-f32e-4ea5-a84a-0486513d4693",
+    "tiktok_publicationId": "1c7de058-1853-466e-8ebf-739b64ed98b4"
+   },
+   "vidiq_post_id": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
+   "youtube_url": "https://www.youtube.com/watch?v=RRStkFxcMXs",
+   "creditos": 51,
+   "caption_ig": "📺 72 horas sin luz · Parte 09: El agua\nYa no sale agua del grifo. Solo queda la bañera… y Hugo tiene sed.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Bebéis el agua de la bañera tal cual / B) La hervís o la desinfectáis antes · Responde con A o B. La Parte 10, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+   "nota": "Rama B (3 votos B, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 08 (golpe en la cabeza). Sin historias IG.",
+   "ig_permalink": "https://www.instagram.com/reel/Df7lJWLDZ86/",
+   "ig_media_id": "18123921793922153"
+  }
+ },
+ "recursos": {
+  "voz_id": "nPczCjzI2devNBz1zQrb",
+  "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/52d58c9a-9517-4d91-af95-17b085f6415e.wav",
+  "metricool_blog_id": "7976298",
+  "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
+  "instagram": "diagnostico_oculto",
+  "tiktok": "diagnostico_oculto"
+ },
+ "salud": {
+  "CARMEN": 3,
+  "HUGO": 3,
+  "LUIS": 3
+ },
+ "mochila": [
+  "+ BAÑERA LLENA",
+  "+ HORNILLO",
+  "+ LEJÍA",
+  "- GAS PARA UNA VEZ"
+ ],
+ "series": {
+  "apagon": {
+   "guiones": "temporadas/t1_guiones.md",
+   "carpeta": "t1",
+   "ultima_parte": "ver ultima_parte_programada",
+   "listo": true
+  },
+  "crucero": {
+   "guiones": "temporadas/crucero_guiones.md",
+   "carpeta": "crucero",
+   "ultima_parte_programada": 2,
+   "listo": true,
+   "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
+   "voz_id": "EXAVITQu4vr4xnSDxMaL",
+   "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
+   "partes": {
     "1": {
-      "titulo": "Se va la luz",
-      "publicacion": "2026-11-09T17:47:00+01:00",
-      "metricool_uuid": "3234680795265584303",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pvfi9dplp98pl1u1ez6rmu40.mp4",
-      "youtube_video_id": "KhJjEov06ZM",
-      "decision": {
-        "A": "Abrir la botella de reserva",
-        "B": "Bajarla a la calle",
-        "correcta": "A"
-      },
-      "votos": {
-        "A": 6,
-        "B": 0,
-        "fuente": "YouTube (IG no contado)",
-        "total": 6
-      },
-      "rama_ganadora": "A",
-      "metricool_post_id": "421800044",
-      "urls": {
-        "youtube": "https://www.youtube.com/shorts/KhJjEov06ZM",
-        "instagram": "https://www.instagram.com/reel/Dfhy6gjgCL5/",
-        "tiktok_id": "7706214478127336726"
-      },
-      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
+     "titulo": "¿Dónde están todos?",
+     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/umi3oh2yhet7b2za0mo5o6s6.mp4",
+     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
+     "voz_segundos": 53.55,
+     "duracion": 56.06,
+     "estado": "programada 16-nov 18:00 (YT/IG/TikTok)",
+     "creditos": 187,
+     "publicacion": "2026-11-16T18:00:00+01:00",
+     "metricool_uuid": "-2537489549492335008",
+     "metricool_post_id": "427154385"
     },
     "2": {
-      "titulo": "La insulina",
-      "publicacion": "2026-11-10T18:00:00+01:00",
-      "metricool_uuid": "5329967633460773831",
-      "metricool_post_id": "422847428",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/o2fpvhwb1a0yaw029l9hof6c.mp4",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/2455ab92-3a56-4727-8484-4849c3d41ba0.mp3",
-      "voz_segundos": 58.44,
-      "apertura": "A",
-      "decision": {
-        "A": "Al congelador con hielo",
-        "B": "A un sitio fresco de la casa, lejos del calor",
-        "correcta": "B"
-      },
-      "votos": {
-        "A": 1,
-        "B": 3,
-        "total": 4,
-        "fuente": "YouTube (IG no contado)"
-      },
-      "rama_ganadora": "B",
-      "historias": {
-        "resultado": {
-          "hora": "2026-11-10T10:00:00+01:00",
-          "metricool_uuid": "-1847580402159366404"
-        },
-        "estreno": {
-          "hora": "2026-11-10T17:47:00+01:00",
-          "metricool_uuid": "6116392484849467686"
-        },
-        "voto": {
-          "hora": "2026-11-10T18:03:00+01:00",
-          "metricool_uuid": "-5736152946285787861"
-        }
-      },
-      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
-    },
-    "3": {
-      "titulo": "El generador",
-      "publicacion": "2026-11-11T18:00:00+01:00",
-      "metricool_uuid": "8310736577849213738",
-      "metricool_post_id": "424127513",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rmpc3gsqod1rn4m1kwrfmghv.mp4",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/d488bdfa-742e-4d83-8109-c61d238ecd17.mp3",
-      "voz_segundos": 62.35,
-      "apertura": "B",
-      "decision": {
-        "A": "Lo apagas y lo sacas fuera, lejos de las ventanas",
-        "B": "Lo dejas y abres más las ventanas",
-        "correcta": "A"
-      },
-      "votos": {
-        "A": 3,
-        "B": 0,
-        "total": 3,
-        "fuente": "YouTube (IG no contado)"
-      },
-      "rama_ganadora": "A",
-      "historias": {
-        "resultado": {
-          "hora": "2026-11-11T10:00:00+01:00",
-          "metricool_uuid": "1435223083568221172"
-        },
-        "estreno": {
-          "hora": "2026-11-11T17:47:00+01:00",
-          "metricool_uuid": "7311013636064102658"
-        },
-        "voto": {
-          "hora": "2026-11-11T18:03:00+01:00",
-          "metricool_uuid": "8438787026062755379"
-        }
-      },
-      "urls": {
-        "youtube": "https://www.youtube.com/shorts/gQDu0WcpPK0"
-      },
-      "youtube_video_id": "gQDu0WcpPK0",
-      "nota_votos": "Menos de 10 votos: gana la correcta (A), que además fue la más votada."
-    },
-    "4": {
-      "titulo": "La vela",
-      "publicacion": "2026-11-12T18:00:00+01:00",
-      "metricool_uuid": "-227330996907589405",
-      "metricool_post_id": "425388648",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/djnxf0z1umt5sjvipi2t9bub.mp4",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1136fa99-68d3-48c7-9a87-04876dc795d8.mp3",
-      "voz_segundos": 75.23,
-      "apertura": "A",
-      "decision": {
-        "A": "Hielo directamente",
-        "B": "Agua del grifo y no parar",
-        "correcta": "B"
-      },
-      "votos": {
-        "A": 0,
-        "B": 2,
-        "total": 2,
-        "fuente": "YouTube (IG no contado)"
-      },
-      "rama_ganadora": "B",
-      "historias": {
-        "resultado": {
-          "hora": "2026-11-12T10:00:00+01:00",
-          "metricool_uuid": "1770200701950379132"
-        },
-        "estreno": {
-          "hora": "2026-11-12T17:47:00+01:00",
-          "metricool_uuid": "-8382034931552989517"
-        },
-        "voto": {
-          "hora": "2026-11-12T18:03:00+01:00",
-          "metricool_uuid": "7227226013486564278"
-        }
-      },
-      "youtube_video_id": "QLIhw-JHPBE",
-      "urls": {
-        "youtube": "https://www.youtube.com/shorts/QLIhw-JHPBE"
-      },
-      "nota_votos": "Menos de 10 votos: gana la correcta (B), que además fue la más votada."
-    },
-    "5": {
-      "titulo": "La nevera",
-      "publicacion": "2026-11-13T18:00:00+01:00",
-      "metricool_uuid": "-7207520151950834843",
-      "metricool_post_id": "426666444",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jucwza9s1m4xf9b3xls8u2mn.mp4",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/b2b6de5e-c2b4-417b-baf1-c9dddcea3ef1.mp3",
-      "voz_segundos": 67.08,
-      "apertura": "B",
-      "decision": {
-        "A": "Si huele bien, se come",
-        "B": "Tiráis lo perecedero y os apañáis con las latas",
-        "correcta": "B"
-      },
-      "votos": {
-        "A": 0,
-        "B": 0,
-        "total": 0,
-        "nota": "0 votos en YouTube (<10): gana la correcta"
-      },
-      "rama_ganadora": "B",
-      "historias": {
-        "resultado": {
-          "hora": "2026-11-13T10:00:00+01:00",
-          "metricool_uuid": "1729936716364204897"
-        },
-        "estreno": {
-          "hora": "2026-11-13T17:47:00+01:00",
-          "metricool_uuid": "-4035644847233612392"
-        },
-        "voto": {
-          "hora": "2026-11-13T18:03:00+01:00",
-          "metricool_uuid": "-1193248499759495862"
-        }
-      }
-    },
-    "6": {
-      "titulo": "La abuela no responde",
-      "publicacion": "2026-11-14T18:00:00+01:00",
-      "apertura": "B",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/78243434-7a20-4bd5-98f2-b1f15d3827e3.mp3",
-      "voz_segundos": 65.31,
-      "decision": {
-        "A": "Todos a buscar ayuda",
-        "B": "Uno sale a pedir ayuda y tú empiezas a comprimir ya",
-        "correcta": "B"
-      },
-      "votos": {
-        "A": 0,
-        "B": 0,
-        "total": 0,
-        "fuente": "YouTube kUA3BgUDo30 (15-nov 09:15)"
-      },
-      "rama_ganadora": "B",
-      "estado": "publicada 14-nov 18:00 (YT+TikTok vidIQ); IG 18:24 desde enlace de YouTube",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/kcpb0s431k5es6mr10m887ub.mp4",
-      "duracion": 67.76,
-      "upload_id": "a0afa6b8-bff1-45a2-ae86-c5b095437bbc",
-      "vidiq_borrador": {
-        "postId": "17b41868-3581-4bcc-a78c-8b71ca92071a",
-        "revision": "7bc89c70-e43dbadb",
-        "youtube_publicationId": "23e60d0b-328a-43d5-9d1f-ba502918814a",
-        "tiktok_publicationId": "7d92a384-4f03-467f-b655-2dc76fd47e8f"
-      },
-      "creditos": 55,
-      "nota": "YouTube verificado (MFA) por el responsable el 14-nov; programado por vidIQ.",
-      "caption_ig": "📺 72 horas sin luz · Parte 06: La abuela no responde\nHora setenta. Tu abuela, en el suelo. No respira con normalidad y el móvil no tiene cobertura.\nEsta decisión cierra la temporada. ¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Todos a buscar ayuda / B) Uno sale a pedir ayuda y tú empiezas a comprimir ya · Responde con A o B. Mañana, el epílogo según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
-      "vidiq_post_id": "17b41868-3581-4bcc-a78c-8b71ca92071a",
-      "youtube_url": "https://www.youtube.com/watch?v=kUA3BgUDo30",
-      "ig_permalink": "https://www.instagram.com/reel/Dfuu83wlKwJ/",
-      "ig_media_id": "18007971626991542"
-    },
-    "7": {
-      "titulo": "Epílogo",
-      "publicacion": "2026-11-15T18:00:00+01:00",
-      "apertura": "B",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/7a8096c6-fd43-4a60-a3ac-fb7d38b52589.mp3",
-      "voz_segundos": 53.55,
-      "decision": null,
-      "votos": null,
-      "rama_ganadora": null,
-      "estado": "programada 15-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/q1yvg1pdtu5b2dnugaqhzkjn.mp4",
-      "duracion": 56,
-      "upload_id": "416ef907-a9b0-4723-bbed-37721709564d",
-      "vidiq_borrador": {
-        "postId": "18075aa2-5d2d-4d29-bbb4-add346dc74a2",
-        "revision": "4b033528-d4eec30b",
-        "youtube_publicationId": "9d344caf-03e5-45b3-a56b-23fda7e50736",
-        "tiktok_publicationId": "d95c7021-0858-4e4f-be29-b832189067ca"
-      },
-      "vidiq_post_id": "18075aa2-5d2d-4d29-bbb4-add346dc74a2",
-      "youtube_url": "https://www.youtube.com/watch?v=TuN4rcb5iJg",
-      "creditos": 47,
-      "caption_ig": "📺 72 horas sin luz · Parte 07: Epílogo\nHora setenta y dos. ¿Sobrevive Carmen? Y cuando por fin vuelve la luz… ¿se va otra vez?\nRepasa todo lo que aprendiste en estas 72 horas. Guárdalo y envíaselo a quien quieras.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
-      "nota": "Nuevo personaje Don Ramón (draw.py don_ramon). Sin votación ni historias IG.",
-      "ig_permalink": "https://www.instagram.com/reel/DfxSCPSjuW-/",
-      "ig_media_id": "18119328308079464"
-    },
-    "8": {
-      "titulo": "Vuelve a irse",
-      "publicacion": "2026-11-17T18:00:00+01:00",
-      "apertura": "única (sin votación previa)",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/75695802-ff20-4edb-9020-9dc21530ced0.mp3",
-      "voz_segundos": 64.29,
-      "decision": {
-        "A": "Le dejas dormir tranquilo",
-        "B": "Le vigilas toda la noche y le despiertas cada pocas horas",
-        "correcta": "B"
-      },
-      "votos": {
-        "A": 0,
-        "B": 3,
-        "detalle": "YouTube 1 B, Instagram 2 B; TikTok no contado"
-      },
-      "rama_ganadora": "B",
-      "estado": "programada 17-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/jk72ozs581ajcg63hpq300jl.mp4",
-      "duracion": 66.73,
-      "upload_id": "bad58a30-4b33-4eee-971b-a0ed2cb94640",
-      "vidiq_borrador": {
-        "postId": "b04f208c-1bdc-4148-ae5b-dd256310cd83",
-        "revision": "6886d4c8-aee8ede0",
-        "youtube_publicationId": "35bf08ac-fa0a-4448-b1a0-ea98c9567f74",
-        "tiktok_publicationId": "362c8849-8708-4908-a0be-5cfb32715520"
-      },
-      "vidiq_post_id": "b04f208c-1bdc-4148-ae5b-dd256310cd83",
-      "youtube_url": "https://www.youtube.com/watch?v=-3wFwnq4MAc",
-      "creditos": 45,
-      "caption_ig": "📺 72 horas sin luz · Parte 08: Vuelve a irse\nLa luz vuelve… y se va otra vez. Hugo se ha dado un golpe en la cabeza y tiene mucho sueño. Y en la radio, una voz que conoces.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Le dejas dormir tranquilo / B) Le vigilas toda la noche y le despiertas cada pocas horas para ver cómo responde · Responde con A o B. La Parte 09, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
-      "nota": "Primera parte del arco «Sin fecha de fin». Reloj en dos líneas (draw.ui). Tarjeta: lección de RCP (epílogo sin lección propia). Sin historias IG.",
-      "ig_permalink": "https://www.instagram.com/reel/Df2bjveiYk0/",
-      "ig_media_id": "18025561076945593"
-    },
-    "9": {
-      "titulo": "El agua",
-      "publicacion": "2026-11-19T18:00:00+01:00",
-      "apertura": "B",
-      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/3848aa43-a1a9-4e4d-a979-9ed10b37b39c.mp3",
-      "voz_segundos": 46.68,
-      "decision": {
-        "A": "Bebéis el agua de la bañera tal cual",
-        "B": "La hervís o la desinfectáis antes",
-        "correcta": "B"
-      },
-      "votos": null,
-      "rama_ganadora": null,
-      "estado": "programada 19-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
-      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/uc3iivj5h9c0ht96udez07qw.mp4",
-      "duracion": 49.1,
-      "upload_id": "b72b8f8f-50f7-4a5a-abca-cdef7399676c",
-      "vidiq_borrador": {
-        "postId": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
-        "revision": "a6232f09-cac5bcc4",
-        "youtube_publicationId": "5815d9b0-f32e-4ea5-a84a-0486513d4693",
-        "tiktok_publicationId": "1c7de058-1853-466e-8ebf-739b64ed98b4"
-      },
-      "vidiq_post_id": "a982c26f-cf5d-4bea-84a0-d8e70ec40a9d",
-      "youtube_url": "https://www.youtube.com/watch?v=RRStkFxcMXs",
-      "creditos": 51,
-      "caption_ig": "📺 72 horas sin luz · Parte 09: El agua\nYa no sale agua del grifo. Solo queda la bañera… y Hugo tiene sed.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Bebéis el agua de la bañera tal cual / B) La hervís o la desinfectáis antes · Responde con A o B. La Parte 10, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
-      "nota": "Rama B (3 votos B, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 08 (golpe en la cabeza). Sin historias IG.",
-      "ig_permalink": "https://www.instagram.com/reel/Df7lJWLDZ86/",
-      "ig_media_id": "18123921793922153"
+     "titulo": "Once días de historias",
+     "publicacion": "2026-11-18T18:00:00+01:00",
+     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/e5l0hgvc4z015eerkuocd5oo.mp4",
+     "duracion": 66.2,
+     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/969ab1bf-7d79-48e0-9d14-02eaa1261d19.mp3",
+     "voz_segundos": 63.71,
+     "upload_id": "2f0ad648-7d9e-4e17-8d47-5c39d687738c",
+     "vidiq_post_id": "f838bfbb-17c0-4b23-a015-b03f153b75d4",
+     "vidiq_borrador": {
+      "youtube_publicationId": "6bbef35e-c818-44a2-9f7f-3228a571e164",
+      "tiktok_publicationId": "c02a4bc5-3820-44c7-936d-d983d5b6cb8a"
+     },
+     "youtube_url": "https://www.youtube.com/watch?v=_YKp7AM6oZ0",
+     "caption_ig": "🚢 El crucero que regresó vacío · Parte 02: Once días de historias\nOnce días sin señal, y mi hermana publicó una historia cada día. En la del día 7 aparece un detalle que no encaja.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Quién es la mujer de esa historia? Deja tu teoría en comentarios 👇 Parte 03, el viernes a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (hello aesthe, RDNE Stock project, Aleks Magnusson, Angkel Lee, Doğu Tuncer, Sururi Ballıdağ, Ahmed, Pavel Danilyuk, Timur Weber).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
+     "creditos": 79,
+     "estado": "publicada 18-nov 18:00 (YT+TikTok vidIQ); IG publicado 18:07 desde YouTube",
+     "nota": "Guion aprobado por el responsable el 18-nov a las ~11:00 (tras el aviso de la tarea). Producida en la misma sesión. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local.",
+     "ig_permalink": "https://www.instagram.com/reel/Df5AT3DgGNE/",
+     "ig_media_id": "17994786441077277"
     }
-  },
-  "recursos": {
-    "voz_id": "nPczCjzI2devNBz1zQrb",
-    "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/52d58c9a-9517-4d91-af95-17b085f6415e.wav",
-    "metricool_blog_id": "7976298",
-    "youtube_channel_id": "UClqKHj0j-QY2ZPPOrJChHAw",
-    "instagram": "diagnostico_oculto",
-    "tiktok": "diagnostico_oculto"
-  },
-  "salud": {
-    "CARMEN": 3,
-    "HUGO": 3,
-    "LUIS": 3
-  },
-  "mochila": [
-    "+ BAÑERA LLENA",
-    "+ HORNILLO",
-    "+ LEJÍA",
-    "- GAS PARA UNA VEZ"
-  ],
-  "series": {
-    "apagon": {
-      "guiones": "temporadas/t1_guiones.md",
-      "carpeta": "t1",
-      "ultima_parte": "ver ultima_parte_programada",
-      "listo": true
-    },
-    "crucero": {
-      "guiones": "temporadas/crucero_guiones.md",
-      "carpeta": "crucero",
-      "ultima_parte_programada": 2,
-      "listo": true,
-      "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
-      "voz_id": "EXAVITQu4vr4xnSDxMaL",
-      "musica_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
-      "partes": {
-        "1": {
-          "titulo": "¿Dónde están todos?",
-          "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/umi3oh2yhet7b2za0mo5o6s6.mp4",
-          "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/e686eaa6-1cf8-4680-9208-1c50ff13a327.mp3",
-          "voz_segundos": 53.55,
-          "duracion": 56.06,
-          "estado": "programada 16-nov 18:00 (YT/IG/TikTok)",
-          "creditos": 187,
-          "publicacion": "2026-11-16T18:00:00+01:00",
-          "metricool_uuid": "-2537489549492335008",
-          "metricool_post_id": "427154385"
-        },
-        "2": {
-          "titulo": "Once días de historias",
-          "publicacion": "2026-11-18T18:00:00+01:00",
-          "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/e5l0hgvc4z015eerkuocd5oo.mp4",
-          "duracion": 66.2,
-          "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/969ab1bf-7d79-48e0-9d14-02eaa1261d19.mp3",
-          "voz_segundos": 63.71,
-          "upload_id": "2f0ad648-7d9e-4e17-8d47-5c39d687738c",
-          "vidiq_post_id": "f838bfbb-17c0-4b23-a015-b03f153b75d4",
-          "vidiq_borrador": {
-            "youtube_publicationId": "6bbef35e-c818-44a2-9f7f-3228a571e164",
-            "tiktok_publicationId": "c02a4bc5-3820-44c7-936d-d983d5b6cb8a"
-          },
-          "youtube_url": "https://www.youtube.com/watch?v=_YKp7AM6oZ0",
-          "caption_ig": "🚢 El crucero que regresó vacío · Parte 02: Once días de historias\nOnce días sin señal, y mi hermana publicó una historia cada día. En la del día 7 aparece un detalle que no encaja.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Quién es la mujer de esa historia? Deja tu teoría en comentarios 👇 Parte 03, el viernes a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (hello aesthe, RDNE Stock project, Aleks Magnusson, Angkel Lee, Doğu Tuncer, Sururi Ballıdağ, Ahmed, Pavel Danilyuk, Timur Weber).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
-          "creditos": 79,
-          "estado": "publicada 18-nov 18:00 (YT+TikTok vidIQ); IG publicado 18:07 desde YouTube",
-          "nota": "Guion aprobado por el responsable el 18-nov a las ~11:00 (tras el aviso de la tarea). Producida en la misma sesión. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local.",
-          "ig_permalink": "https://www.instagram.com/reel/Df5AT3DgGNE/",
-          "ig_media_id": "17994786441077277"
-        }
-      },
-      "barco_maestro": {
-        "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
-        "repo": "crucero/maestro/barco_maestro.jpg",
-        "fecha": "2026-11-13",
-        "prompt": "ver crucero/propuesta_visual_p01.md",
-        "estado": "aprobada"
-      },
-      "voz_nombre": "Sarah",
-      "imagenes": {
-        "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
-        "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
-        "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
-        "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
-        "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg",
-        "noa": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg"
-      }
-    }
+   },
+   "barco_maestro": {
+    "url": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
+    "repo": "crucero/maestro/barco_maestro.jpg",
+    "fecha": "2026-11-13",
+    "prompt": "ver crucero/propuesta_visual_p01.md",
+    "estado": "aprobada"
+   },
+   "voz_nombre": "Sarah",
+   "imagenes": {
+    "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
+    "popa_niebla": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
+    "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
+    "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
+    "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg",
+    "noa": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg"
+   }
   }
+ }
 }
