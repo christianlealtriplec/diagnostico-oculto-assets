@@ -3,6 +3,7 @@
 Canal de historias interactivas de supervivencia con educación sanitaria. El responsable (sanitario) supervisa de forma puntual; Claude produce y publica **una parte al día a las 18:00 (Europe/Madrid)** en YouTube Shorts, Instagram Reels y TikTok, **alternando dos series independientes** según `temporadas/calendario.json`: «72 horas sin luz» (apagón, ilustrada, votación A/B) y «El crucero que regresó vacío» (expediente realista, sin votación). Con el apagón van 3 historias de Instagram (10:00 resultado · 17:47 estreno · 18:03 votación). Plan aprobado el 13/11/2026: documento «Diagnóstico Oculto · Plan de la nueva fase». Las dos historias NO se cruzan nunca.
 
 ## Reglas que no se rompen
+0. **Autorización fija (20-nov-2026):** el responsable aprueba de antemano TODOS los guiones que Claude escriba y todos los vídeos que publique. No hace falta pedir OK. Él revisa los vídeos ya publicados y avisa si algo no le gusta; entonces se corrige en las partes siguientes. El contenido médico sigue limitado a las lecciones aprobadas en el plan (13/11) y en los guiones.
 1. **Contenido médico:** usar SOLO los guiones aprobados de `temporadas/`. No inventar ni cambiar consejos médicos. Si una temporada no tiene guiones aprobados, NO producir: avisar al responsable.
 2. **Publicar** solo partes de guiones aprobados, con el aviso «Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.» y la etiqueta de IA activada en las 3 redes.
 3. **Créditos vidIQ:** comprobar `vidiq_balance` al empezar. Si quedan < 150, no producir y avisar.
@@ -57,7 +58,7 @@ Guiones: `temporadas/crucero_guiones.md`. Ejemplo completo y probado: `tools/cru
 
 ### Guardias (antes de gastar nada)
 - N = parte del calendario = `series.crucero.ultima_parte_programada + 1`; si no, no produzcas y avisa.
-- El encabezado de la Parte N en el guion debe estar aprobado: si dice «BORRADOR» o «pendiente de OK», o no existe, NO produzcas y avisa («el guion de la Parte N del crucero está pendiente de tu OK»).
+- Guion: por la autorización fija, todo guion escrito está aprobado. Usa la v2 si existe. Si el guion de la Parte N abre con una frase adelantada o salta en el tiempo, ajusta solo el arranque a la norma del hilo («Lo que sabemos: …» y en orden), sin cambiar hechos ni el final, y guárdalo como v2.
 - `vidiq_balance` ≥ 150.
 - No revelar nada que el guion no diga; no cruzar nunca con el apagón.
 
@@ -76,11 +77,11 @@ Guiones: `temporadas/crucero_guiones.md`. Ejemplo completo y probado: `tools/cru
 9. Aviso al responsable (tabla): parte, fecha y hora, enlace al vídeo, imágenes nuevas, créditos gastados y restantes, y que puede cancelarlo en Metricool.
 
 ### Guiones del crucero
-Se escriben en la sesión principal con 4 días de antelación y el responsable los aprueba (encabezado sin «BORRADOR»). La tarea programada no escribe ni cambia guiones.
+Están escritos hasta la 14 y aprobados por la autorización fija. Solo se tocan para aplicar la norma del hilo o lo que pida el responsable.
 
 ## Continuidad y guiones nuevos
 - **Hilo conductor (norma del 20-nov-2026, aprobada por el responsable):** cada serie es una película contada en trozos de 1 minuto. El capítulo N empieza justo donde acabó el N-1 y lo PRIMERO que hace es resolver su suspenso o su pregunta final; el problema nuevo nace de lo que acaba de pasar, con una frase puente; nada de saltos en el tiempo ni de frases adelantadas al principio. El apagón avanza en cada capítulo el hilo del tío y el polideportivo con un paso pequeño; el crucero abre con «Lo que sabemos: …» (1–2 frases con lo último que se descubrió) y luego va en orden. Dónde y cuándo se dice en la narración; NO se ponen chips de fecha/hora/lugar en pantalla.
 - **Versiones:** si una parte tiene una «v2» marcada como aprobada, se usa la v2 y la v1 queda «SUSTITUIDA — NO USAR». Una v2 en BORRADOR se ignora (se usa la v1 aprobada).
 - Cada parte empieza en el segundo exacto en que acabó la anterior de su serie; cada problema nace del anterior; las pistas se recuperan.
-- Los guiones completos se escriben con antelación en la sesión principal. La tarea programada NO escribe borradores de temporada ni inventa partes: si falta el guion de la parte del calendario, no produce y avisa.
+- Si falta el guion de la parte del calendario, la tarea lo escribe ella misma (autorización fija del 20-nov) a partir del esqueleto aprobado (apagón: «Esqueleto Partes 14–21» en t1_guiones.md; crucero: el plan) y de la norma del hilo: empieza resolviendo el suspenso anterior, misma estructura, ≤ 1.000 caracteres, lección EXACTA del esqueleto. Lo añade al archivo de guiones como «APROBADO (autorización fija)», lo produce y lo menciona en el aviso. Nunca inventa partes fuera del calendario ni lecciones fuera del esqueleto.
 - Contenido médico: solo el aprobado (lecciones del arco «Sin fecha de fin» aprobadas el 13/11/2026; datos forenses del crucero, ídem).

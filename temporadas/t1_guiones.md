@@ -109,7 +109,7 @@ SUSPENSO: «El señor te agarra la manga: "Al calvo de la barba… se lo llevaro
 Mochila: + DOS GARRAFAS. · Marcador: si en la 09 ganó A → HUGO −1.
 Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.
 
-## Parte 11 · Luis — HORA 85 — BORRADOR · pendiente de OK del responsable
+## Parte 11 · Luis — HORA 85 — APROBADO (autorización fija del responsable, 20/11/2026)
 Apertura A (incorrecta en la 10): «Le das un trago de coñac. Le arden las mejillas, pero sigue helado: el alcohol hace perder aún más calor. Al final lo metéis en el colegio, sin ropa mojada y con mantas.»
 Apertura B (correcta en la 10): «Lo metéis en el colegio. Fuera la ropa mojada, dos mantas, un caldo caliente con azúcar. Media hora después vuelve a tiritar: su cuerpo vuelve a pelear.»
 Gancho: LUIS SUDA Y TIEMBLA.|SU MUJER QUIERE MÁS INSULINA.
@@ -120,7 +120,7 @@ Mochila: + GARRAFAS LLENAS · - CASI SIN COMIDA.
 Marcador: si en la 10 ganó A → sin cambio (el señor no es de la familia).
 Correcta: B. Lección: hipoglucemia (sudor, temblor, confusión) → si está consciente, 15–20 g de azúcar rápido; si está inconsciente, nada por boca.
 
-## Parte 12 · El polideportivo — HORA 90 — BORRADOR · pendiente de OK del responsable
+## Parte 12 · El polideportivo — HORA 90 — APROBADO (autorización fija del responsable, 20/11/2026)
 Apertura A (incorrecta en la 11): «Le pones otra dosis. Diez minutos después, Luis casi no habla, pero aún traga. Le dais zumo a sorbos y, poco a poco, vuelve. Con sudor, temblor y confusión falta azúcar, no insulina.»
 Apertura B (correcta en la 11): «Le das un vaso de zumo y dos caramelos. Quince minutos después, Luis te mira: "¿Qué hago en la escalera?". Ha vuelto.»
 Gancho: HUGO SE ATRAGANTA.|Y NO PUEDE TOSER.
@@ -131,7 +131,7 @@ Mochila: + DNI · - CARAMELOS.
 Marcador: si en la 11 ganó A → LUIS −1.
 Correcta: B. Lección: atragantamiento en niño que no puede toser, hablar ni respirar → 5 golpes en la espalda + 5 compresiones abdominales.
 
-## Parte 13 · El tío — HORA 94 — BORRADOR · pendiente de OK del responsable
+## Parte 13 · El tío — HORA 94 — APROBADO (autorización fija del responsable, 20/11/2026)
 Apertura A (incorrecta en la 12): «Le das agua. Hugo se pone más morado: el agua no empuja nada. Un voluntario lo agarra: cinco golpes en la espalda, cinco compresiones en la tripa. El caramelo sale. Hugo llora. Llorar es respirar.»
 Apertura B (correcta en la 12): «Le inclinas hacia delante. Un golpe entre los omóplatos. Dos. Tres. Le abrazas por detrás, puño sobre la tripa, y aprietas hacia dentro y arriba. El caramelo sale. Hugo llora. Llorar es respirar.»
 Gancho: TU TÍO HA VUELTO.|SANGRANDO.
@@ -141,3 +141,17 @@ SUSPENSO: «Tu tío te agarra: "Que nadie del polideportivo sepa que estoy aquí
 Mochila: + TU TÍO · - SECRETO.
 Marcador: si en la 12 ganó A → HUGO −1.
 Correcta: B. Lección: hemorragia → presión directa y firme sobre la herida, sin soltar; después, revisar la vacuna del tétanos.
+
+## Esqueleto Partes 14–21 (aprobado por autorización fija del 20/11/2026)
+Lecciones: las del plan aprobado el 13/11 (sin añadir nada). La tarea escribe el guion completo de cada parte con este esqueleto, la norma del hilo conductor y la estructura de siempre (≤ 1.000 caracteres), lo añade aquí como «APROBADO (autorización fija)» y lo produce.
+HILO (no cambiar): unos desconocidos con furgonetas sin identificar se llevan de noche a mayores y dependientes del polideportivo prometiendo a las familias «una residencia con luz» a cambio de dinero. Es una estafa. El tío lo descubrió, se tiró de la furgoneta (13) y se esconde en casa. Se resuelve en la 19.
+| Parte | Hora | Paso del hilo | Problema (nace del anterior) | Decisión A (incorrecta) / B (correcta) | Lección |
+|---|---|---|---|---|---|
+| 14 La radio | 100 | La radio de Don Ramón: «Furgonetas sin identificar recogen personas en el polideportivo. No entreguen a sus familiares». El tío: «Te lo dije» | La tía, nerviosa, con dolor opresivo en el pecho | A: «es ansiedad, respira en una bolsa» / B: tratarlo como un posible infarto: reposo y pedir ayuda ya | Dolor torácico: tratarlo como infarto hasta que se demuestre lo contrario; reposo y pedir ayuda |
+| 15 Carmen vuelve | 106 | Dan el alta a Carmen por falta de camas. Cuenta que en el hospital un hombre preguntó su dirección «para un traslado» | Hugo, con fiebre, convulsiona | A: sujetarle y meterle algo en la boca / B: proteger la cabeza, nada en la boca, cronometrar y de lado al terminar | Convulsión febril: proteger la cabeza, nada en la boca, cronometrar, posición lateral |
+| 16 La noche larga | 112 | Una furgoneta sin rótulos aparca frente al portal y apaga el motor | Carmen arrastra las palabras y se le tuerce la boca | A: esperar a mañana / B: ir ya y anotar la hora | Ictus: cara, brazo, habla; anotar la hora y buscar ayuda ya |
+| 17 La farmacia | 118 | La vecina del bajo: a su vecino se lo llevó «la furgoneta de la residencia» y le cobraron 500 euros | La farmacia está cerrada; la vecina ofrece sus pastillas para Carmen | A: aceptarlas / B: ir al punto sanitario | No compartir medicamentos con receta |
+| 18 La escalera | 124 | Tapáis la ventana para que la furgoneta no vea luz | El cuñado cae de la escalera de mano; brazo deformado | A: enderezarlo / B: inmovilizarlo como está | Posible fractura: inmovilizar sin recolocar |
+| 19 La noche del polideportivo | 130 | El tío, Don Ramón y la Policía: la «residencia» no existe; detienen a los de la furgoneta y liberan a los mayores | Mientras, Hugo se traga pastillas de Carmen | A: provocar el vómito / B: llamar a Toxicología | Intoxicación en niños: no provocar el vómito; Servicio de Información Toxicológica 91 562 04 20 |
+| 20 El cable | 136 | Vuelven las primeras luces en el barrio | Un cable caído; un vecino se queda pegado | A: tirar de él / B: cortar la corriente o apartarle con algo seco que no conduzca | Electrocución: no tocar a la víctima mientras haya corriente |
+| 21 Hora 140 | 140 | Vuelve la luz de verdad. Todos en casa, el tío incluido. Balance | Sin votación: cierre | — | Kit de emergencia para 72 h (repaso de lo aprendido) |
