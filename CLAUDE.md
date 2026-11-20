@@ -79,6 +79,8 @@ Guiones: `temporadas/crucero_guiones.md`. Ejemplo completo y probado: `tools/cru
 Se escriben en la sesión principal con 4 días de antelación y el responsable los aprueba (encabezado sin «BORRADOR»). La tarea programada no escribe ni cambia guiones.
 
 ## Continuidad y guiones nuevos
+- **Hilo conductor (norma del 20-nov-2026, aprobada por el responsable):** cada serie es una película contada en trozos de 1 minuto. El capítulo N empieza justo donde acabó el N-1 y lo PRIMERO que hace es resolver su suspenso o su pregunta final; el problema nuevo nace de lo que acaba de pasar, con una frase puente; nada de saltos en el tiempo ni de frases adelantadas al principio. El apagón avanza en cada capítulo el hilo del tío y el polideportivo con un paso pequeño; el crucero abre con «Lo que sabemos: …» (1–2 frases con lo último que se descubrió) y luego va en orden. Dónde y cuándo se dice en la narración; NO se ponen chips de fecha/hora/lugar en pantalla.
+- **Versiones:** si una parte tiene una «v2» marcada como aprobada, se usa la v2 y la v1 queda «SUSTITUIDA — NO USAR». Una v2 en BORRADOR se ignora (se usa la v1 aprobada).
 - Cada parte empieza en el segundo exacto en que acabó la anterior de su serie; cada problema nace del anterior; las pistas se recuperan.
 - Los guiones completos se escriben con antelación en la sesión principal. La tarea programada NO escribe borradores de temporada ni inventa partes: si falta el guion de la parte del calendario, no produce y avisa.
 - Contenido médico: solo el aprobado (lecciones del arco «Sin fecha de fin» aprobadas el 13/11/2026; datos forenses del crucero, ídem).

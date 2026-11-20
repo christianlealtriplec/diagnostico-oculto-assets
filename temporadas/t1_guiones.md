@@ -87,7 +87,7 @@ Mochila: + HORNILLO · + LEJÍA · - GAS PARA UNA VEZ.
 Marcador: si en la 08 ganó A → HUGO −1.
 Correcta: B. Lección: agua dudosa → hervir al menos 1 minuto, o lejía apta para agua de bebida (2 gotas por litro, esperar 30 min).
 
-## Parte 10 · La cola — HORA 80 — GUION APROBADO por el responsable el 14/11/2026
+## Parte 10 · La cola — v1 SUSTITUIDA el 20/11 por la v2 (más abajo) — NO USAR
 Apertura A (incorrecta): «Bebéis. Por la noche, a Hugo le duele la tripa. El agua estancada de una bañera no es potable: había que hervirla al menos un minuto o desinfectarla con lejía apta.»
 Apertura B (correcta): «Hervís el agua en el hornillo de Don Ramón, un minuto a borbotones, y la dejáis enfriar tapada. Nadie se pone malo.»
 Gancho: SE CAE EN LA COLA.|Y YA NO TIEMBLA.
@@ -98,7 +98,7 @@ Mochila: + DOS GARRAFAS.
 Marcador: si en la 09 ganó A → HUGO −1.
 Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.
 
-## Parte 10 · La cola — v2 «hilo conductor» (BORRADOR · pendiente de OK; si no hay OK, se usa la v1 aprobada)
+## Parte 10 · La cola — v2 «hilo conductor» — GUION APROBADO por el responsable el 20/11/2026 (USAR ESTA)
 Cambio: resuelve el SUSPENSO de la 09 (la puerta) y conecta la cola con el hilo del tío/polideportivo. Lección y decisión, idénticas a la v1.
 Apertura A (incorrecta): «Bebéis. Por la noche, a Hugo le duele la tripa: el agua estancada de una bañera no es potable; había que hervirla al menos un minuto o desinfectarla con lejía apta.»
 Apertura B (correcta): «Hervís el agua en el hornillo de Don Ramón, un minuto a borbotones, y la dejáis enfriar tapada. Nadie se pone malo.»
@@ -108,3 +108,36 @@ ESCALADA (si en la 09 ganó A): «Y a Hugo le sigue doliendo la tripa.»
 SUSPENSO: «El señor te agarra la manga: "Al calvo de la barba… se lo llevaron anoche".»
 Mochila: + DOS GARRAFAS. · Marcador: si en la 09 ganó A → HUGO −1.
 Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.
+
+## Parte 11 · Luis — HORA 85 — BORRADOR · pendiente de OK del responsable
+Apertura A (incorrecta en la 10): «Le das un trago de coñac. Le arden las mejillas, pero sigue helado: el alcohol hace perder aún más calor. Al final lo metéis en el colegio, sin ropa mojada y con mantas.»
+Apertura B (correcta en la 10): «Lo metéis en el colegio. Fuera la ropa mojada, dos mantas, un caldo caliente con azúcar. Media hora después vuelve a tiritar: su cuerpo vuelve a pelear.»
+Gancho: LUIS SUDA Y TIEMBLA.|SU MUJER QUIERE MÁS INSULINA.
+Historia: «Entre mantas, el señor habla: "En el polideportivo hay gente de todo el barrio. De noche llegan furgonetas y se llevan a algunos. Al calvo se lo llevaron a las tres". Subes las garrafas con la cabeza a mil. En el segundo, la puerta de Luis está abierta. Está sentado en la escalera, sudando, temblando, con la mirada perdida: "¿Qué día es hoy?". Su mujer, con la pluma de insulina en la mano: "Se ha puesto su dosis, pero hoy casi no ha comido. Le pongo otra, que con los nervios se le sube el azúcar". Hora ochenta y cinco. Sudor frío, temblor, confusión. Y casi sin comer. Decides tú. A: otra dosis de insulina. B: azúcar rápido ya, mientras pueda tragar. Comenta A o B.»
+ESCALADA (si en la 10 ganó A): «Y el señor del polideportivo sigue sin entrar en calor.»
+SUSPENSO: «Arriba, Don Ramón asoma con la radio: "Acaban de decir vuestro apellido. Desde el polideportivo".»
+Mochila: + GARRAFAS LLENAS · - CASI SIN COMIDA.
+Marcador: si en la 10 ganó A → sin cambio (el señor no es de la familia).
+Correcta: B. Lección: hipoglucemia (sudor, temblor, confusión) → si está consciente, 15–20 g de azúcar rápido; si está inconsciente, nada por boca.
+
+## Parte 12 · El polideportivo — HORA 90 — BORRADOR · pendiente de OK del responsable
+Apertura A (incorrecta en la 11): «Le pones otra dosis. Diez minutos después, Luis casi no habla, pero aún traga. Le dais zumo a sorbos y, poco a poco, vuelve. Con sudor, temblor y confusión falta azúcar, no insulina.»
+Apertura B (correcta en la 11): «Le das un vaso de zumo y dos caramelos. Quince minutos después, Luis te mira: "¿Qué hago en la escalera?". Ha vuelto.»
+Gancho: HUGO SE ATRAGANTA.|Y NO PUEDE TOSER.
+Historia: «Con lo que ha dicho Don Ramón, no hay nada que pensar: vas al polideportivo. Hugo no se separa de ti y se guarda los caramelos que sobraron. La cola llega a la calle. Megáfono: "Solo familiares, con DNI". Hora noventa. Hugo se mete un caramelo en la boca, se ríe y, de golpe, se calla. Se lleva las manos al cuello. No tose. No le sale la voz. Se está poniendo morado. Una señora: "¡Dale agua, que baje!". Decides tú. A: le das agua para que baje. B: cinco golpes fuertes en la espalda y, si no sale, cinco compresiones en la tripa. Comenta A o B.»
+ESCALADA (si en la 11 ganó A): «Y Luis se ha quedado en casa, todavía flojo.»
+SUSPENSO: «Dentro, un voluntario lee la lista. Junto al nombre de tu tío, a boli: "Trasladado. Tres de la mañana". Nadie sabe adónde.»
+Mochila: + DNI · - CARAMELOS.
+Marcador: si en la 11 ganó A → LUIS −1.
+Correcta: B. Lección: atragantamiento en niño que no puede toser, hablar ni respirar → 5 golpes en la espalda + 5 compresiones abdominales.
+
+## Parte 13 · El tío — HORA 94 — BORRADOR · pendiente de OK del responsable
+Apertura A (incorrecta en la 12): «Le das agua. Hugo se pone más morado: el agua no empuja nada. Un voluntario lo agarra: cinco golpes en la espalda, cinco compresiones en la tripa. El caramelo sale. Hugo llora. Llorar es respirar.»
+Apertura B (correcta en la 12): «Le inclinas hacia delante. Un golpe entre los omóplatos. Dos. Tres. Le abrazas por detrás, puño sobre la tripa, y aprietas hacia dentro y arriba. El caramelo sale. Hugo llora. Llorar es respirar.»
+Gancho: TU TÍO HA VUELTO.|SANGRANDO.
+Historia: «Nadie en el polideportivo sabe adónde llevan a la gente. Volvéis a casa de noche, en silencio. Hora noventa y cuatro. En el portal, alguien sentado en el suelo, a oscuras. Calvo. Barba. Polo azul. Tu tío. El que salió la primera noche a buscar ayuda para la abuela y no volvió. Tiene el brazo envuelto en una camiseta empapada de sangre: "Me tiré de la furgoneta… me corté con la valla". La sangre gotea en el escalón. Tu cuñado se quita el cinturón: "¡Un torniquete, rápido!". Decides tú. A: torniquete con el cinturón. B: presión directa y firme sobre la herida, sin soltar. Comenta A o B.»
+ESCALADA (si en la 12 ganó A): «Y Hugo todavía tose cada poco.»
+SUSPENSO: «Tu tío te agarra: "Que nadie del polideportivo sepa que estoy aquí".»
+Mochila: + TU TÍO · - SECRETO.
+Marcador: si en la 12 ganó A → HUGO −1.
+Correcta: B. Lección: hemorragia → presión directa y firme sobre la herida, sin soltar; después, revisar la vacuna del tétanos.
