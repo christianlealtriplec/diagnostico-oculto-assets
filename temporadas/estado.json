@@ -343,7 +343,7 @@
   "crucero": {
    "guiones": "temporadas/crucero_guiones.md",
    "carpeta": "crucero",
-   "ultima_parte_programada": 2,
+   "ultima_parte_programada": 3,
    "listo": true,
    "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
    "voz_id": "EXAVITQu4vr4xnSDxMaL",
@@ -381,6 +381,25 @@
      "nota": "Guion aprobado por el responsable el 18-nov a las ~11:00 (tras el aviso de la tarea). Producida en la misma sesión. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local.",
      "ig_permalink": "https://www.instagram.com/reel/Df5AT3DgGNE/",
      "ig_media_id": "17994786441077277"
+    },
+    "3": {
+     "titulo": "La foto imposible",
+     "publicacion": "2026-11-20T18:00:00+01:00",
+     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/b6dxakdqmf0y8jgrjdy8oguq.mp4",
+     "duracion": 74.44,
+     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1f31a55d-6ea7-4345-9d61-0b34a7702fe7.mp3",
+     "voz_segundos": 71.97,
+     "upload_id": "9611985c-3310-412f-85cb-a29d72e01ce7",
+     "vidiq_post_id": "735353e4-7c67-47ec-aa96-a3c5033f6150",
+     "vidiq_borrador": {
+      "youtube_publicationId": "b7414dd3-b516-42ed-841a-bd94b15cae13",
+      "tiktok_publicationId": "0da41465-1558-489f-96e9-e8df0c046f4f"
+     },
+     "youtube_url": "https://www.youtube.com/watch?v=x_b3evLrkS8",
+     "caption_ig": "🚢 El crucero que regresó vacío · Parte 03: La foto imposible\nUna de las historias de mi hermana se hizo desde el agua, de noche, en mitad del océano. Y no era la única.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Cómo sabía Rey dónde estaban los servidores? Deja tu teoría en comentarios 👇 Parte 04, el domingo a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (Artem Podrez, 정규송 Nui MALAMA, Bradley Murray, K, Larkkid Dung, MART PRODUCTION, Ali Alcántara, cottonbro studio, Yaroslav Shuraev, Kuiyibo Campos).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
+     "creditos": 69,
+     "estado": "programada 20-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05",
+     "nota": "Guion aprobado por el responsable el 20-nov ~12:50 (todas las partes 03–14). Producida por el vigilante. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local."
     }
    },
    "barco_maestro": {
@@ -397,7 +416,8 @@
     "comedor": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/89ba9c1f-6c89-42bc-b73b-4d544cc7cb41.jpeg",
     "platos": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/8258aafb-ab1d-446d-bf6b-1be01764f429.jpeg",
     "elena": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/2fc827f5-3ca1-4136-b1b4-09f14242c13a.jpeg",
-    "noa": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg"
+    "noa": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg",
+    "foto_imposible": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/3b75261f-1807-43f7-870e-62228452c7bf.jpeg"
    }
   }
  }
