@@ -61,7 +61,7 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (Noa: selfi en la popa del Perséfone al atardecer, melena rubia, pañuelo verde, 9:16, estilo foto de móvil; misma Noa toda la serie) · ~9 búsquedas de archivo · voz Sarah · música de la serie (reutilizada).
 Coste estimado: ~73 créditos (22 Noa + 9 archivo + 28 voz + ~14 montaje).
 
-## Parte 03 · La foto imposible (BORRADOR · pendiente de OK)
+## Parte 03 · La foto imposible (aprobada por el responsable el 20/11)
 Continuidad: empieza en el segundo en que acaba la 02: 17-oct, ~11:45, camarote 7114, maleta abierta, el pañuelo en la mano de Elena y el móvil de Noa en la otra. Se desvela qué mostraba la historia de las 11:42 de la Parte 01. Sin contenido médico nuevo.
 Portada: PARTE 03 · «UNA FOTO *IMPOSIBLE*» (IA nueva: foto_imposible)
 Guion: «Esta foto se hizo desde el agua. De noche. En mitad del océano. Es la historia que se publicó a las once y cuarenta y dos, mientras yo buscaba a mi hermana. El Perséfone, con todas las luces encendidas, visto a ras de las olas. Fecha: trece de octubre. Para hacerla, alguien tenía que estar en el agua, de noche, a cientos de millas de la costa. Volví atrás. Día nueve: Noa en la piscina, vista desde arriba. Encima de esa piscina no hay nada. Ni un balcón. Ni una cámara. Día siete: el pañuelo que nunca se puso. No era una historia rara. Eran muchas. Alguien estaba haciendo fotos que nadie pudo hacer. Subí a buscar al inspector Tomás Rey, de la Guardia Civil. Le enseñé el móvil. "Si se publican desde el barco, salen de sus servidores", dijo. Y echó a andar. Cubierta dos. Una puerta sin rótulo. La sala de servidores. No miró el plano ni una vez. Decía que nunca había estado en este barco. ¿Cómo sabía Rey dónde estaban los servidores?»
@@ -89,7 +89,7 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (foto_imposible: el Perséfone de noche visto desde el nivel del mar, todas las luces encendidas, olas en primer plano, estilo foto de móvil con grano, 9:16, referencia barco_maestro) · ~13 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~77 créditos (22 IA + 13 archivo + 28 voz + ~14 montaje).
 
-## Parte 04 · Las pastillas de Rosa (BORRADOR · pendiente de OK)
+## Parte 04 · Las pastillas de Rosa (aprobada por el responsable el 20/11)
 Continuidad: 17-oct, ~12:00, sala de servidores (cubierta 2) → camarote 5008. Rey no aclara cómo conocía la sala (se resuelve en la 11).
 Contenido médico: solo el aprobado en el plan (las pastillas sin tomar como prueba de ausencia). Sin nombres de fármacos ni dosis.
 Portada: PARTE 04 · «SUS PASTILLAS *SEGUÍAN* AHÍ»
@@ -119,7 +119,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~15 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~57 créditos (15 archivo + 28 voz + ~14 montaje).
 
-## Parte 05 · Hombre al agua (BORRADOR · pendiente de OK)
+## Parte 05 · Hombre al agua (aprobada por el responsable el 20/11)
 Continuidad: 17-oct, 14:10, camarote 5008 → cubierta 3 → puente → noche (remolque a Las Palmas). Sin contenido médico nuevo.
 Portada: PARTE 05 · «FALTA UN *SALVAVIDAS*»
 Guion: «Falta un salvavidas. Bajamos hacia los golpes. Rey rompió el precinto de la cubierta tres. Los golpes pararon. No había nadie. Solo, junto a la barandilla, un soporte vacío. Faltaba un aro. Subimos al puente. El diario de navegación seguía en su sitio. Cinco de octubre, veintitrés cuarenta: último contacto por radio. Después, nada. Alguien había arrancado la página siguiente. Quedaban los restos en el lomo. En la consola de radio, un mensaje guardado. "Hombre al agua". Seis de octubre, dos y cinco de la madrugada. Escrito. Preparado. Nunca enviado. Alguien cayó al mar, alguien lo vio, y alguien decidió no pedir ayuda. Rey lo fotografió todo sin decir nada. Esa noche remolcaron el Perséfone hacia Las Palmas. A las diez sonó mi teléfono. Era Madeira. El mar había devuelto un cuerpo. Llevaba el uniforme de la tripulación del Perséfone. ¿Quién decidió no pedir ayuda?»
@@ -146,7 +146,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~14 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~56 créditos.
 
-## Parte 06 · Memoria (BORRADOR · pendiente de OK)
+## Parte 06 · Memoria (aprobada por el responsable el 20/11)
 Continuidad: 18-oct, mañana, muelle de Las Palmas, el Perséfone ya amarrado; los servidores que se llevó Rey, en una carpa. Primera aparición de Marco Bellini (aliado). Sin contenido médico nuevo.
 Portada: PARTE 06 · «UNA IA ESCRIBÍA SUS *VACACIONES*»
 Guion: «La naviera tenía una IA que escribía tus vacaciones por ti. Se llamaba Memoria. Me lo explicó Marco Bellini, el ingeniero que la diseñó, en el muelle de Las Palmas, con los servidores del Perséfone abiertos en una carpa. "Usa las cámaras del barco y las fotos de cada pasajero. Con eso compone historias y las publica sola. Aunque tú estés durmiendo." ¿Y las fotos imposibles?, le pregunté. "Cuando le falta una imagen, se la inventa." Por eso todo parecía normal. Por eso había fotos que nadie pudo hacer. Las historias de mi hermana podían ser falsas. Todas. ¿Y cómo publicaba sin señal? Bellini no supo responder. "Sin conexión, no debería publicar nada." Le pregunté si se podía apagar. "Ya está apagada. Desconectamos los servidores ayer." A las once, el móvil de Noa vibró en mi bolsillo. Nueva historia. Era yo. En este muelle. Esa misma mañana. ¿Quién me hizo esa foto?»
@@ -171,7 +171,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~12 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~54 créditos.
 
-## Parte 07 · Lucía (BORRADOR · pendiente de OK)
+## Parte 07 · Lucía (aprobada por el responsable el 20/11)
 Continuidad: 18-oct, ~11:00, muelle, justo tras la foto de Elena. Primera aparición de Lucía Ferrer (16) y de Andrés Ferrer (falso culpable). Sin contenido médico nuevo.
 Portada: PARTE 07 · «MÍRALO EN EL *ESPEJO*»
 Guion: «En esta historia hay un mensaje. Míralo en el espejo. La foto mía en el muelle me dejó helada. Bellini rastreó el envío: había entrado en Memoria desde la red del propio barco. Un barco vacío y precintado. Para saber qué era real, Bellini separó las historias que la IA no había tocado. Las fotos de verdad. Quedaron muy pocas. Una era de Lucía Ferrer, dieciséis años, pasajera. Seis de octubre, de madrugada. Un selfi en el baño de su camarote. Sudadera roja, auriculares. Normal. Hasta que miré el espejo empañado. Había letras en el vaho. Del revés. Giré la imagen. "No bebáis el agua". Busqué a su familia en la lista. Lucía viajaba con su padre, Andrés Ferrer. Su empresa aparecía en el contrato de reforma del barco. Le pedí a Rey que buscara qué había instalado. El sistema de agua potable. ¿Por qué el padre de Lucía?»
@@ -197,7 +197,7 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (Lucía: chica de 16 años, sudadera roja con capucha, auriculares al cuello, pelo castaño recogido, retrato tipo foto de ficha, fondo neutro, 9:16) · ~12 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~76 créditos.
 
-## Parte 08 · La capitana (BORRADOR · pendiente de OK)
+## Parte 08 · La capitana (aprobada por el responsable el 20/11)
 Continuidad: 18-oct, tarde, el Perséfone amarrado en Las Palmas → puente. Se descarta (de momento) a Ferrer. Primera aparición de la capitana (en documento) y de Víctor Lago (en televisión). Sin contenido médico nuevo.
 Portada: PARTE 08 · «FIRMADO: *V. L.*»
 Guion: «La orden venía firmada con dos iniciales: V. L. Antes, Rey había ido a por Andrés Ferrer. No pudo: Ferrer era uno de los quinientos noventa desaparecidos. Viajaba con su hija. Nadie pone en peligro el agua del barco en el que va su hija. Así que volvimos al puente. En un cajón, la tableta de la capitana, Miren Arteaga. Aún tenía batería. Último documento abierto: "Protocolo Silencio". Seis de octubre, cero horas y cinco minutos. Apagar radio y localizador. No informar a tierra. Cambiar el rumbo. Las coordenadas, borradas. Y abajo, la firma: V. L. Siete minutos después, el Perséfone desaparecía del mapa. La capitana obedeció. Busqué las iniciales en la naviera. Víctor Lago. Presidente de Naviera Aurelia. Esa noche, Lago salió en televisión. Nadie le había preguntado por eso. Y aun así lo dijo: "No había ningún programa médico a bordo". ¿Por qué niega algo que nadie le ha preguntado?»
@@ -225,7 +225,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~11 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~53 créditos.
 
-## Parte 09 · El spa Lethe (BORRADOR · pendiente de OK)
+## Parte 09 · El spa Lethe (aprobada por el responsable el 20/11)
 Continuidad: 19-oct, mañana, el Perséfone en Las Palmas → spa Lethe (cubierta 9) → tarde, laboratorio. Primera mención de Orfeo Biotech y ORF-11 (solo en el papel; no se dice aún que esté en el agua).
 Contenido sanitario NUEVO (requiere tu revisión): qué debe explicar un consentimiento informado (para qué es el estudio, sus riesgos y el derecho a retirarse cuando quieras). Es bioética general; no incluye datos del compuesto inventado.
 Portada: PARTE 09 · «NINGUNO SABÍA QUÉ *FIRMABA*»
@@ -251,7 +251,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~11 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~53 créditos.
 
-## Parte 10 · Diagnóstico (BORRADOR · pendiente de OK)
+## Parte 10 · Diagnóstico (aprobada por el responsable el 20/11)
 Continuidad: 19-oct noche → 20-oct mañana, Instituto de Medicina Legal de Las Palmas. Se revela el diagnóstico oculto: intoxicación masiva por ORF-11 a través del agua potable. Lucía no bebió del grifo (se cuenta en la 13): por eso «casi todo el barco».
 Contenido sanitario NUEVO (requiere tu revisión): cuando mucha gente enferma a la vez en un lugar cerrado, se busca lo que todos compartieron (agua, comida, aire). Sin síntomas ni dosis del compuesto inventado.
 Portada: PARTE 10 · «FUE EL *AGUA*»
@@ -278,7 +278,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~11 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~53 créditos.
 
-## Parte 11 · El faro (BORRADOR · pendiente de OK)
+## Parte 11 · El faro (aprobada por el responsable el 20/11)
 Continuidad: 20-oct, mañana, Instituto forense → sede de Bellini. Se cierra lo de Rey (falso culpable: fue asesor de seguridad de la naviera; se llevó la muestra para analizarla fuera) y desde aquí ayuda. Primera aparición de Sanz (por sus fotos). Sin contenido médico nuevo.
 Portada: PARTE 11 · «UNA PISTA EN *CADA* FOTO»
 Guion: «Sanz nos dejó una pista en cada foto. Pero antes, Rey. Lo esperé en mi despacho. Dejó la muestra sobre la mesa, intacta. "Fui asesor de seguridad de Naviera Aurelia. Seis años. Por eso conocía el barco. Y sé que su laboratorio la habría perdido." La había llevado a analizar fuera. Confirmado: ORF-11. Desde ese día, trabajamos juntos. Bellini nos esperaba con algo. Entre las pocas fotos reales de Memoria había veintitrés de la misma cuenta: la del médico del barco, el doctor Abel Sanz. Uno de los desaparecidos. En todas, al fondo, la misma silueta: un faro blanco, con una franja roja. En la última, el faro de cerca y una mano que lo señala. Rey lo reconoció. Isla Garza. Una isla privada. Su dueña: Orfeo Biotech. Pedimos la imagen de satélite del trece de octubre. En su puerto, amarrados, catorce botes salvavidas naranjas. Los del Perséfone. ¿Qué hay en Isla Garza?»
@@ -304,7 +304,7 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (faro_garza: faro blanco con una franja roja en un islote rocoso del Atlántico, mar gris, una mano en primer plano señalándolo, estilo foto de móvil, 9:16) · ~12 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~76 créditos.
 
-## Parte 12 · Isla Garza (BORRADOR · pendiente de OK)
+## Parte 12 · Isla Garza (aprobada por el responsable el 20/11)
 Continuidad: 21-oct, amanecer, Isla Garza. Se encuentra a los pasajeros vivos. Noa no reconoce a Elena. El recuento (589) se hace en la 13: aquí «590» es lo que pone la lista de Orfeo.
 Contenido médico: solo el del plan (casi nadie recuerda nada). Sin síntomas ni tratamientos concretos.
 Portada: PARTE 12 · «*VIVOS*. EN SILENCIO»
@@ -330,7 +330,7 @@ Desglose (frase → imagen · capa):
 Recursos: 0 imágenes IA · ~12 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~54 créditos.
 
-## Parte 13 · Los que no bebieron (BORRADOR · pendiente de OK)
+## Parte 13 · Los que no bebieron (aprobada por el responsable el 20/11)
 Continuidad: 21-oct, mañana, una sala de Isla Garza. Testimonio de Lucía de los 11 días. Cierra el hombre al agua (5) y el espejo (7). Recuento: 589.
 Contenido médico: solo el del plan (confusión, lagunas y agitación, sin detalles; Lucía recuerda porque solo bebió agua embotellada). Sin tratamientos concretos.
 Portada: PARTE 13 · «ELLA LO *RECUERDA* TODO»
@@ -357,7 +357,7 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (lucia_testimonio: Lucía, la misma de la ficha, sentada en una sala blanca y sencilla, luz de mañana, mirada a cámara serena, sudadera roja, auriculares al cuello, 9:16; referencia: imagen de Lucía) · ~9 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~73 créditos.
 
-## Parte 14 · Todavía estoy aquí (BORRADOR · pendiente de OK)
+## Parte 14 · Todavía estoy aquí (aprobada por el responsable el 20/11)
 Continuidad: 21-oct tarde → 22-oct, el Perséfone amarrado en Las Palmas. Se cierran: la foto de Elena en el muelle (06–07), los golpes (04–05), la página arrancada (05). Sanz aparece vivo. Lago, detenido. Final abierto del plan: Memoria publica desde la cuenta de Lago.
 Contenido médico: solo el del plan (la deshidratación de Sanz al final): «deshidratado, pero vivo» y un suero; sin cifras ni pautas.
 Portada: PARTE 14 · «TODAVÍA ESTOY *AQUÍ*»
