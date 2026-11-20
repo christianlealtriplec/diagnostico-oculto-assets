@@ -51,6 +51,7 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 
 ## Lunes: informe semanal
 Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
+- **Línea editorial (20-nov-2026):** lo que engancha es el misterio y el suspense; la educación sanitaria va dentro de la historia, no al revés. Se pueden meter giros (también en el apagón) siempre que respeten el hilo conductor. En cada informe del lunes, di qué serie gana o pierde tirón (vistas, retención, comentarios por parte) y, si una cae dos semanas seguidas, propón un giro o una serie nueva de misterio con trasfondo médico. Los cambios de rumbo grandes (cambiar o cerrar una serie, empezar otra) se proponen al responsable antes de hacerlos; los giros dentro de una serie, no.
 
 ## Crucero («El crucero que regresó vacío»)
 Expediente realista, narra la Dra. Elena Varela. SIN votación, SIN marcador de salud ni mochila. Historias de IG: ninguna (solo el apagón las lleva).
