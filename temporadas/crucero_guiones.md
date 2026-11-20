@@ -384,6 +384,11 @@ Desglose (frase → imagen · capa):
 Recursos: 1 imagen IA nueva (sanz_escondite: hombre de 60 años, barba blanca, bata azul de médico arrugada, sentado entre tuberías detrás de un panel abierto, iluminado por una linterna, cansado pero consciente, sin sangre ni heridas, 9:16) · ~11 búsquedas de archivo · voz Sarah · música de la serie.
 Coste estimado: ~75 créditos.
 
+## Parte 04 · Las pastillas de Rosa — v2 «hilo conductor» (BORRADOR · pendiente de OK; si no hay OK, se usa la versión aprobada)
+Cambio: sin salto en el tiempo al empezar (antes abría con una frase de mitad del capítulo). Empieza con «Lo que sabemos» y sigue en orden. Mismos hechos, mismo final.
+Guion: «Lo que sabemos: alguien hizo fotos que nadie pudo hacer. Y el inspector Rey fue directo a una sala que decía no conocer. Diecisiete de octubre, mediodía. Sala de servidores. Le pregunté a Rey cómo la conocía. "Todos los barcos son iguales", dijo. No le creí. Pero había algo más urgente: si las fotos eran falsas, ¿dónde estaba de verdad la gente? Comparé las historias con los camarotes. Camarote cinco cero cero ocho. Rosa Méndez, sesenta y siete años, viuda. En su cuenta, once días de fiesta: baila en el salón, canta en cubierta. En su mesilla, un pastillero y tres blísteres del corazón. Los conté. Desde el seis de octubre no faltaba ni una pastilla. Una paciente del corazón no deja su tratamiento once días para irse a bailar. Rosa no estaba en ese salón. Las historias ponían a la gente donde no estaba. Pista número cuatro. Catorce y diez. Entonces lo oí. Tres golpes. Debajo de mis pies. La cubierta de abajo estaba precintada. Y vacía. ¿Quién golpeaba desde abajo?»
+En pantalla: tarjeta «LO QUE SABEMOS» (2–3 s) con las pistas 1–3 · chip de fecha/hora en cada cambio de lugar · al decir «Pista número cuatro», el tablero «PISTAS 4» suma la pieza.
+
 ## Resumen de imágenes IA nuevas (Partes 03–14)
 03 foto_imposible · 07 lucia (ficha) · 11 faro_garza · 13 lucia_testimonio · 14 sanz_escondite. Coincide con el calendario (5 fotos). Rey, Rosa, Bellini, Arteaga, Ferrer, Lago y Sanz (hasta la 14) van con ficha de silueta para no gastar créditos; si quieres foto fija de alguno, son +22 créditos cada una.
 

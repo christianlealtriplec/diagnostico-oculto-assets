@@ -97,3 +97,14 @@ SUSPENSO: «Y alguien en la cola susurra: "En el polideportivo se llevan a la ge
 Mochila: + DOS GARRAFAS.
 Marcador: si en la 09 ganó A → HUGO −1.
 Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.
+
+## Parte 10 · La cola — v2 «hilo conductor» (BORRADOR · pendiente de OK; si no hay OK, se usa la v1 aprobada)
+Cambio: resuelve el SUSPENSO de la 09 (la puerta) y conecta la cola con el hilo del tío/polideportivo. Lección y decisión, idénticas a la v1.
+Apertura A (incorrecta): «Bebéis. Por la noche, a Hugo le duele la tripa: el agua estancada de una bañera no es potable; había que hervirla al menos un minuto o desinfectarla con lejía apta.»
+Apertura B (correcta): «Hervís el agua en el hornillo de Don Ramón, un minuto a borbotones, y la dejáis enfriar tapada. Nadie se pone malo.»
+Gancho: SE CAE EN LA COLA.|Y YA NO TIEMBLA.
+Historia: «Y entonces, la puerta. Tres golpes. Es un voluntario de Protección Civil, con chaleco naranja: "Mañana, agua en el colegio. Traed garrafas". Antes de irse: "¿Conocéis a un hombre calvo, con barba? Ha dado esta dirección en el polideportivo". Tu tío. Hora ochenta. Amanece. Bajas a la cola con dos garrafas y tu cuñado. Hace un frío que muerde. Delante, un señor mayor en zapatillas, empapado. Tiembla. "Vengo del polideportivo… estoy bien". Y se cae al suelo. Un voluntario grita: "¡Una manta!". Tu cuñado saca una petaca: "Un trago de coñac, que esto calienta". El señor ya no tiembla. Y con este frío, eso no es buena señal. Decides tú. A: un trago de coñac para que entre en calor. B: a cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar. Comenta A o B.»
+ESCALADA (si en la 09 ganó A): «Y a Hugo le sigue doliendo la tripa.»
+SUSPENSO: «El señor te agarra la manga: "Al calvo de la barba… se lo llevaron anoche".»
+Mochila: + DOS GARRAFAS. · Marcador: si en la 09 ganó A → HUGO −1.
+Correcta: B. Lección: hipotermia → refugio, quitar la ropa mojada, abrigar; nada de alcohol ni frotar; dejar de tiritar con frío es mala señal.
