@@ -1,0 +1,495 @@
+{
+ "format": "vertical",
+ "scenes": [
+  {
+   "source": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/3b75261f-1807-43f7-870e-62228452c7bf.jpeg",
+   "type": "image",
+   "duration": 5.16,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.1,
+     "x": 0.5,
+     "y": 0.52
+    }
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/6279146/6279146-hd_1080_1920_30fps.mp4",
+   "type": "video",
+   "duration": 6.44,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/3b75261f-1807-43f7-870e-62228452c7bf.jpeg",
+   "type": "image",
+   "duration": 5.23,
+   "kenBurns": {
+    "from": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.56
+    },
+    "to": {
+     "scale": 1.7,
+     "x": 0.5,
+     "y": 0.58
+    }
+   },
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/35072027/14856546_1080_1920_30fps.mp4",
+   "type": "video",
+   "duration": 2.29
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/9153497/9153497-hd_720_1280_30fps.mp4",
+   "type": "video",
+   "duration": 6.82,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/33661313/14302051_1080_1920_24fps.mp4",
+   "type": "video",
+   "duration": 5.29,
+   "transitionIn": {
+    "kind": "dip_to_black",
+    "duration": 0.4
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/33129399/14120166_1080_1920_30fps.mp4",
+   "type": "video",
+   "duration": 5.16,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/98a941fa-c2b9-46f8-894e-70212240d71d.jpeg",
+   "type": "image",
+   "duration": 3.31,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.45,
+     "y": 0.4
+    },
+    "to": {
+     "scale": 1.12,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/cuadricula.png",
+   "type": "image",
+   "duration": 3.19,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.06,
+     "x": 0.5,
+     "y": 0.45
+    }
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/7251759/7251759-hd_1080_1920_25fps.mp4",
+   "type": "video",
+   "duration": 3.63,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/ficha.png",
+   "type": "image",
+   "duration": 4.27,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.06,
+     "x": 0.5,
+     "y": 0.42
+    }
+   },
+   "transitionIn": {
+    "kind": "dip_to_black",
+    "duration": 0.4
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/15689201/15689201-hd_1080_1920_24fps.mp4",
+   "type": "video",
+   "duration": 1.59
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/7599305/7599305-hd_1080_2048_25fps.mp4",
+   "type": "video",
+   "duration": 4.78,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/6279825/6279825-hd_1080_1920_24fps.mp4",
+   "type": "video",
+   "duration": 4.46,
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://videos.pexels.com/video-files/28709421/12457750_1080_1920_30fps.mp4",
+   "type": "video",
+   "duration": 1.78
+  },
+  {
+   "source": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/plano.png",
+   "type": "image",
+   "duration": 2.17,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.08,
+     "x": 0.5,
+     "y": 0.45
+    }
+   },
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/95d097a9-3e21-4cb2-800c-d957b170c3b9.jpeg",
+   "type": "image",
+   "duration": 3.12,
+   "kenBurns": {
+    "from": {
+     "scale": 1.5,
+     "x": 0.3,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.7,
+     "x": 0.25,
+     "y": 0.55
+    }
+   },
+   "transitionIn": {
+    "kind": "fade",
+    "duration": 0.3
+   }
+  },
+  {
+   "source": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/5afabeb8-e91c-42a9-8a13-f2620868b45e.jpeg",
+   "type": "image",
+   "duration": 5.75,
+   "kenBurns": {
+    "from": {
+     "scale": 1.0,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.12,
+     "x": 0.5,
+     "y": 0.45
+    }
+   },
+   "transitionIn": {
+    "kind": "dip_to_black",
+    "duration": 0.4
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L_vineta.png",
+   "start": 0,
+   "duration": 74.47,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L_portada.png",
+   "start": 0,
+   "duration": 2.2,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L00.png",
+   "start": 2.2,
+   "duration": 2.96,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L01.png",
+   "start": 5.16,
+   "duration": 6.44,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L02.png",
+   "start": 11.6,
+   "duration": 5.23,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L03.png",
+   "start": 16.83,
+   "duration": 2.29,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L04.png",
+   "start": 19.12,
+   "duration": 6.82,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L05.png",
+   "start": 25.94,
+   "duration": 5.29,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L06.png",
+   "start": 31.24,
+   "duration": 5.16,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L07.png",
+   "start": 36.4,
+   "duration": 3.31,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L08.png",
+   "start": 39.71,
+   "duration": 3.19,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L09.png",
+   "start": 42.9,
+   "duration": 3.63,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L10.png",
+   "start": 46.54,
+   "duration": 4.27,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L11.png",
+   "start": 50.81,
+   "duration": 1.59,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L12.png",
+   "start": 52.4,
+   "duration": 4.78,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L13.png",
+   "start": 57.18,
+   "duration": 4.46,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L14.png",
+   "start": 61.64,
+   "duration": 1.78,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L15.png",
+   "start": 63.43,
+   "duration": 2.17,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L16.png",
+   "start": 65.6,
+   "duration": 3.12,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  },
+  {
+   "kind": "image",
+   "src": "https://raw.githubusercontent.com/christianlealtriplec/diagnostico-oculto-assets/main/crucero/p03/L17.png",
+   "start": 68.72,
+   "duration": 5.75,
+   "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1
+   }
+  }
+ ],
+ "voiceover": {
+  "audioUrl": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/1f31a55d-6ea7-4345-9d61-0b34a7702fe7.mp3",
+  "volume": 1.1
+ },
+ "music": {
+  "audioUrl": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/4065b5e6-8066-45ac-a648-6f0f86e15b82/74581a90-9381-4108-9197-4193bd755598.wav",
+  "volume": 0.7,
+  "duckTo": 0.25,
+  "fadeMs": 400
+ }
+}
