@@ -51,7 +51,15 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 
 ## Lunes: informe semanal
 Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
-- **Línea editorial (20-nov-2026):** lo que engancha es el misterio y el suspense; la educación sanitaria va dentro de la historia, no al revés. Se pueden meter giros (también en el apagón) siempre que respeten el hilo conductor. En cada informe del lunes, di qué serie gana o pierde tirón (vistas, retención, comentarios por parte) y, si una cae dos semanas seguidas, propón un giro o una serie nueva de misterio con trasfondo médico. Los cambios de rumbo grandes (cambiar o cerrar una serie, empezar otra) se proponen al responsable antes de hacerlos; los giros dentro de una serie, no.
+- **Línea editorial (20-nov-2026):** lo que engancha es el misterio y el suspense; la educación sanitaria va dentro de la historia, no al revés. Se pueden meter giros (también en el apagón) siempre que respeten el hilo conductor. En cada informe del lunes, di qué serie gana o pierde tirón (vistas, retención, comentarios por parte) y, si una cae dos semanas seguidas, propón un giro o una serie nueva de misterio con trasfondo médico. Desde el 21-nov el responsable delega TODO el canal: Claude decide y ejecuta solo (giros, cerrar o empezar series, calendario), y después le informa en el aviso. El responsable solo renueva los créditos.
+
+## Final de calendario y temporadas nuevas (autonomía total, 21-nov-2026)
+- El canal NO se para nunca. Si al `calendario.json` le quedan ≤ 4 días, la tarea de ese día (o la tarea «Análisis de nicho») lo amplía 30 días más ANTES de producir, alternando series igual que ahora.
+- Antes de ampliar: análisis de nicho con datos (vistas, retención y comentarios propios por parte; `vidiq_outliers`, `vidiq_trending_videos`, `vidiq_instagram_tiktok_outlier_search` y `vidiq_keyword_research` en español sobre misterio, true crime, historias por partes y supervivencia). Escribe el resultado en `temporadas/analisis_AAAA-MM-DD.md`: qué triunfa, qué no, qué ganchos funcionan y qué cambias.
+- Con eso decides: continuar las series (giro o temporada 2), cerrarlas, o empezar una nueva de misterio con trasfondo médico. Cada serie nueva lleva biblia (verdad oculta, personajes, cronología, pistas) en `temporadas/<serie>_guiones.md`, entrada en `estado.json → series`, sección de producción en este manual y la norma del hilo conductor.
+- Contenido médico nuevo: solo consejos estándar y verificables (112, Ministerio de Sanidad, Cruz Roja, ERC, Servicio de Información Toxicológica); cita la fuente en el guion. Nada de dosis de medicamentos.
+- Presupuesto: plan Boost de 2.000 créditos/mes, que se renueva el día 9. Planifica para gastar ≤ 1.800 por ciclo.
+- Avisa al responsable con una tabla corta de lo que decidiste.
 
 ## Crucero («El crucero que regresó vacío»)
 Expediente realista, narra la Dra. Elena Varela. SIN votación, SIN marcador de salud ni mochila. Historias de IG: ninguna (solo el apagón las lleva).
