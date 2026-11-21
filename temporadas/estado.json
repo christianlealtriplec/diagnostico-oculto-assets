@@ -331,7 +331,7 @@
       },
       "votos": null,
       "rama_ganadora": null,
-      "estado": "programada 21-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+      "estado": "publicada 21-nov 18:00 (YT+TikTok vidIQ; IG 18:05 vidIQ)",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/by8ezjnb0y32ll0rj3l77e4e.mp4",
       "duracion": 76.5,
       "upload_id": "427c65cd-4996-4df8-87c8-b665754d90f3",
@@ -345,7 +345,9 @@
       "youtube_url": "https://www.youtube.com/watch?v=vw6EPpiGW0U",
       "creditos": 58,
       "caption_ig": "📺 72 horas sin luz · Parte 10: La cola\nUn señor empapado se cae en la cola del agua. Y de repente, ya no tiembla.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Un trago de coñac para que entre en calor / B) A cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar · Responde con A o B. La Parte 11, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
-      "nota": "Rama B (2 votos B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 09 (agua). Personajes nuevos: voluntario() y senor_mayor() en draw.py. Mochila: gas gastado al hervir → «- SIN GAS». Sin historias IG."
+      "nota": "Rama B (2 votos B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 09 (agua). Personajes nuevos: voluntario() y senor_mayor() en draw.py. Mochila: gas gastado al hervir → «- SIN GAS». Sin historias IG.",
+      "ig_permalink": "https://www.instagram.com/reel/DgAusyskdoe/",
+      "ig_media_id": "17896950489437354"
     }
   },
   "recursos": {
