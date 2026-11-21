@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 9,
+  "ultima_parte_programada": 10,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -293,8 +293,12 @@
         "B": "La hervís o la desinfectáis antes",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 0,
+        "B": 2,
+        "detalle": "Instagram 2 B; YouTube 0; TikTok no contado"
+      },
+      "rama_ganadora": "B",
       "estado": "programada 19-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/uc3iivj5h9c0ht96udez07qw.mp4",
       "duracion": 49.1,
@@ -312,6 +316,36 @@
       "nota": "Rama B (3 votos B, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 08 (golpe en la cabeza). Sin historias IG.",
       "ig_permalink": "https://www.instagram.com/reel/Df7lJWLDZ86/",
       "ig_media_id": "18123921793922153"
+    },
+    "10": {
+      "titulo": "La cola",
+      "publicacion": "2026-11-21T18:00:00+01:00",
+      "apertura": "B",
+      "guion": "v2 hilo conductor",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/f2712758-fb2a-4be1-b5cd-3e9fe196500d.mp3",
+      "voz_segundos": 74.19,
+      "decision": {
+        "A": "Un trago de coñac para que entre en calor",
+        "B": "A cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "estado": "programada 21-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/by8ezjnb0y32ll0rj3l77e4e.mp4",
+      "duracion": 76.5,
+      "upload_id": "427c65cd-4996-4df8-87c8-b665754d90f3",
+      "vidiq_borrador": {
+        "postId": "8c508fd8-96fd-4a24-98c6-c8ae5e66ffd8",
+        "revision": "b6c6a37f-f666f6a5",
+        "youtube_publicationId": "11a7ae23-5746-472b-8ed8-f7e28b0d0021",
+        "tiktok_publicationId": "da31ea4f-b9ef-4c93-a092-bd082e73f259"
+      },
+      "vidiq_post_id": "8c508fd8-96fd-4a24-98c6-c8ae5e66ffd8",
+      "youtube_url": "https://www.youtube.com/watch?v=vw6EPpiGW0U",
+      "creditos": 53,
+      "caption_ig": "📺 72 horas sin luz · Parte 10: La cola\nUn señor empapado se cae en la cola del agua. Y de repente, ya no tiembla.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Un trago de coñac para que entre en calor / B) A cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar · Responde con A o B. La Parte 11, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+      "nota": "Rama B (2 votos B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 09 (agua). Personajes nuevos: voluntario() y senor_mayor() en draw.py. Mochila: gas gastado al hervir → «- SIN GAS». Sin historias IG."
     }
   },
   "recursos": {
@@ -328,10 +362,10 @@
     "LUIS": 3
   },
   "mochila": [
-    "+ BAÑERA LLENA",
+    "+ DOS GARRAFAS",
     "+ HORNILLO",
     "+ LEJÍA",
-    "- GAS PARA UNA VEZ"
+    "- SIN GAS"
   ],
   "series": {
     "apagon": {
