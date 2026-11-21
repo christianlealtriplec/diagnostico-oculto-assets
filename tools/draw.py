@@ -363,3 +363,85 @@ def don_ramon(cx=540, cy=900, s=1.0, mood="serious", radio_hand=True):
             f'{mouth}'
             f'<ellipse cx="420" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/><ellipse cx="660" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/>'
             f'{radio_}</g>')
+
+
+def voluntario(cx=540, cy=900, s=1.0, mood="serious", point=False):
+    """Voluntario de Protección Civil: 35 años, pelo castaño corto, barba de tres días,
+    chaleco naranja reflectante con bandas plateadas sobre sudadera azul marino, gorra azul.
+    mood: "serious" | "shout"."""
+    t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
+    mouth = ('<ellipse cx="540" cy="970" rx="32" ry="26" fill="#260f0c"/>' if mood == "shout"
+             else '<path d="M 510 972 L 570 972" stroke="#5a2e26" stroke-width="8" stroke-linecap="round"/>')
+    arm = ('<path d="M 700 1150 C 800 1110, 880 1060, 960 1010" stroke="#1c2440" stroke-width="78" fill="none" stroke-linecap="round"/>'
+           '<circle cx="975" cy="1000" r="40" fill="url(#skin)"/>') if point else ""
+    return (f'<g {t}>'
+            '<path d="M 345 1540 C 345 1190, 425 1080, 540 1070 C 655 1080, 735 1190, 735 1540 Z" fill="#1c2440"/>'
+            '<path d="M 375 1540 L 380 1170 C 420 1110, 470 1090, 500 1085 L 540 1200 L 580 1085 C 610 1090, 660 1110, 700 1170 L 705 1540 Z" fill="#ff7a00"/>'
+            '<rect x="378" y="1330" width="324" height="34" fill="#d9dde3"/><rect x="378" y="1430" width="324" height="34" fill="#d9dde3"/>'
+            '<path d="M 540 1200 L 540 1540" stroke="#c45a00" stroke-width="6"/>'
+            '<rect x="575" y="1230" width="100" height="60" rx="6" fill="#1f4fbf"/>'
+            '<path d="M 600 1245 L 625 1275 L 650 1245" stroke="#ff7a00" stroke-width="8" fill="none"/>'
+            f'{arm}<rect x="505" y="965" width="70" height="110" fill="{PAL["skin_d"]}"/>'
+            '<ellipse cx="540" cy="880" rx="115" ry="135" fill="url(#skin)"/>'
+            '<path d="M 432 905 C 440 990, 490 1015, 540 1015 C 590 1015, 640 990, 648 905" stroke="#5a4636" stroke-width="10" fill="none" stroke-dasharray="3 7"/>'
+            '<path d="M 420 820 C 420 720, 480 690, 540 690 C 600 690, 660 720, 660 820 Z" fill="#1f3a8a"/>'
+            '<path d="M 640 805 C 700 805, 740 815, 760 830 L 650 835 Z" fill="#17306f"/>'
+            '<path d="M 480 760 L 600 760" stroke="#ff7a00" stroke-width="10"/>'
+            '<path d="M 470 835 L 520 840 M 610 835 L 560 840" stroke="#3a2a20" stroke-width="12" stroke-linecap="round"/>'
+            '<ellipse cx="497" cy="868" rx="11" ry="13" fill="#2b211c"/><ellipse cx="583" cy="868" rx="11" ry="13" fill="#2b211c"/>'
+            f'<path d="M 540 878 L 530 925 L 552 925" stroke="{PAL["skin_d"]}" stroke-width="6" fill="none"/>'
+            f'{mouth}'
+            f'<ellipse cx="424" cy="890" rx="17" ry="28" fill="{PAL["skin_d"]}"/><ellipse cx="656" cy="890" rx="17" ry="28" fill="{PAL["skin_d"]}"/></g>')
+
+
+def senor_mayor(cx=540, cy=900, s=1.0, mood="shiver", wet=True, blanket=False):
+    """Señor mayor del polideportivo: 78 años, pelo blanco revuelto, cara muy pálida y labios azulados,
+    anorak gris empapado, pantalón de pijama y zapatillas de casa a cuadros.
+    mood: "shiver" (tiembla, líneas de temblor) | "weak" (ojos entornados, ya no tiembla) | "talk"."""
+    t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
+    eyes = ('<path d="M 482 868 L 514 872 M 566 872 L 598 868" stroke="#2b211c" stroke-width="8" stroke-linecap="round"/>' if mood == "weak"
+            else '<ellipse cx="497" cy="866" rx="12" ry="14" fill="#fff"/><ellipse cx="583" cy="866" rx="12" ry="14" fill="#fff"/>'
+                 '<circle cx="497" cy="868" r="7" fill="#222"/><circle cx="583" cy="868" r="7" fill="#222"/>')
+    mouth = ('<ellipse cx="540" cy="968" rx="24" ry="18" fill="#2a1830"/>' if mood == "talk"
+             else '<path d="M 512 972 Q 540 962 568 972" stroke="#6a7a9c" stroke-width="8" fill="none" stroke-linecap="round"/>')
+    shake = ('<path d="M 380 1160 l -40 -12 M 370 1220 l -46 0 M 700 1160 l 40 -12 M 710 1220 l 46 0 '
+             'M 410 820 l -36 -10 M 670 820 l 36 -10" stroke="#9fd4ff" stroke-width="8" stroke-linecap="round"/>') if mood == "shiver" else ""
+    drops = ''.join(f'<path d="M {x} {y} c -8 14, -8 24, 0 28 c 8 -4, 8 -14, 0 -28 Z" fill="#9fd4ff" opacity="0.85"/>'
+                    for x, y in [(430, 1200), (650, 1260), (520, 1380), (610, 1450), (460, 1480), (700, 1400), (450, 800), (630, 790)]) if wet else ""
+    cover = ('<path d="M 320 1560 C 320 1150, 420 1060, 540 1050 C 660 1060, 760 1150, 760 1560 Z" fill="#7a2f2f"/>'
+             '<path d="M 330 1250 L 750 1250 M 330 1320 L 750 1320" stroke="#c9a24a" stroke-width="10"/>') if blanket else ""
+    return (f'<g {t}>'
+            '<path d="M 355 1560 C 355 1190, 430 1080, 540 1070 C 650 1080, 725 1190, 725 1560 Z" fill="#5c6470"/>'
+            '<path d="M 355 1560 C 355 1190, 430 1080, 540 1070 C 650 1080, 725 1190, 725 1560 Z" fill="#1a2a44" opacity="0.35"/>'
+            '<path d="M 540 1080 L 540 1560" stroke="#3e444d" stroke-width="8"/>'
+            '<path d="M 470 1080 C 500 1120, 580 1120, 610 1080" stroke="#3e444d" stroke-width="14" fill="none"/>'
+            f'{cover}<rect x="505" y="965" width="70" height="110" fill="#d9c3b4"/>'
+            '<ellipse cx="540" cy="880" rx="114" ry="134" fill="#e4d2c6"/>'
+            '<ellipse cx="540" cy="880" rx="114" ry="134" fill="#9fb8d8" opacity="0.18"/>'
+            '<path d="M 430 830 C 400 760, 440 720, 470 735 C 470 700, 520 690, 545 715 C 570 690, 630 700, 620 740 C 660 730, 680 780, 652 830 C 640 790, 600 770, 540 775 C 480 770, 445 790, 430 830 Z" fill="#ececee"/>'
+            '<path d="M 470 830 L 520 836 M 610 830 L 560 836" stroke="#d0d0d4" stroke-width="10" stroke-linecap="round"/>'
+            f'{eyes}<path d="M 540 878 L 530 925 L 552 925" stroke="#c4ab9c" stroke-width="6" fill="none"/>'
+            '<path d="M 478 910 C 490 930, 500 935, 512 932 M 602 910 C 590 930, 580 935, 568 932" stroke="#c4ab9c" stroke-width="4" fill="none"/>'
+            f'{mouth}'
+            '<ellipse cx="424" cy="890" rx="17" ry="28" fill="#d9c3b4"/><ellipse cx="656" cy="890" rx="17" ry="28" fill="#d9c3b4"/>'
+            f'{shake}{drops}</g>')
+
+
+def slippers(x=540, y=1700, s=1.0):
+    """Zapatillas de casa a cuadros, mojadas, sobre la acera."""
+    one = lambda dx: (f'<g transform="translate({dx} 0)"><path d="M -110 0 C -110 -60, -50 -80, 0 -80 C 70 -80, 120 -50, 120 0 Z" fill="#5a2f3a"/>'
+                      + ''.join(f'<path d="M {-100+k*40} -70 L {-100+k*40} 0" stroke="#3a1a22" stroke-width="10"/>' for k in range(6)) +
+                      '<ellipse cx="0" cy="8" rx="130" ry="20" fill="#1a1414"/></g>')
+    return (f'<g transform="translate({x} {y}) scale({s})">' + one(-150) + one(150) +
+            '<ellipse cx="0" cy="40" rx="360" ry="40" fill="#5a7aa8" opacity="0.35"/></g>')
+
+
+def hip_flask(x=540, y=1000, s=1.0, rot=-15, hand=True):
+    """Petaca metálica (del cuñado), con mano y manga de cuadros naranja."""
+    h = ('<path d="M 160 120 C 300 220, 420 300, 620 420" stroke="#c4621f" stroke-width="130" fill="none" stroke-linecap="round"/>'
+         '<ellipse cx="110" cy="70" rx="110" ry="80" fill="url(#skin)"/>') if hand else ""
+    return (f'<g transform="translate({x} {y}) rotate({rot}) scale({s})">{h}'
+            '<path d="M -120 -180 L 120 -180 C 140 -180, 150 -160, 150 -140 L 150 160 C 150 190, 130 200, 100 200 L -100 200 C -130 200, -150 190, -150 160 L -150 -140 C -150 -160, -140 -180, -120 -180 Z" fill="#b8bdc4" stroke="#7a8088" stroke-width="8"/>'
+            '<rect x="-40" y="-240" width="80" height="70" rx="10" fill="#7a8088"/>'
+            '<path d="M -110 -140 L -110 150" stroke="#eef2f6" stroke-width="16" opacity="0.6"/>'
+            '<text x="0" y="40" font-family="DejaVu Sans" font-weight="bold" font-size="46" fill="#5a6068" text-anchor="middle">XO</text></g>')
