@@ -50,7 +50,7 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 10. Avisar al responsable (mensaje corto): parte programada, enlace al vídeo, rama ganadora y votos, créditos restantes. Recordarle que puede cancelarla en Metricool antes de las 18:00.
 
 ## Lunes: informe semanal
-Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones.
+Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones. Cada lunes, además, mira 3–5 Shorts/Reels/TikToks en español que estén triunfando en misterio o suspense (`vidiq_outliers` o `vidiq_instagram_tiktok_outlier_search`, ≤ 10 créditos). Aplica tú mismo 1 mejora concreta (gancho, título, ritmo, formato) a las partes de esa semana y cuéntala en el informe, junto con el avance hacia la monetización (suscriptores y vistas de Shorts en 90 días).
 - **Línea editorial (20-nov-2026):** lo que engancha es el misterio y el suspense; la educación sanitaria va dentro de la historia, no al revés. Se pueden meter giros (también en el apagón) siempre que respeten el hilo conductor. En cada informe del lunes, di qué serie gana o pierde tirón (vistas, retención, comentarios por parte) y, si una cae dos semanas seguidas, propón un giro o una serie nueva de misterio con trasfondo médico. Desde el 21-nov el responsable delega TODO el canal: Claude decide y ejecuta solo (giros, cerrar o empezar series, calendario), y después le informa en el aviso. El responsable solo renueva los créditos.
 
 ## Final de calendario y temporadas nuevas (autonomía total, 21-nov-2026)
