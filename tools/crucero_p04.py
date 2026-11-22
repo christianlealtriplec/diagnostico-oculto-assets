@@ -18,9 +18,8 @@ IMG = {
  "aerea": "https://ai-thumbnails.s3.amazonaws.com/editor/4065b5e6-8066-45ac-a648-6f0f86e15b82/13a55cbe-ad2c-48f9-a935-e566a67a7a83.jpeg",
 }
 PROPIAS = ("ficha", "tachada")
-AUTORES = ["Kuiyibo Campos", "Mizuno K", "Artem Podrez", "Zenia Diamond", "cottonbro studio", "Alex Green",
-           "Ramazan Toygun", "Yaroslav Shuraev", "Tima Miroshnichenko", "Airam Dato-on", "Mikhail Nilov", "Ali Alcántara",
-           "Yaroslav Shuraev"]
+AUTORES = ["Kuiyibo Campos", "Mizuno K", "cottonbro studio", "Zenia Diamond", "Alex Green", "Ramazan Toygun",
+           "Yaroslav Shuraev", "Tima Miroshnichenko", "Airam Dato-on", "Mikhail Nilov", "MART PRODUCTION"]
 VID = {
  "servidores": "https://videos.pexels.com/video-files/28709421/12457750_1080_1920_30fps.mp4",
  "ventana": "https://videos.pexels.com/video-files/13801255/13801255-hd_1080_1920_24fps.mp4",

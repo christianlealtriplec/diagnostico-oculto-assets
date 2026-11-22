@@ -379,7 +379,7 @@
     "crucero": {
       "guiones": "temporadas/crucero_guiones.md",
       "carpeta": "crucero",
-      "ultima_parte_programada": 3,
+      "ultima_parte_programada": 4,
       "listo": true,
       "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
       "voz_id": "EXAVITQu4vr4xnSDxMaL",
@@ -438,6 +438,27 @@
           "nota": "Guion aprobado por el responsable el 20-nov ~12:50 (todas las partes 03–14). Producida por el vigilante. Render final no revisado fotograma a fotograma (proxy sin acceso a vidIQ/Pexels); capas revisadas en local.",
           "ig_permalink": "https://www.instagram.com/reel/Df-KAUqgPkr/",
           "ig_media_id": "18120900964799724"
+        },
+        "4": {
+          "titulo": "Las pastillas de Rosa",
+          "publicacion": "2026-11-22T18:00:00+01:00",
+          "guion": "v2 hilo conductor (voz: «17 de octubre» en cifras para quedar <1000 caracteres; mismo texto hablado)",
+          "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/ffgni7rrs9takcqrl8z1vkhu.mp4",
+          "duracion": 73.81,
+          "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/3648fb93-180b-45f7-af13-833e577369ae.mp3",
+          "voz_segundos": 71.31,
+          "upload_id": "aefa3b2a-b04c-46be-a38a-840b8268a0fb",
+          "vidiq_post_id": "204027fc-7df4-4b8d-9df4-861bfc809486",
+          "vidiq_borrador": {
+            "revision": "111848e8-4e95af48",
+            "youtube_publicationId": "9d2cc083-f143-4dd8-a419-273e2b89649f",
+            "tiktok_publicationId": "f6ca9ec3-3c6c-4a11-bad1-b315ab12a525"
+          },
+          "youtube_url": "https://www.youtube.com/watch?v=FkBMyoTBGAE",
+          "caption_ig": "🚢 El crucero que regresó vacío · Parte 04: Las pastillas de Rosa\nRosa salía bailando en sus historias del crucero. Pero sus pastillas del corazón seguían sin tocar desde el 6 de octubre.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Quién golpeaba desde abajo? Deja tu teoría en comentarios 👇 Parte 05, el martes a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (Kuiyibo Campos, Mizuno K, cottonbro studio, Zenia Diamond, Alex Green, Ramazan Toygun, Yaroslav Shuraev, Tima Miroshnichenko, Airam Dato-on, Mikhail Nilov, MART PRODUCTION).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
+          "creditos": 58,
+          "estado": "programada 22-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05",
+          "nota": "Sin chips de fecha/hora/lugar (norma 20-nov). Capas revisadas en local; el render final no se pudo descargar (proxy bloquea assets.vidiq.com)."
         }
       },
       "barco_maestro": {
