@@ -35,6 +35,14 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 4. Texto (descripción y caption): igual que antes, pero sin primer comentario: en el apagón, la votación va en el texto: «🗳️ VOTA EN COMENTARIOS: A) … / B) … · Responde con A o B.» Añade siempre «Contenido generado con IA.» y el aviso médico. Y, justo después del gancho, la línea «📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.»
 5. Hecho esto, la parte cuenta como programada: actualiza `ultima_parte_programada`. Si la subida o YouTube+TikTok fallan: no publiques a medias y avisa.
 
+## Avance diario (desde el día siguiente a la renovación de créditos de diciembre; plan de monetización del 23-nov-2026)
+Objetivo: 2 publicaciones al día sin bajar calidad. Lo hace la misma sesión de las 09:13, DESPUÉS de dejar programada la parte del día (si la parte falla, no hay avance).
+1. `vidiq_compose` vertical, 1 escena: `source` = `video_final` de la parte de hoy, `type` video, `startFromSeconds` 0, `duration` 16, `keepNativeAudio` true (sin voiceover ni music aparte). Overlay de texto de 13 a 16 s, centrado (x 0.08, y 0.40, w 0.84, h 0.2): «PARTE COMPLETA HOY A LAS 18:00 🔔», blanco sobre `rgba(0,0,0,0.6)`. Coste ~4 créditos. Si falla, se olvida el avance (no es crítico) y se menciona en el aviso.
+2. `vidiq_video_upload` con el videoUrl → uploadId. Borrador y publicación como en «Publicación» (YouTube + TikTok, mismos ajustes, etiqueta IA), con `publishAt` = HOY a las 13:00 Europe/Madrid. Sin Instagram.
+   - Título: `AVANCE · <título de la serie> | Parte NN: <título> 🔦/🚢 #shorts` (TikTok sin #shorts).
+   - Texto: gancho de la parte + «▶️ La parte completa, hoy a las 18:00 en el perfil.» + «📂 Empieza por la Parte 01 en el perfil.» + aviso médico + «Contenido generado con IA.» + hashtags de la serie.
+3. Guarda en estado.json (`partes.N.avance` o `series.crucero.partes.N.avance`): video, upload_id, vidiq_post_id, créditos.
+
 ## Proceso diario del apagón (sesión programada, 09:13)
 1. Clonar/actualizar el repo, leer `estado.json` y el guion de la parte N del calendario.
    **Guardia:** si la parte `ultima_parte_programada` se publica HOY o más tarde (aún no hay votos), NO produzcas nada: termina con un aviso de una línea («Hoy se publica el Capítulo X a las 18:00; mañana produzco el siguiente»).
@@ -60,7 +68,8 @@ Además del proceso diario, añadir al aviso una tabla con vistas, retención, c
 - Con eso decides: continuar las series (giro o temporada 2), cerrarlas, o empezar una nueva de misterio con trasfondo médico. Cada serie nueva lleva biblia (verdad oculta, personajes, cronología, pistas) en `temporadas/<serie>_guiones.md`, entrada en `estado.json → series`, sección de producción en este manual y la norma del hilo conductor.
 - **Objetivo y temas (21-nov-2026):** monetizar el canal (YouTube Partner Program: 1.000 suscriptores y 10 M de vistas de Shorts en 90 días; TikTok e Instagram, sus programas equivalentes). Carta blanca para ampliar a otros nichos con tirón (misterio, suspense, true crime de ficción, casos sin resolver inventados, supervivencia, thriller), no solo médicos. Analiza también la competencia de esos nichos: no se copia; se ve qué funciona y se mejora. Reglas fijas: historia coherente con hilo conductor, sin saltos, ficción siempre identificada como ficción, etiqueta de IA y sin personas reales.
 - Contenido médico nuevo: solo consejos estándar y verificables (112, Ministerio de Sanidad, Cruz Roja, ERC, Servicio de Información Toxicológica); cita la fuente en el guion. Nada de dosis de medicamentos.
-- Presupuesto: plan Boost de 2.000 créditos/mes, que se renueva el día 9. Planifica para gastar ≤ 1.800 por ciclo.
+- Presupuesto: plan Boost de 2.000 créditos/mes (sin renovación automática: la renueva el responsable a mano; la del 8/9-dic, avisada). Planifica para gastar ≤ 1.950 por ciclo (partes ~1.780 + avances ~125 + análisis ~50). Si vas a quedarte corto antes de la renovación, avisa al responsable con la fecha en que se pararía.
+- Mezcla local de voz y música (para ahorrar el montaje): NO es posible, el entorno no tiene acceso a assets.vidiq.com ni al S3 de la música. No intentes rodearlo.
 - Avisa al responsable con una tabla corta de lo que decidiste.
 
 ## Crucero («El crucero que regresó vacío»)
