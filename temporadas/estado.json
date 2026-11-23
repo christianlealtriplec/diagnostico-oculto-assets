@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 10,
+  "ultima_parte_programada": 11,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -329,8 +329,12 @@
         "B": "A cubierto, fuera la ropa mojada, mantas y, si está despierto, algo caliente con azúcar",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 0,
+        "B": 1,
+        "detalle": "Instagram 1 B; YouTube 0; TikTok no contado"
+      },
+      "rama_ganadora": "B",
       "estado": "publicada 21-nov 18:00 (YT+TikTok vidIQ; IG 18:05 vidIQ)",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/by8ezjnb0y32ll0rj3l77e4e.mp4",
       "duracion": 76.5,
@@ -348,6 +352,35 @@
       "nota": "Rama B (2 votos B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 09 (agua). Personajes nuevos: voluntario() y senor_mayor() en draw.py. Mochila: gas gastado al hervir → «- SIN GAS». Sin historias IG.",
       "ig_permalink": "https://www.instagram.com/reel/DgAusyskdoe/",
       "ig_media_id": "17896950489437354"
+    },
+    "11": {
+      "titulo": "Luis",
+      "publicacion": "2026-11-23T18:00:00+01:00",
+      "apertura": "B",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/78557896-e510-4a50-bcdc-b8d28fae0bd1.mp3",
+      "voz_segundos": 67.47,
+      "decision": {
+        "A": "Otra dosis de insulina",
+        "B": "Azúcar rápido ya, mientras pueda tragar",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "estado": "programada 23-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pv86b61cowrx6emiicux0vju.mp4",
+      "duracion": 69.9,
+      "upload_id": "29d85d88-1c63-41d7-a3eb-de3387571ded",
+      "vidiq_borrador": {
+        "postId": "ccdafd55-b97b-41a9-ae05-76173d6f77a1",
+        "revision": "483d7720-87d3fd3a",
+        "youtube_publicationId": "29935290-7117-4fd9-800c-6db39e336ccb",
+        "tiktok_publicationId": "4ba204ba-619e-48fe-8afe-e248d335bfe5"
+      },
+      "vidiq_post_id": "ccdafd55-b97b-41a9-ae05-76173d6f77a1",
+      "youtube_url": "https://www.youtube.com/watch?v=fd7Za8JdYh8",
+      "creditos": 56,
+      "caption_ig": "📺 72 horas sin luz · Parte 11: Luis\nPOV: tu vecino diabético suda, tiembla y no sabe qué día es. Su mujer quiere ponerle más insulina.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Otra dosis de insulina / B) Azúcar rápido ya, mientras pueda tragar · Responde con A o B. La Parte 12, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+      "nota": "Rama B (1 voto B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 10 (hipotermia). Personaje nuevo en diálogo: PILAR (mujer_luis). Mejora del lunes: línea «POV:» como gancho en descripción/caption. Sin historias IG."
     }
   },
   "recursos": {
@@ -364,10 +397,10 @@
     "LUIS": 3
   },
   "mochila": [
-    "+ DOS GARRAFAS",
+    "+ GARRAFAS LLENAS",
     "+ HORNILLO",
     "+ LEJÍA",
-    "- SIN GAS"
+    "- CASI SIN COMIDA"
   ],
   "series": {
     "apagon": {
