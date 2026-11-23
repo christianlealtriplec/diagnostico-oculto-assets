@@ -6,7 +6,7 @@ Canal de historias interactivas de supervivencia con educación sanitaria. El re
 0. **Autorización fija (20-nov-2026):** el responsable aprueba de antemano TODOS los guiones que Claude escriba y todos los vídeos que publique. No hace falta pedir OK. Él revisa los vídeos ya publicados y avisa si algo no le gusta; entonces se corrige en las partes siguientes. El contenido médico sigue limitado a las lecciones aprobadas en el plan (13/11) y en los guiones.
 1. **Contenido médico:** usar SOLO los guiones aprobados de `temporadas/`. No inventar ni cambiar consejos médicos. Si una temporada no tiene guiones aprobados, NO producir: avisar al responsable.
 2. **Publicar** solo partes de guiones aprobados, con el aviso «Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.» y la etiqueta de IA activada en las 3 redes.
-3. **Créditos vidIQ:** comprobar `vidiq_balance` al empezar. Si quedan < 150, no producir y avisar.
+3. **Créditos vidIQ:** comprobar `vidiq_balance` al empezar. Si quedan < 150, no producir y avisar. **Excepción hasta la renovación de diciembre (23-nov-2026):** si quedan < 150 pero ≥ coste previsto de la parte de hoy + 15 (apagón ~57, crucero ~58, crucero con foto IA ~82), se produce igual (sin repeticiones) y se avisa del saldo. La calidad de los vídeos NO se rebaja para ahorrar.
 4. **Si algo falla** (voz, montaje, subida, programación): no publicar nada a medias. Avisar al responsable con qué falló.
 5. **Nunca** regenerar voz o montaje de pago sin motivo; cada parte cuesta ~45 créditos (voz 28 + montaje ~17).
 6. Mensajes al responsable: cortos, en tabla, sin relleno.
@@ -50,6 +50,7 @@ Metricool gratis solo publica 20 al mes (1 por red) y no hay cupo: **NO uses `cr
 10. Avisar al responsable (mensaje corto): parte programada, enlace al vídeo, rama ganadora y votos, créditos restantes. Recordarle que puede cancelarla en Metricool antes de las 18:00.
 
 ## Lunes: informe semanal
+**SUSPENDIDO desde el 23-nov-2026 (orden del responsable, para ahorrar créditos):** los lunes NO se hace informe ni búsquedas de outliers; solo el proceso diario normal. No se reactiva hasta que él lo pida.
 Además del proceso diario, añadir al aviso una tabla con vistas, retención, comentarios/votos, seguidores ganados por red (Metricool analytics) y 1–2 recomendaciones. Cada lunes, además, mira 3–5 Shorts/Reels/TikToks en español que estén triunfando en misterio o suspense (`vidiq_outliers` o `vidiq_instagram_tiktok_outlier_search`, ≤ 10 créditos). Aplica tú mismo 1 mejora concreta (gancho, título, ritmo, formato) a las partes de esa semana y cuéntala en el informe, junto con el avance hacia la monetización (suscriptores y vistas de Shorts en 90 días).
 - **Línea editorial (20-nov-2026):** lo que engancha es el misterio y el suspense; la educación sanitaria va dentro de la historia, no al revés. Se pueden meter giros (también en el apagón) siempre que respeten el hilo conductor. En cada informe del lunes, di qué serie gana o pierde tirón (vistas, retención, comentarios por parte) y, si una cae dos semanas seguidas, propón un giro o una serie nueva de misterio con trasfondo médico. Desde el 21-nov el responsable delega TODO el canal: Claude decide y ejecuta solo (giros, cerrar o empezar series, calendario), y después le informa en el aviso. El responsable solo renueva los créditos.
 
