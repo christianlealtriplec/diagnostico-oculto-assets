@@ -500,5 +500,8 @@
   "volume": 0.7,
   "duckTo": 0.25,
   "fadeMs": 400
+ },
+ "captions": {
+  "style": "none"
  }
 }
