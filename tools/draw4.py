@@ -4,8 +4,10 @@ from draw2 import wallpaper, floor_tiles
 from draw3 import insulin_box, luis
 
 
-def hugo(cx=540, cy=900, s=1.0, mood="ok", hands_head=False):
-    """Hugo, sobrino de 7 años: pelo castaño revuelto, pijama amarillo de rayas."""
+def hugo(cx=540, cy=900, s=1.0, mood="ok", hands_head=False, hands_neck=False):
+    """Hugo, sobrino de 7 años: pelo castaño revuelto, pijama amarillo de rayas.
+    mood: ok | pain | sick | laugh (ríe, ojos cerrados) | choke (atragantado, ojos muy abiertos, cara morada).
+    hands_neck: las dos manos al cuello (signo universal de atragantamiento)."""
     t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
     if mood == "pain":
         eyes = ('<path d="M 482 870 L 518 880" stroke="#3b2d26" stroke-width="9" stroke-linecap="round"/>'
@@ -17,19 +19,33 @@ def hugo(cx=540, cy=900, s=1.0, mood="ok", hands_head=False):
                 '<path d="M 560 875 Q 580 865 600 875" stroke="#3b2d26" stroke-width="8" fill="none"/>')
         mouth = '<ellipse cx="540" cy="970" rx="22" ry="16" fill="#3a1414"/>'
         face = "#c9cfa0"
+    elif mood == "laugh":
+        eyes = ('<path d="M 482 878 Q 500 860 518 878" stroke="#3b2d26" stroke-width="8" fill="none" stroke-linecap="round"/>'
+                '<path d="M 562 878 Q 580 860 598 878" stroke="#3b2d26" stroke-width="8" fill="none" stroke-linecap="round"/>')
+        mouth = '<path d="M 500 950 Q 540 1010 580 950 Z" fill="#5a2a22"/><circle cx="556" cy="962" r="10" fill="#e10600"/>'
+        face = None
+    elif mood == "choke":
+        eyes = ('<circle cx="500" cy="872" r="22" fill="#fff"/><circle cx="580" cy="872" r="22" fill="#fff"/>'
+                '<circle cx="500" cy="874" r="7" fill="#2b211c"/><circle cx="580" cy="874" r="7" fill="#2b211c"/>'
+                '<path d="M 476 836 L 520 846 M 604 836 L 560 846" stroke="#3b2d26" stroke-width="8" stroke-linecap="round"/>')
+        mouth = '<ellipse cx="540" cy="968" rx="20" ry="26" fill="#2a0f18"/>'
+        face = "#8a6fb8"
     else:
         eyes = ('<ellipse cx="500" cy="875" rx="12" ry="14" fill="#2b211c"/><ellipse cx="580" cy="875" rx="12" ry="14" fill="#2b211c"/>'
                 '<circle cx="504" cy="870" r="4" fill="#fff"/><circle cx="584" cy="870" r="4" fill="#fff"/>')
         mouth = '<path d="M 512 960 Q 540 980 568 960" stroke="#5a2a22" stroke-width="8" fill="none" stroke-linecap="round"/>'
         face = None
     stripes = "".join(f'<rect x="400" y="{y}" width="280" height="22" fill="#e0b52a"/>' for y in range(1140, 1520, 60))
-    arms = ('<path d="M 420 1140 C 360 1060, 380 900, 440 840" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
+    neck = ('<path d="M 420 1150 C 380 1100, 420 1060, 490 1050" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
+            '<path d="M 660 1150 C 700 1100, 660 1060, 590 1050" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
+            '<ellipse cx="505" cy="1048" rx="34" ry="28" fill="url(#skin)"/><ellipse cx="575" cy="1048" rx="34" ry="28" fill="url(#skin)"/>')
+    arms = neck if hands_neck else (('<path d="M 420 1140 C 360 1060, 380 900, 440 840" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
             '<path d="M 660 1140 C 720 1060, 700 900, 640 840" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
             '<circle cx="445" cy="820" r="34" fill="url(#skin)"/><circle cx="635" cy="820" r="34" fill="url(#skin)"/>') if hands_head else (
             '<path d="M 410 1150 C 390 1260, 395 1330, 410 1380" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
             '<path d="M 670 1150 C 690 1260, 685 1330, 670 1380" stroke="#f2cf4a" stroke-width="56" fill="none" stroke-linecap="round"/>'
-            '<circle cx="410" cy="1400" r="30" fill="url(#skin)"/><circle cx="670" cy="1400" r="30" fill="url(#skin)"/>')
-    tint = f'<ellipse cx="540" cy="900" rx="100" ry="110" fill="{face}" opacity="0.45"/>' if face else ""
+            '<circle cx="410" cy="1400" r="30" fill="url(#skin)"/><circle cx="670" cy="1400" r="30" fill="url(#skin)"/>'))
+    tint = f'<ellipse cx="540" cy="900" rx="100" ry="110" fill="{face}" opacity="{0.6 if mood == "choke" else 0.45}"/>' if face else ""
     return (f'<g {t}>'
             '<path d="M 400 1560 C 400 1200, 450 1100, 540 1095 C 630 1100, 680 1200, 680 1560 Z" fill="#f2cf4a"/>' + stripes +
             '<rect x="515" y="1010" width="50" height="90" fill="#b98a66"/>'

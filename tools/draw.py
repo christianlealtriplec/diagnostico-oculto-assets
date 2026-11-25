@@ -445,3 +445,24 @@ def hip_flask(x=540, y=1000, s=1.0, rot=-15, hand=True):
             '<rect x="-40" y="-240" width="80" height="70" rx="10" fill="#7a8088"/>'
             '<path d="M -110 -140 L -110 150" stroke="#eef2f6" stroke-width="16" opacity="0.6"/>'
             '<text x="0" y="40" font-family="DejaVu Sans" font-weight="bold" font-size="46" fill="#5a6068" text-anchor="middle">XO</text></g>')
+
+
+def senora_cola(cx=540, cy=900, s=1.0, mood="shout", bottle=True):
+    """Señora de la cola del polideportivo: 65 años, pelo corto gris con permanente, abrigo mostaza,
+    bufanda roja de punto, gafas colgando de una cadena. bottle: botella de agua en la mano.
+    mood: "shout" | "worry"."""
+    back = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#8d8f96"/>' for x, y, r in
+                   [(440, 780, 42), (480, 730, 44), (540, 715, 46), (600, 730, 44), (640, 780, 42), (432, 850, 32), (648, 850, 32)])
+    front = ('<path d="M 445 830 C 455 770, 500 752, 540 755 C 585 752, 628 770, 638 830 C 615 800, 580 792, 540 798 C 500 792, 465 800, 445 830 Z" fill="#a3a5ac"/>')
+    extra = ('<path d="M 440 1085 C 480 1140, 600 1140, 640 1085 L 650 1130 C 600 1180, 480 1180, 430 1130 Z" fill="#c0392b"/>'
+             '<path d="M 600 1150 L 630 1330 L 580 1330 Z" fill="#c0392b"/>'
+             + "".join(f'<path d="M {x} 1100 l 0 50" stroke="#962d22" stroke-width="5"/>' for x in range(460, 630, 24)) +
+             '<path d="M 480 1090 Q 540 1240 600 1090" stroke="#d9b44a" stroke-width="3" fill="none"/>'
+             '<rect x="512" y="1215" width="56" height="22" rx="10" fill="#cfe3ff" fill-opacity="0.4" stroke="#333" stroke-width="3"/>')
+    if bottle:
+        extra += ('<path d="M 690 1170 C 790 1110, 840 1020, 850 940" stroke="#b8862b" stroke-width="72" fill="none" stroke-linecap="round"/>'
+                  '<rect x="815" y="700" width="80" height="230" rx="18" fill="#bfe6ff" fill-opacity="0.75" stroke="#7fb3d9" stroke-width="5"/>'
+                  '<rect x="835" y="665" width="40" height="40" rx="6" fill="#1f6fbf"/>'
+                  '<rect x="815" y="790" width="80" height="50" fill="#1f6fbf" opacity="0.8"/>'
+                  '<ellipse cx="850" cy="925" rx="44" ry="34" fill="url(#skin)"/>')
+    return _woman(cx, cy, s, "#b8862b", back, front, mood, extra)
