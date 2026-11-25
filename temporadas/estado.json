@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 11,
+  "ultima_parte_programada": 12,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -364,8 +364,12 @@
         "B": "Azúcar rápido ya, mientras pueda tragar",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 0,
+        "B": 2,
+        "detalle": "Instagram 2 B; YouTube 0; TikTok no contado"
+      },
+      "rama_ganadora": "B",
       "estado": "programada 23-nov 18:00 (YT+TikTok vidIQ); IG lo publica la tarea 18:05 desde YouTube",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/pv86b61cowrx6emiicux0vju.mp4",
       "duracion": 69.9,
@@ -383,6 +387,35 @@
       "nota": "Rama B (1 voto B en IG, <10 → la correcta). Sin escalada ni cambio de salud. Tarjeta: lección de la 10 (hipotermia). Personaje nuevo en diálogo: PILAR (mujer_luis). Mejora del lunes: línea «POV:» como gancho en descripción/caption. Sin historias IG.",
       "ig_permalink": "https://www.instagram.com/reel/DgF4XnkjCCG/",
       "ig_media_id": "18029702756873315"
+    },
+    "12": {
+      "titulo": "El polideportivo",
+      "publicacion": "2026-11-25T18:00:00+01:00",
+      "apertura": "B",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/ae2c58a2-7290-4619-8ebd-5e64b56eade6.mp3",
+      "voz_segundos": 58.75,
+      "decision": {
+        "A": "Agua para que baje",
+        "B": "5 golpes en la espalda y, si no sale, 5 compresiones en la tripa",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "estado": "programada 25-nov 18:00 (YT D4M3_A0hn00 privado→público 18:00; TikTok scheduled 18:00); IG lo publica la tarea 18:05 desde YouTube",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/qkyuosst3w1t0zzjkaru7qci.mp4",
+      "duracion": 61.2,
+      "upload_id": "135c040f-e062-431c-a712-fa06e9e624a0",
+      "vidiq_borrador": {
+        "postId": "3c9dddac-eb79-4c61-b30a-17290171872e",
+        "revision": "14a900ab-be7da8cb",
+        "youtube_publicationId": "01e14dc2-dc28-4f3f-9e78-00f6e00a0e19",
+        "tiktok_publicationId": "88a27515-e53a-4119-a6ec-464182c31a70"
+      },
+      "vidiq_post_id": "3c9dddac-eb79-4c61-b30a-17290171872e",
+      "youtube_url": "https://www.youtube.com/watch?v=D4M3_A0hn00",
+      "creditos": 54,
+      "caption_ig": "📺 72 horas sin luz · Parte 12: El polideportivo\nPOV: en la cola del polideportivo, tu sobrino se mete un caramelo, se ríe… y se calla de golpe. No tose. No le sale la voz.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Agua para que baje / B) Cinco golpes fuertes en la espalda y, si no sale, cinco compresiones en la tripa · Responde con A o B. La Parte 13, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+      "nota": "Personaje nuevo: senora_cola() en draw.py; hugo() admite mood laugh/choke y hands_neck. Votos P11: 5 cr (YT) + 5 cr (IG)."
     }
   },
   "recursos": {
@@ -400,8 +433,8 @@
   },
   "mochila": [
     "+ GARRAFAS LLENAS",
-    "+ HORNILLO",
-    "+ LEJÍA",
+    "+ DNI",
+    "- CARAMELOS",
     "- CASI SIN COMIDA"
   ],
   "series": {
