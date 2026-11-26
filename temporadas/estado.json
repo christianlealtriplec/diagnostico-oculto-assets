@@ -449,7 +449,7 @@
   "crucero": {
    "guiones": "temporadas/crucero_guiones.md",
    "carpeta": "crucero",
-   "ultima_parte_programada": 5,
+   "ultima_parte_programada": 6,
    "listo": true,
    "nota": "Piloto validado el 13/11. La tarea produce cada parte solo si su guion está aprobado (sin «BORRADOR»).",
    "voz_id": "EXAVITQu4vr4xnSDxMaL",
@@ -555,6 +555,26 @@
      "nota": "1.er render (job_10918469) salió con subtítulos automáticos nuevos de vidIQ solapados con los nuestros → repetido con captions none (+17).",
      "ig_permalink": "https://www.instagram.com/reel/DgIdJ8Hj7mR/",
      "ig_media_id": "18015918671988073"
+    },
+    "6": {
+     "titulo": "Memoria",
+     "publicacion": "2026-11-26T18:00:00+01:00",
+     "guion": "v2 hilo conductor",
+     "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/awhaqqimhozzcknhahaechbb.mp4",
+     "duracion": 68.13,
+     "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/79fa4f8d-1635-4e0a-9e23-7720a0d78324.mp3",
+     "voz_segundos": 65.65,
+     "upload_id": "0fb691eb-3c77-4284-b04a-29265e656547",
+     "vidiq_post_id": "6a89bef9-9193-4b98-b9c6-de903200af1e",
+     "vidiq_borrador": {
+      "revision": "047bebd3-a80a5935",
+      "youtube_publicationId": "469ba6f5-3e06-4d50-9d5e-e1f911f546a5",
+      "tiktok_publicationId": "e3d82f86-62eb-44e2-9a3b-90bf4ffc4d49"
+     },
+     "youtube_url": "https://www.youtube.com/watch?v=3LT_tUroAbQ",
+     "caption_ig": "🚢 El crucero que regresó vacío · Parte 06: Memoria\nLa naviera tenía una IA que publicaba las vacaciones de los pasajeros por ellos. Aunque estuvieran durmiendo.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué crees que pasó? Te leo en comentarios.\n\n🕵️ ¿Quién le hizo esa foto? Deja tu teoría en comentarios 👇 Parte 07, el sábado a las 18:00.\n\nContenido generado con IA.\nFicción: barco, naviera y personajes inventados. Ficción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\nImágenes de archivo: Pexels (정규송 Nui MALAMA, Armin Rimoldi, Patt Garciia, Nothing Ahead, SHEMÁ, Rahime Gül, Mikhail Nilov, Kuiyibo Campos, RDNE Stock project, Necip Duman).\n\n#elcruceroqueregresovacio #misterio #crucero #expedientepersefone #historiasdemisterio #diagnosticooculto",
+     "creditos": 59,
+     "estado": "programada 26-nov 18:00 (YT privado→público 18:00 + TikTok vidIQ); IG lo publica la tarea de las 18:05"
     }
    },
    "barco_maestro": {
