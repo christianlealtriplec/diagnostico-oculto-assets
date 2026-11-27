@@ -143,23 +143,52 @@ def tube(d):
     return f'<path d="{d}" fill="none" stroke="{PAL["tube"]}" stroke-width="7" opacity="0.9"/>'
 
 
-def tio(cx=540, cy=900, s=1.0):
-    """Tío: 50 años, calvo con barba, polo azul, gritando y señalando."""
+def tio(cx=540, cy=900, s=1.0, mood="shout", point=True, wounded=False):
+    """Tío: 50 años, calvo con barba, polo azul.
+    mood: shout (gritando, por defecto) | pain (dientes apretados) | whisper (serio, voz baja).
+    point: brazo derecho señalando. wounded: brazo izquierdo envuelto en una camiseta empapada de sangre."""
     t = f'transform="translate({cx} {cy}) scale({s}) translate(-540 -900)"'
+    if mood == "pain":
+        mouth = ('<path d="M 505 950 L 575 950 L 570 972 L 510 972 Z" fill="#f2f2f2" stroke="#260f0c" stroke-width="6"/>'
+                 '<path d="M 512 961 L 568 961" stroke="#999" stroke-width="3"/>')
+        brows = ('<path d="M 465 830 L 520 815" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>'
+                 '<path d="M 615 830 L 560 815" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>')
+        eyes = ('<path d="M 482 858 L 512 856" stroke="#222" stroke-width="8" stroke-linecap="round"/>'
+                '<path d="M 568 856 L 598 858" stroke="#222" stroke-width="8" stroke-linecap="round"/>')
+    elif mood == "whisper":
+        mouth = '<ellipse cx="540" cy="958" rx="18" ry="10" fill="#260f0c"/>'
+        brows = ('<path d="M 465 822 L 520 812" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>'
+                 '<path d="M 615 822 L 560 812" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>')
+        eyes = ('<ellipse cx="497" cy="855" rx="13" ry="15" fill="#fff"/><ellipse cx="583" cy="855" rx="13" ry="15" fill="#fff"/>'
+                '<circle cx="499" cy="857" r="7" fill="#222"/><circle cx="585" cy="857" r="7" fill="#222"/>')
+    else:
+        mouth = '<ellipse cx="540" cy="955" rx="40" ry="34" fill="#260f0c"/><rect x="515" y="928" width="50" height="10" fill="#f2f2f2"/>'
+        brows = (f'<path d="M 465 815 L 520 835" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>'
+                 f'<path d="M 615 815 L 560 835" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>')
+        eyes = ('<ellipse cx="497" cy="855" rx="13" ry="15" fill="#fff"/><ellipse cx="583" cy="855" rx="13" ry="15" fill="#fff"/>'
+                '<circle cx="497" cy="857" r="7" fill="#222"/><circle cx="583" cy="857" r="7" fill="#222"/>')
+    arm = (f'<path d="M 690 1150 C 800 1080, 880 980, 930 880" stroke="#2f4f86" stroke-width="80" fill="none" stroke-linecap="round"/>'
+           f'<circle cx="935" cy="870" r="42" fill="url(#skin)"/><path d="M 950 860 L 1010 800" stroke="{PAL["skin"]}" stroke-width="24" stroke-linecap="round"/>'
+           if point else
+           '<path d="M 700 1150 C 740 1260, 740 1360, 720 1440" stroke="#2f4f86" stroke-width="80" fill="none" stroke-linecap="round"/>'
+           '<circle cx="718" cy="1465" r="40" fill="url(#skin)"/>')
+    wound = ('<path d="M 385 1150 C 330 1250, 360 1330, 470 1330 L 640 1310" stroke="#2f4f86" stroke-width="80" fill="none" stroke-linecap="round"/>'
+             '<path d="M 420 1270 C 480 1240, 600 1250, 660 1280 L 650 1360 C 580 1340, 480 1340, 420 1360 Z" fill="#e9e4da"/>'
+             '<path d="M 430 1280 C 490 1260, 590 1262, 655 1290 L 650 1350 C 600 1330, 520 1328, 432 1350 Z" fill="#b30d0d" opacity="0.85"/>'
+             '<ellipse cx="545" cy="1310" rx="70" ry="30" fill="#7a0505"/>'
+             '<circle cx="680" cy="1300" r="36" fill="url(#skin)"/>'
+             '<path d="M 520 1360 C 515 1400, 525 1430, 520 1460" stroke="#b30d0d" stroke-width="12" fill="none" stroke-linecap="round"/>'
+             '<ellipse cx="520" cy="1475" rx="10" ry="16" fill="#b30d0d"/>') if wounded else ""
     return (f'<g {t}>'
             f'<path d="M 360 1500 C 360 1180, 430 1070, 540 1060 C 650 1070, 720 1180, 720 1500 Z" fill="#2f4f86"/>'
-            f'<path d="M 690 1150 C 800 1080, 880 980, 930 880" stroke="#2f4f86" stroke-width="80" fill="none" stroke-linecap="round"/>'
-            f'<circle cx="935" cy="870" r="42" fill="url(#skin)"/><path d="M 950 860 L 1010 800" stroke="{PAL["skin"]}" stroke-width="24" stroke-linecap="round"/>'
+            f'{arm}'
             f'<rect x="505" y="960" width="70" height="110" fill="{PAL["skin_d"]}"/>'
             f'<ellipse cx="540" cy="880" rx="120" ry="140" fill="url(#skin)"/>'
             f'<path d="M 425 900 C 430 1010, 480 1040, 540 1045 C 600 1040, 650 1010, 655 900 C 630 960, 600 975, 540 975 C 480 975, 450 960, 425 900 Z" fill="#4a3a33"/>'
-            f'<ellipse cx="540" cy="955" rx="40" ry="34" fill="#260f0c"/><rect x="515" y="928" width="50" height="10" fill="#f2f2f2"/>'
-            f'<path d="M 465 815 L 520 835" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>'
-            f'<path d="M 615 815 L 560 835" stroke="#3a2c25" stroke-width="12" stroke-linecap="round"/>'
-            f'<ellipse cx="497" cy="855" rx="13" ry="15" fill="#fff"/><ellipse cx="583" cy="855" rx="13" ry="15" fill="#fff"/>'
-            f'<circle cx="497" cy="857" r="7" fill="#222"/><circle cx="583" cy="857" r="7" fill="#222"/>'
+            f'{mouth}{brows}{eyes}'
             f'<ellipse cx="420" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/><ellipse cx="660" cy="885" rx="18" ry="30" fill="{PAL["skin_d"]}"/>'
-            f'<path d="M 440 790 C 470 760, 610 760, 640 790" stroke="#f0d9c4" stroke-width="6" fill="none" opacity="0.6"/></g>')
+            f'<path d="M 440 790 C 470 760, 610 760, 640 790" stroke="#f0d9c4" stroke-width="6" fill="none" opacity="0.6"/>'
+            f'{wound}</g>')
 
 
 def door(x=300, y=420, w=480, h=1180):
