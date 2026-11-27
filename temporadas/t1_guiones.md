@@ -131,7 +131,7 @@ Mochila: + DNI · - CARAMELOS.
 Marcador: si en la 11 ganó A → LUIS −1.
 Correcta: B. Lección: atragantamiento en niño que no puede toser, hablar ni respirar → 5 golpes en la espalda + 5 compresiones abdominales.
 
-## Parte 13 · El tío — HORA 94 — APROBADO (autorización fija del responsable, 20/11/2026)
+## Parte 13 · El tío — HORA 94 — APROBADO (autorización fija del responsable, 20/11/2026) — PRODUCIDA (rama B, 27/11)
 Apertura A (incorrecta en la 12): «Le das agua. Hugo se pone más morado: el agua no empuja nada. Un voluntario lo agarra: cinco golpes en la espalda, cinco compresiones en la tripa. El caramelo sale. Hugo llora. Llorar es respirar.»
 Apertura B (correcta en la 12): «Le inclinas hacia delante. Un golpe entre los omóplatos. Dos. Tres. Le abrazas por detrás, puño sobre la tripa, y aprietas hacia dentro y arriba. El caramelo sale. Hugo llora. Llorar es respirar.»
 Gancho: TU TÍO HA VUELTO.|SANGRANDO.

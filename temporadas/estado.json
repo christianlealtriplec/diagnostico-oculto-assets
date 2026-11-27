@@ -1,7 +1,7 @@
 {
   "temporada": "t1",
   "titulo": "72 horas sin luz",
-  "ultima_parte_programada": 12,
+  "ultima_parte_programada": 13,
   "partes": {
     "1": {
       "titulo": "Se va la luz",
@@ -399,8 +399,12 @@
         "B": "5 golpes en la espalda y, si no sale, 5 compresiones en la tripa",
         "correcta": "B"
       },
-      "votos": null,
-      "rama_ganadora": null,
+      "votos": {
+        "A": 0,
+        "B": 2,
+        "detalle": "Instagram 2 B; YouTube 0; TikTok no contado"
+      },
+      "rama_ganadora": "B",
       "estado": "programada 25-nov 18:00 (YT D4M3_A0hn00 privado→público 18:00; TikTok scheduled 18:00); IG lo publica la tarea 18:05 desde YouTube",
       "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/qkyuosst3w1t0zzjkaru7qci.mp4",
       "duracion": 61.2,
@@ -418,6 +422,35 @@
       "nota": "Personaje nuevo: senora_cola() en draw.py; hugo() admite mood laugh/choke y hands_neck. Votos P11: 5 cr (YT) + 5 cr (IG).",
       "ig_permalink": "https://www.instagram.com/reel/DgLB5bZhWeG/",
       "ig_media_id": "18081277943735694"
+    },
+    "13": {
+      "titulo": "El tío",
+      "publicacion": "2026-11-27T18:00:00+01:00",
+      "apertura": "B",
+      "voz_url": "https://assets.vidiq.com/voiceovers/4065b5e6-8066-45ac-a648-6f0f86e15b82/ae695684-1584-420a-8f95-d03e43c6001b.mp3",
+      "voz_segundos": 63.01,
+      "decision": {
+        "A": "Torniquete con el cinturón",
+        "B": "Presión directa y firme sobre la herida, sin soltar",
+        "correcta": "B"
+      },
+      "votos": null,
+      "rama_ganadora": null,
+      "estado": "programada 27-nov 18:00 (YT jshtbbV4rhk privado→público 18:00; TikTok scheduled 18:00); IG lo publica la tarea 18:05 desde YouTube",
+      "video_final": "https://assets.vidiq.com/compositions/4065b5e6-8066-45ac-a648-6f0f86e15b82/rx677zjw3z7gcsy4i8xanyhr.mp4",
+      "duracion": 65.4,
+      "upload_id": "8e416f22-f695-4549-af0a-9c062a6c811d",
+      "vidiq_borrador": {
+        "postId": "ae92b22e-a7e7-4173-8e4c-f3b61aeeb674",
+        "revision": "2a354bb8-3f9914c4",
+        "youtube_publicationId": "af152c6c-9624-4a57-a4d4-611616f4dad7",
+        "tiktok_publicationId": "dded3700-5002-4f6a-a266-ae3484b4333f"
+      },
+      "vidiq_post_id": "ae92b22e-a7e7-4173-8e4c-f3b61aeeb674",
+      "youtube_url": "https://www.youtube.com/watch?v=jshtbbV4rhk",
+      "creditos": 55,
+      "caption_ig": "📺 72 horas sin luz · Parte 13: El tío\nPOV: vuelves a casa de noche y en el portal hay alguien sentado a oscuras. Es tu tío, el que desapareció la primera noche. Y sangra.\n📂 ¿Te has perdido algo? Empieza por la Parte 01 en el perfil.\n¿Qué harías tú?\n\n🗳️ VOTA EN COMENTARIOS: A) Torniquete con el cinturón / B) Presión directa y firme sobre la herida, sin soltar · Responde con A o B. La Parte 14, en dos días, según lo que gane.\n\nContenido generado con IA.\nFicción con fines educativos. No sustituye una consulta médica. Ante una urgencia, llama al 112.\n\n#72horassinluz #apagon #primerosauxilios #supervivencia #salud #diagnosticooculto",
+      "nota": "tio() en draw.py admite mood pain/whisper, point y wounded (brazo vendado con sangre). Votos P12: 5 cr (YT) + 5 cr (IG)."
     }
   },
   "recursos": {
@@ -434,9 +467,9 @@
     "LUIS": 3
   },
   "mochila": [
+    "+ TU TÍO",
     "+ GARRAFAS LLENAS",
-    "+ DNI",
-    "- CARAMELOS",
+    "- SECRETO",
     "- CASI SIN COMIDA"
   ],
   "series": {
